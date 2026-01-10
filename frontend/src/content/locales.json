@@ -1,0 +1,25 @@
+{
+    "default": "ru",
+    "locales": [
+        {
+            "code": "ru",
+            "name": "Rus",
+            "iso": "ru-RU"
+        },
+        {
+            "code": "en",
+            "name": "Eng",
+            "iso": "en-US"
+        },
+        {
+            "code": "de",
+            "name": "Der",
+            "iso": "de-DE"
+        },
+        {
+            "code": "es",
+            "name": "Esp",
+            "iso": "es-ES"
+        }
+    ]
+}

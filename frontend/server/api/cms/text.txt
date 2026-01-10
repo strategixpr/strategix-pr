@@ -1,0 +1,6 @@
+Тут будет API CMS
+locales.get.ts 
+locales.post.ts
+page/
+  [id].get.ts
+  [id].put.ts

@@ -1,0 +1,1578 @@
+{
+    "id": "index",
+    "translations": {
+        "ru": {
+            "header": {
+                "navigation_desktop": [
+                    {
+                        "href": "#about-us",
+                        "text": "О нас"
+                    },
+                    {
+                        "href": "#",
+                        "text": "Главная"
+                    },
+                    {
+                        "href": "#contacts",
+                        "text": "Контакты"
+                    },
+                    {
+                        "href": "#our-projects",
+                        "text": "Проекты"
+                    },
+                    {
+                        "href": "#market-response",
+                        "text": "Команда"
+                    }
+                ],
+                "button": {
+                    "text": "ЗАПОЛНИТЕ АНКЕТУ ",
+                    "href": "#contacts"
+                },
+                "mobile_menu": {
+                    "navigation_mobile": [
+                        {
+                            "href": "#about-us",
+                            "text": "О нас"
+                        },
+                        {
+                            "href": "#services",
+                            "text": "Услуги"
+                        },
+                        {
+                            "href": "#our-projects",
+                            "text": "Проекты"
+                        },
+                        {
+                            "href": "#contacts",
+                            "text": "Контакты"
+                        }
+                    ],
+                    "button": {
+                        "text": "ЗАПОЛНИТЕ АНКЕТУ ",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "welcome": {
+                "title": "МЫ СТРОИМ РЕПУТАЦИЮ И ОТКРЫВАЕМ ДВЕРИ НА МЕЖДУНАРОДНЫЕ РЫНКИ",
+                "subtitle": "Международное позиционирование через медиа, ивенты и доверие профессионального сообщества.",
+                "button": {
+                    "text": "ЗАПОЛНИТЕ АНКЕТУ ",
+                    "href": "#contacts"
+                },
+                "urls": {
+                    "button1": {
+                        "text": "TELEGRAM",
+                        "href": "https://t.me/strategix"
+                    },
+                    "button2": {
+                        "text": "WHATSAPP",
+                        "href": "https://wa.me/595955084893"
+                    }
+                }
+            },
+            "about_us": {
+                "title": "о нас",
+                "items": [
+                    {
+                        "title": "МИССИЯ",
+                        "subtitle": "Репутация как стратегический актив",
+                        "content": "Такой подход открывает доступ к глобальным рынкам, партнёрствам и инвестициям и позволяет использовать репутацию не точечно, а как долгосрочный инструмент роста и масштабирования."
+                    },
+                    {
+                        "title": "ЦЕННОСТИ",
+                        "subtitle": "Глубина анализа, конфиденциальность и работа на результат",
+                        "content": "Мы не используем шаблонные решения: каждая стратегия разрабатывается с нуля и опирается на реальные цели и профессиональный статус клиента. Репутация для нас — это не количество упоминаний, а подтверждённый результат, выраженный в релевантных медиа, профессиональных сообществах и признании отрасли. Мы работаем этично и прозрачно, защищая интересы клиента и ориентируясь на международные стандарты США, Европы и Азии."
+                    },
+                    {
+                        "title": "НАШ ПОДХОД",
+                        "subtitle": "Мы ценим долгосрочные отношения, прозрачность процессов",
+                        "content": "Мы выстраиваем работу в тесном взаимодействии с клиентом, согласуя этапы и объясняя логику всех решений. Для нас важно, чтобы процесс был прозрачным и понятным. Комплексный подход позволяет связывать стратегию, коммуникации и медиа в единую систему и работать на общий результат."
+                    }
+                ]
+            },
+            "services": {
+                "title": "Услуги",
+                "reputation": {
+                    "title": "Построение репутации",
+                    "description": "Формируем доверие к бренду, выстраиваем позитивный имидж и долгосрочные отношения с аудиторией.",
+                    "lead": "Репутация бренда — стратегический актив, который формируется через каждое касание с аудиторией.",
+                    "bullets": [
+                        "Разработка репутационной стратегии и карты стейкхолдеров.",
+                        "Аудит текущей репутации и анализ точек риска.",
+                        "Антикризисные сценарии и сопровождение в сложных ситуациях.",
+                        "Создание и внедрение репутационных стандартов для команды."
+                    ],
+                    "text": "Мы системно оцениваем, как бренд воспринимают клиенты, партнёры, сотрудники и медиа, а затем выстраиваем стратегию изменений. Формируем четкое позиционирование, подбираем ключевые сообщения и каналы, которые помогут укрепить доверие и снизить репутационные риски.\n\nБлагодаря такой работе бренд становится предсказуемым и понятным для аудитории. Важные сообщения звучат последовательно и согласованно во всех коммуникациях, а компания получает устойчивый, управляемый образ на рынке."
+                },
+                "media": {
+                    "title": "Медиа-сопровождение",
+                    "description": "Создаём сильное присутствие в СМИ, продвигаем проекты и усиливаем внимание к ключевым событиям.",
+                    "lead": "Медиа-сопровождение — это комплексная работа с информационным полем вокруг бренда. Мы выстраиваем стратегию коммуникаций в СМИ и digital-среде, формируем правильные.",
+                    "bullets": [
+                        "Разработка медиа-стратегии и коммуникационного плана.",
+                        "Формирование и управление информационными поводами.",
+                        "Подготовка пресс-релизов, статей и экспертных комментариев.",
+                        "Организация публикаций в СМИ и на digital-площадках."
+                    ],
+                    "text": "Такой подход позволяет управлять репутацией, усиливать доверие и формировать устойчивый позитивный имидж.Мы подбираем релевантные каналы и форматы, готовим пресс-материалы, организуем публикации и выстраиваем системное взаимодействие с журналистами и лидерами мнений. Благодаря этому бренд получает стабильное присутствие в медиа, а его ключевые сообщения транслируются максимально точно и эффективно."
+                },
+                "branding": {
+                    "title": "Брендинг",
+                    "description": "Разрабатываем уникальный образ компании, помогаем выделиться на рынке и завоевать доверие.",
+                    "lead": "Брендинг — это не только логотип и айдентика, а целостная система смыслов, образов и впечатлений о компании.",
+                    "bullets": [
+                        "Исследование рынка, аудит текущего образа и позиционирования.",
+                        "Разработка платформы бренда: миссия, ценности, тональность.",
+                        "Создание визуальной айдентики и гайдлайнов по её использованию.",
+                        "Адаптация бренда под разные каналы и точки контакта."
+                    ],
+                    "text": "Мы начинаем с анализа конкурентов, аудитории и текущего восприятия компании, формируем платформу бренда и чёткое позиционирование. На основе этого создаём визуальный и вербальный язык, который помогает бренду быть узнаваемым и последовательным во всех каналах.\n\nБлагодаря продуманному брендингу компания выглядит цельной, уверенной и современной, а клиенты быстрее считывают её ценности и преимущества. Это повышает лояльность, конверсию и облегчает запуск новых продуктов."
+                },
+                "production": {
+                    "title": "Продакшн",
+                    "description": "Создаём фото, видео и креативный контент, который вдохновляет и помогает бренду быть ближе.",
+                    "lead": "Качественный контент — один из ключевых инструментов, который делает бренд живым и запоминающимся.",
+                    "bullets": [
+                        "Разработка креативной концепции и сценариев под задачи бренда.",
+                        "Полный цикл фото- и видеопроизводства — от препродакшена до постобработки.",
+                        "Создание контента для digital, офлайн-носителей и презентаций.",
+                        "Адаптация материалов под разные форматы и платформы."
+                    ],
+                    "text": "Мы переводим стратегические задачи бренда в визуальный язык: продумываем идеи, создаём сториборды, планируем съёмки и контролируем качество на каждом этапе. В работе учитываем требования площадок, особенности продукта и ожидания аудитории.\n\nВ результате Вы получаете готовый контент, который органично вписывается в коммуникационную стратегию, усиливает ключевые сообщения и помогает бренду выглядеть профессионально и современно во всех каналах."
+                },
+                "events": {
+                    "title": "Ивенты",
+                    "description": "Организуем мероприятия любого формата, создаём впечатления.",
+                    "lead": "События — это способ выстроить живое взаимодействие с аудиторией и усилить эмоции вокруг бренда.",
+                    "bullets": [
+                        "Разработка концепции и сценария мероприятия под бизнес-задачи.",
+                        "Подбор площадки, технического оснащения и подрядчиков.",
+                        "Координация программы, спикеров, шоу и активности для гостей.",
+                        "PR- и медиа-сопровождение события до и после проведения."
+                    ],
+                    "text": "Мы создаём мероприятия, которые решают конкретные задачи: от запуска продукта и укрепления лояльности до нетворкинга и внутренней мотивации команды. Продумываем путь гостя от приглашения до пост-коммуникаций, чтобы каждое касание работало на цели бренда.\n\nТакая системная работа позволяет не просто провести событие, а превратить его в точку роста: усилить восприятие бренда, получить медийный эффект и создать контент, который продолжит работать после завершения ивента."
+                },
+                "aiMarketing": {
+                    "title": "ИИ-маркетинг",
+                    "description": "Используем технологии искусственного интеллекта для персонализации, анализа и повышения эффективности кампаний.",
+                    "lead": "Искусственный интеллект помогает принимать решения на основе данных и значительно повышать эффективность маркетинга.",
+                    "bullets": [
+                        "Сбор и структурирование данных о клиентах и кампаниях.",
+                        "Построение моделей сегментации и предиктивной аналитики.",
+                        "Персонализация коммуникаций и предложений в реальном времени.",
+                        "Автоматизация рутинных задач и оптимизация медиабюджетов."
+                    ],
+                    "text": "Мы анализируем данные о поведении аудитории, конверсиях и отклике на коммуникации, чтобы выявить закономерности и точки роста. На этой основе строим модели, которые помогают точнее таргетировать сообщения, прогнозировать результаты и управлять бюджетами.\n\nИспользование ИИ-инструментов позволяет сократить издержки, быстрее тестировать гипотезы и получать измеримый эффект от маркетинга. При этом мы сохраняем прозрачность: объясняем логику моделей и интегрируем решения в существующие бизнес-процессы."
+                },
+                "ads": {
+                    "title": "Реклама",
+                    "description": "Запускаем кампании, которые привлекают внимание, усиливают узнаваемость и мотивируют аудиторию действовать.",
+                    "lead": "Эффективная рекламная кампания — это сочетание сильной идеи, точного таргетинга и продуманной воронки.",
+                    "bullets": [
+                        "Анализ аудитории и медиа-потребления, формирование медиаплана.",
+                        "Разработка креативной концепции и рекламных сообщений.",
+                        "Запуск и управление кампаниями в online и offline-каналах.",
+                        "Оптимизация по результатам: A/B-тесты, доработка креативов и сегментов."
+                    ],
+                    "text": "Мы начинаем с понимания целей бизнеса и аудитории, подбираем каналы и форматы, которые дадут наибольший эффект. Создаём креативы, адаптированные под разные площадки, настраиваем и сопровождаем кампании, регулярно обновляя гипотезы.\n\nГлавный фокус — измеримый результат. Мы отслеживаем ключевые показатели, предлагаем варианты оптимизации и формируем понятную отчетность, чтобы Вы видели, как именно реклама влияет на продажи, узнаваемость и другие бизнес-метрики."
+                },
+                "questions": {
+                    "title": "Остались вопросы?",
+                    "description": "Свяжитесь с нами и мы поможем",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "our_projects": {
+                "enable": false,
+                "title": "Наши проекты",
+                "filters": [
+                    "Кейсы"
+                ],
+                "projects": "хранятся в projects.json"
+            },
+            "market_response": {
+                "title": "Быстро отвечаем на вызовы международного рынка",
+                "description1": "Профессиональная команда в области репутационного маркетинга. Мы создаём бренды, поддерживаем хорошую репутацию клиентов в интернете, прогнозируем возможные риски, кризисы и профессионально устраняем их.",
+                "description2": "Под разные ситуации находим решения, чтобы у вас была узнаваемость, доверие к вам, инвесторы потом к вам несли денег и доверяли. Мыслить нестандарнтноооо"
+            },
+            "our_team": {
+                "firstcard": {
+                    "title": "Наша команда",
+                    "description": "Разрабатываем и развиваем проекты, актуальные сегодня, завтра и через 10 лет."
+                },
+                "members": [
+                    {
+                        "src": "/images/1766409801440-4a22a33c-b2bd-4043-a2dd-f2fd7a8564d3.jpg",
+                        "name": "Любовь",
+                        "lastname": "Краснослободцева",
+                        "position": "CEO, Head of PR"
+                    },
+                    {
+                        "src": "/images/1766410427632-a8a02b23-4686-4bcd-bf13-bf77b5c09688.png",
+                        "name": "Катенька",
+                        "lastname": "Бучникова",
+                        "position": "PR, Media"
+                    },
+                    {
+                        "src": "/images/1766409801573-7853a794-0e20-4678-96c3-bb4ebdda4978.jpg",
+                        "name": "Евгений",
+                        "lastname": "Жуков",
+                        "position": "Операционный директор"
+                    },
+                    {
+                        "src": "/images/1766409801602-3ba00aea-7556-4329-889d-b802d6d8abc3.jpg",
+                        "name": "Екатерина",
+                        "lastname": "Анисимова",
+                        "position": "Диджитал маркетинг"
+                    },
+                    {
+                        "src": "/images/1766064873242-43abef2d-b295-44ac-8ecb-15eebba196fe.jpg",
+                        "name": "Елизавета",
+                        "lastname": "Замотаева",
+                        "position": "Финансовый директор"
+                    },
+                    {
+                        "src": "/images/1766409802323-6cedbbc0-4b6c-4ecd-a256-f441b9206702.png",
+                        "name": "Вера",
+                        "lastname": "Подерская",
+                        "position": "Head of design"
+                    }
+                ],
+                "lastcard": {
+                    "title": "Хочешь стать частью команды?",
+                    "description": "Хочешь работать с нами, присылай резюме.",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "leave_request": {
+                "contacts": {
+                    "title": "Оставьте заявку, чтобы обсудить проект",
+                    "items": [
+                        {
+                            "type": "phone",
+                            "value": "+595 955 084 893",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "email",
+                            "value": "hello@strategix.com",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160522-b6ec1027-52b3-4535-8d8c-215848f0dfbf.svg",
+                            "text": "телеграмм",
+                            "href": "https://t.me/strategix",
+                            "value": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160535-78a4e325-647a-4ff8-8527-d0308c2ef933.svg",
+                            "text": "whatsapp",
+                            "href": "https://wa.me/595955084893",
+                            "value": ""
+                        }
+                    ]
+                },
+                "form": {
+                    "title": "Ваши контакты",
+                    "name": "Имя Фамилия",
+                    "phone": "Телефон",
+                    "title2": "О проекте",
+                    "question": "Какие услуги вас интересуют?",
+                    "question2": "С чем вам нужна помощь?",
+                    "button": "ОТПРАВИТЬ",
+                    "agree": {
+                        "text": "Нажимая на кнопку, я соглашаюсь с обработкой",
+                        "link": "персональных данных",
+                        "href_pdf": "/pdf/processing-personal-data_ru.pdf"
+                    }
+                }
+            },
+            "footer": {
+                "brand": "STRATEGIX",
+                "rights": "© 2022–2025 ВСЕ ПРАВА ЗАЩИЩЕНЫ",
+                "privacy_policy": {
+                    "text": "ПОЛИТИКА  КОНФИДЕНЦИАЛЬНОСТИ",
+                    "href_pdf": "/pdf/privacy-policy_ru.pdf"
+                },
+                "email": "hello@strategix.com",
+                "icons": [
+                    {
+                        "src": "/icons/1766455160554-d04f861e-1da0-4dbc-a85b-b7872bcbbc12.svg",
+                        "href": "https://t.me/strategix"
+                    },
+                    {
+                        "src": "/icons/1766455160562-6246d37e-3bb0-4233-b7ae-801d93d37379.svg",
+                        "href": "https://www.linkedin.com/company/strategix/"
+                    }
+                ]
+            }
+        },
+        "en": {
+            "header": {
+                "navigation_desktop": [
+                    {
+                        "href": "#",
+                        "text": "Home"
+                    },
+                    {
+                        "href": "#about-us",
+                        "text": "About Us"
+                    },
+                    {
+                        "href": "#contacts",
+                        "text": "Contacts"
+                    },
+                    {
+                        "href": "#our-projects",
+                        "text": "Projects"
+                    },
+                    {
+                        "href": "#market-response",
+                        "text": "Team"
+                    }
+                ],
+                "button": {
+                    "text": "FILL OUT THE FORM",
+                    "href": "#contacts"
+                },
+                "mobile_menu": {
+                    "navigation_mobile": [
+                        {
+                            "href": "#about-us",
+                            "text": "About Us"
+                        },
+                        {
+                            "href": "#services",
+                            "text": "Services"
+                        },
+                        {
+                            "href": "#our-projects",
+                            "text": "Projects"
+                        },
+                        {
+                            "href": "#contacts",
+                            "text": "Contacts"
+                        }
+                    ],
+                    "button": {
+                        "text": "FILL OUT THE FORM",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "welcome": {
+                "title": "WE BUILD REPUTATION AND OPEN DOORS TO INTERNATIONAL markets",
+                "subtitle": "International positioning through media, events and trust of the professional community.",
+                "button": {
+                    "text": "FILL OUT THE FORM",
+                    "href": "#contacts"
+                },
+                "urls": {
+                    "button1": {
+                        "text": "TELEGRAM",
+                        "href": "https://t.me/strategix"
+                    },
+                    "button2": {
+                        "text": "FILL OUT THE FORM",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "about_us": {
+                "title": "About Us",
+                "items": [
+                    {
+                        "title": "MISSION",
+                        "subtitle": "Reputation as a strategic asset",
+                        "content": "This approach opens access to global markets, partnerships and investment, and allows you to use reputation not as a one-off tool, but as a long-term instrument for growth and scaling."
+                    },
+                    {
+                        "title": "VALUES",
+                        "subtitle": "Depth of analysis, confidentiality and results-oriented work",
+                        "content": "We don’t use boilerplate solutions: every strategy is built from scratch around the client’s real goals and professional status. For us, reputation is not the number of mentions but a proven result expressed in relevant media, professional communities and industry recognition. We work ethically and transparently, protecting the client’s interests and following international standards of the US, Europe and Asia."
+                    },
+                    {
+                        "title": "OUR APPROACH",
+                        "subtitle": "We value long-term relationships, process transparency",
+                        "content": "We work in close collaboration with the client, aligning stages and explaining the rationale behind every decision. It’s important for us that the process is transparent and clear. A holistic approach links strategy, communications and media into a single system that works toward a shared result."
+                    }
+                ]
+            },
+            "services": {
+                "title": "Services",
+                "reputation": {
+                    "title": "Reputation Building",
+                    "description": "We build brand trust, create a positive image and long-term relationships with the audience.",
+                    "lead": "Brand reputation is a strategic asset that is built through every touchpoint with the audience.",
+                    "bullets": [
+                        "Audit of current reputation and risk point analysis.",
+                        "Development of reputation strategy and stakeholder map.",
+                        "Creation and implementation of reputation standards for the team.",
+                        "Crisis scenarios and support in difficult situations."
+                    ],
+                    "text": "We systematically assess how the brand is perceived by customers, partners, employees and media, and then build a change strategy. We form clear positioning, select key messages and channels that will help strengthen trust and reduce reputation risks.\n\nThanks to this work, the brand becomes predictable and understandable to the audience. Important messages sound consistently and coherently in all communications, and the company gets a stable, manageable image in the market."
+                },
+                "media": {
+                    "title": "Media Support",
+                    "description": "We create a strong presence in the media, promote projects and increase attention to key events.",
+                    "lead": "Media support is comprehensive work with the information field around the brand. We build communication strategy in media and digital environment, form the right messages.",
+                    "bullets": [
+                        "Development of media strategy and communication plan.",
+                        "Formation and management of news opportunities.",
+                        "Preparation of press releases, articles and expert comments.",
+                        "Organization of publications in media and on digital platforms."
+                    ],
+                    "text": "This approach allows managing reputation, enhancing trust and forming a stable positive image. We select relevant channels and formats, prepare press materials, organize publications and build systematic interaction with journalists and opinion leaders. Thanks to this, the brand gets stable presence in the media, and its key messages are transmitted as accurately and effectively as possible."
+                },
+                "branding": {
+                    "title": "Branding",
+                    "description": "We develop a unique company image, help stand out in the market and gain trust.",
+                    "lead": "Branding is not just a logo and identity, but a holistic system of meanings, images and impressions about the company.",
+                    "bullets": [
+                        "Market research, audit of current image and positioning.",
+                        "Development of brand platform: mission, values, tone of voice.",
+                        "Creation of visual identity and guidelines for its use.",
+                        "Brand adaptation for different channels and touchpoints."
+                    ],
+                    "text": "We start with analysis of competitors, audience and current company perception, form the brand platform and clear positioning. Based on this, we create visual and verbal language that helps the brand be recognizable and consistent across all channels.\n\nThanks to thoughtful branding, the company looks cohesive, confident and modern, and customers quickly read its values and advantages. This increases loyalty, conversion and facilitates the launch of new products."
+                },
+                "production": {
+                    "title": "Production",
+                    "description": "We create photos, videos and creative content that inspires and helps the brand get closer.",
+                    "lead": "Quality content is one of the key tools that makes a brand alive and memorable.",
+                    "bullets": [
+                        "Development of creative concept and scripts for brand tasks.",
+                        "Full cycle of photo and video production - from pre-production to post-processing.",
+                        "Content creation for digital, offline media and presentations.",
+                        "Adaptation of materials for different formats and platforms."
+                    ],
+                    "text": "We translate brand strategic tasks into visual language: think through ideas, create storyboards, plan shoots and control quality at every stage. In our work, we take into account platform requirements, product features and audience expectations.\n\nAs a result, you get ready-made content that organically fits into the communication strategy, enhances key messages and helps the brand look professional and modern across all channels."
+                },
+                "events": {
+                    "title": "Events",
+                    "description": "We organize events of any format, create impressions.",
+                    "lead": "Events are a way to build live interaction with the audience and enhance emotions around the brand.",
+                    "bullets": [
+                        "Development of event concept and scenario for business tasks.",
+                        "Selection of venue, technical equipment and contractors.",
+                        "Coordination of program, speakers, shows and activities for guests.",
+                        "PR and media support of the event before and after."
+                    ],
+                    "text": "We create events that solve specific tasks: from product launch and loyalty building to networking and internal team motivation. We think through the guest journey from invitation to post-communications, so that every touchpoint works for the brand goals.\n\nSuch systematic work allows not just to hold an event, but to turn it into a growth point: enhance brand perception, get media effect and create content that will continue to work after the event ends."
+                },
+                "aiMarketing": {
+                    "title": "AI Marketing",
+                    "description": "We use artificial intelligence technologies for personalization, analysis and increasing campaign effectiveness.",
+                    "lead": "Artificial intelligence helps make data-driven decisions and significantly increase marketing effectiveness.",
+                    "bullets": [
+                        "Collection and structuring of customer and campaign data.",
+                        "Building segmentation models and predictive analytics.",
+                        "Personalization of communications and offers in real time.",
+                        "Automation of routine tasks and media budget optimization."
+                    ],
+                    "text": "We analyze data on audience behavior, conversions and response to communications to identify patterns and growth points. Based on this, we build models that help target messages more accurately, predict results and manage budgets.\n\nThe use of AI tools allows reducing costs, testing hypotheses faster and getting measurable marketing effect. At the same time, we maintain transparency: we explain the logic of models and integrate solutions into existing business processes."
+                },
+                "ads": {
+                    "title": "Advertising",
+                    "description": "We launch campaigns that attract attention, enhance recognition and motivate the audience to act.",
+                    "lead": "An effective advertising campaign is a combination of a strong idea, precise targeting and a thoughtful funnel.",
+                    "bullets": [
+                        "Audience and media consumption analysis, media plan formation.",
+                        "Development of creative concept and advertising messages.",
+                        "Launch and management of campaigns in online and offline channels.",
+                        "Results optimization: A/B tests, creative and segment refinement."
+                    ],
+                    "text": "We start with understanding business goals and audience, select channels and formats that will give the greatest effect. We create creatives adapted for different platforms, set up and support campaigns, regularly updating hypotheses.\n\nThe main focus is measurable results. We track key indicators, offer optimization options and form clear reporting, so you can see exactly how advertising affects sales, recognition and other business metrics."
+                },
+                "questions": {
+                    "title": "Have questions?",
+                    "description": "Contact us and we will help",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "our_projects": {
+                "title": "Our Projects",
+                "filters": [
+                    "Cases"
+                ],
+                "projects": "stored in projects.json",
+                "enable": false
+            },
+            "market_response": {
+                "title": "Quickly respond to international market challenges",
+                "description1": "Professional team in reputation marketing. We create brands, maintain good reputation of clients online, predict possible risks, crises and professionally eliminate them.",
+                "description2": "For different situations we find solutions so that you have recognition, trust in you, investors then bring money to you and trust. Think outside the box."
+            },
+            "our_team": {
+                "firstcard": {
+                    "title": "Our Team",
+                    "description": "We develop and grow projects that are relevant today, tomorrow and in 10 years."
+                },
+                "members": [
+                    {
+                        "src": "/images/1766409801440-4a22a33c-b2bd-4043-a2dd-f2fd7a8564d3.jpg",
+                        "name": "Lyubov",
+                        "lastname": "Krasnoslobodtseva",
+                        "position": "CEO, Head of PR"
+                    },
+                    {
+                        "src": "/images/1766410427632-a8a02b23-4686-4bcd-bf13-bf77b5c09688.png",
+                        "name": "Katenka",
+                        "lastname": "Buchnikova",
+                        "position": "PR, Media"
+                    },
+                    {
+                        "src": "/images/1766409801573-7853a794-0e20-4678-96c3-bb4ebdda4978.jpg",
+                        "name": "Evgeny",
+                        "lastname": "Zhukov",
+                        "position": "Chief Operating Officer"
+                    },
+                    {
+                        "src": "/images/1766409801602-3ba00aea-7556-4329-889d-b802d6d8abc3.jpg",
+                        "name": "Ekaterina",
+                        "lastname": "Anisimova",
+                        "position": "Digital Marketing"
+                    },
+                    {
+                        "src": "/images/1766064873242-43abef2d-b295-44ac-8ecb-15eebba196fe.jpg",
+                        "name": "Elizaveta",
+                        "lastname": "Zamotayeva",
+                        "position": "Chief Financial Officer"
+                    },
+                    {
+                        "src": "/images/1766409802323-6cedbbc0-4b6c-4ecd-a256-f441b9206702.png",
+                        "name": "Vera",
+                        "lastname": "Poderskaya",
+                        "position": "Head of Design"
+                    }
+                ],
+                "lastcard": {
+                    "title": "Want to join the team?",
+                    "description": "Want to work with us, send your resume.",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "leave_request": {
+                "contacts": {
+                    "title": "Leave a request to discuss the project",
+                    "items": [
+                        {
+                            "type": "phone",
+                            "value": "+595 955 084 893",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "email",
+                            "value": "hello@strategix.com",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160522-b6ec1027-52b3-4535-8d8c-215848f0dfbf.svg",
+                            "text": "telegram",
+                            "href": "https://t.me/strategix",
+                            "value": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160535-78a4e325-647a-4ff8-8527-d0308c2ef933.svg",
+                            "text": "whatsapp",
+                            "href": "https://wa.me/595955084893",
+                            "value": ""
+                        }
+                    ]
+                },
+                "form": {
+                    "title": "Your Contacts",
+                    "name": "First Name Last Name",
+                    "phone": "Phone",
+                    "title2": "About the Project",
+                    "question": "What services are you interested in?",
+                    "description": "What do you need help with?",
+                    "button": "SEND",
+                    "question2": "",
+                    "agree": {
+                        "text": "By clicking the button, I agree to the processing",
+                        "link": "of personal data",
+                        "href_pdf": "/pdf/processing-personal-data_en.pdf"
+                    }
+                }
+            },
+            "footer": {
+                "brand": "STRATEGIX",
+                "rights": "© 2022–2025 ALL RIGHTS RESERVED",
+                "privacy_policy": {
+                    "text": "PRIVACY\nPOLICY",
+                    "href_pdf": "/pdf/privacy-policy_en.pdf"
+                },
+                "email": "hello@strategix.com",
+                "icons": [
+                    {
+                        "src": "/icons/1766455160554-d04f861e-1da0-4dbc-a85b-b7872bcbbc12.svg",
+                        "href": "https://t.me/strategix"
+                    },
+                    {
+                        "src": "/icons/1766455160562-6246d37e-3bb0-4233-b7ae-801d93d37379.svg",
+                        "href": "https://www.linkedin.com/company/strategix/"
+                    }
+                ]
+            }
+        },
+        "de": {
+            "header": {
+                "navigation_desktop": [
+                    {
+                        "href": "#",
+                        "text": "Startseite"
+                    },
+                    {
+                        "href": "#about-us",
+                        "text": "Über uns"
+                    },
+                    {
+                        "href": "#contacts",
+                        "text": "Kontakte"
+                    },
+                    {
+                        "href": "#our-projects",
+                        "text": "Projekte"
+                    },
+                    {
+                        "href": "#market-response",
+                        "text": "Team"
+                    }
+                ],
+                "button": {
+                    "text": "FORMULAR AUSFÜLLEN",
+                    "href": "#contacts"
+                },
+                "mobile_menu": {
+                    "navigation_mobile": [
+                        {
+                            "href": "#about-us",
+                            "text": "Über uns"
+                        },
+                        {
+                            "href": "#services",
+                            "text": "Dienstleistungen"
+                        },
+                        {
+                            "href": "#our-projects",
+                            "text": "Projekte"
+                        },
+                        {
+                            "href": "#contacts",
+                            "text": "Kontakte"
+                        }
+                    ],
+                    "button": {
+                        "text": "FORMULAR AUSFÜLLEN",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "welcome": {
+                "title": "WIR BAUEN REPUTATION AUF UND ÖFFNEN TÜREN ZU INTERNATIONALEN MÄRKTEN",
+                "subtitle": "Internationale Positionierung durch Medien, Events und Vertrauen der Fachgemeinschaft.",
+                "button": {
+                    "text": "FORMULAR AUSFÜLLEN",
+                    "href": "#contacts"
+                },
+                "urls": {
+                    "button1": {
+                        "text": "TELEGRAM",
+                        "href": "https://t.me/strategix"
+                    },
+                    "button2": {
+                        "text": "WHATSAPP",
+                        "href": "https://wa.me/595955084893"
+                    }
+                }
+            },
+            "about_us": {
+                "title": "Über uns",
+                "items": [
+                    {
+                        "title": "MISSION",
+                        "subtitle": "Reputation als strategisches Asset",
+                        "content": "Dieser Ansatz eröffnet Zugang zu globalen Märkten, Partnerschaften und Investitionen und ermöglicht, Reputation nicht punktuell, sondern als langfristiges Instrument für Wachstum und Skalierung zu nutzen."
+                    },
+                    {
+                        "title": "WERTE",
+                        "subtitle": "Analysetiefe, Vertraulichkeit und ergebnisorientierte Arbeit",
+                        "content": "Wir nutzen keine Schablonen: Jede Strategie wird von Grund auf neu entwickelt und stützt sich auf die tatsächlichen Ziele und den professionellen Status des Kunden. Reputation ist für uns nicht die Anzahl der Erwähnungen, sondern ein bestätigtes Ergebnis, ausgedrückt in relevanten Medien, Fach-Communities und Branchenanerkennung. Wir arbeiten ethisch und transparent, wahren die Interessen des Kunden und orientieren uns an internationalen Standards der USA, Europas und Asiens."
+                    },
+                    {
+                        "title": "UNSER ANSATZ",
+                        "subtitle": "Wir schätzen langfristige Beziehungen, Prozess-Transparenz",
+                        "content": "Wir arbeiten in enger Abstimmung mit dem Kunden, stimmen die Phasen ab und erklären die Logik aller Entscheidungen. Uns ist wichtig, dass der Prozess transparent und verständlich ist. Ein ganzheitlicher Ansatz verbindet Strategie, Kommunikation und Medien zu einem System, das auf ein gemeinsames Ergebnis hinarbeitet."
+                    }
+                ]
+            },
+            "services": {
+                "title": "Dienstleistungen",
+                "reputation": {
+                    "title": "Reputationsaufbau",
+                    "description": "Wir bauen Markenvertrauen auf, schaffen ein positives Image und langfristige Beziehungen zur Zielgruppe.",
+                    "lead": "Markenreputation ist ein strategisches Asset, das durch jeden Kontaktpunkt mit der Zielgruppe aufgebaut wird.",
+                    "bullets": [
+                        "Audit der aktuellen Reputation und Risikopunktanalyse.",
+                        "Entwicklung einer Reputationsstrategie und Stakeholder-Karte.",
+                        "Erstellung und Implementierung von Reputationsstandards für das Team.",
+                        "Krisenszenarien und Unterstützung in schwierigen Situationen."
+                    ],
+                    "text": "Wir bewerten systematisch, wie die Marke von Kunden, Partnern, Mitarbeitern und Medien wahrgenommen wird, und entwickeln dann eine Veränderungsstrategie. Wir bilden klares Positioning, wählen Schlüsselbotschaften und Kanäle aus, die helfen, Vertrauen zu stärken und Reputationsrisiken zu reduzieren.\n\nDank dieser Arbeit wird die Marke für die Zielgruppe vorhersehbar und verständlich. Wichtige Botschaften klingen konsistent und kohärent in allen Kommunikationen, und das Unternehmen erhält ein stabiles, steuerbares Image am Markt."
+                },
+                "media": {
+                    "title": "Medienbetreuung",
+                    "description": "Wir schaffen eine starke Präsenz in den Medien, fördern Projekte und erhöhen die Aufmerksamkeit für wichtige Ereignisse.",
+                    "lead": "Medienbetreuung ist umfassende Arbeit mit dem Informationsfeld rund um die Marke. Wir entwickeln Kommunikationsstrategien in Medien und digitaler Umgebung, formen die richtigen Botschaften.",
+                    "bullets": [
+                        "Entwicklung einer Medienstrategie und Kommunikationsplans.",
+                        "Bildung und Management von Nachrichtenmöglichkeiten.",
+                        "Erstellung von Pressemitteilungen, Artikeln und Expertenkommentaren.",
+                        "Organisation von Veröffentlichungen in Medien und auf digitalen Plattformen."
+                    ],
+                    "text": "Dieser Ansatz ermöglicht es, Reputation zu managen, Vertrauen zu stärken und ein stabiles positives Image zu bilden. Wir wählen relevante Kanäle und Formate aus, bereiten Pressematerialien vor, organisieren Veröffentlichungen und bauen systematische Interaktion mit Journalisten und Meinungsführern auf. Dank dessen erhält die Marke eine stabile Präsenz in den Medien, und ihre Schlüsselbotschaften werden so genau und effektiv wie möglich übertragen."
+                },
+                "branding": {
+                    "title": "Branding",
+                    "description": "Wir entwickeln ein einzigartiges Unternehmensimage, helfen, sich am Markt abzuheben und Vertrauen zu gewinnen.",
+                    "lead": "Branding ist nicht nur ein Logo und Identität, sondern ein ganzheitliches System aus Bedeutungen, Bildern und Eindrücken über das Unternehmen.",
+                    "bullets": [
+                        "Marktforschung, Audit des aktuellen Images und Positionierung.",
+                        "Entwicklung der Markenplattform: Mission, Werte, Tonfall.",
+                        "Erstellung der visuellen Identität und Richtlinien für deren Verwendung.",
+                        "Markenanpassung für verschiedene Kanäle und Kontaktpunkte."
+                    ],
+                    "text": "Wir beginnen mit der Analyse von Wettbewerbern, Zielgruppe und aktueller Unternehmenswahrnehmung, bilden die Markenplattform und klares Positioning. Basierend darauf schaffen wir visuelle und verbale Sprache, die der Marke hilft, in allen Kanälen erkennbar und konsistent zu sein.\n\nDank durchdachtem Branding wirkt das Unternehmen zusammenhängend, selbstbewusst und modern, und Kunden lesen schnell seine Werte und Vorteile. Dies erhöht Loyalität, Conversion und erleichtert die Einführung neuer Produkte."
+                },
+                "production": {
+                    "title": "Produktion",
+                    "description": "Wir erstellen Fotos, Videos und kreative Inhalte, die inspirieren und der Marke helfen, näher zu kommen.",
+                    "lead": "Qualitativ hochwertige Inhalte sind eines der Schlüsselinstrumente, die eine Marke lebendig und unvergesslich machen.",
+                    "bullets": [
+                        "Entwicklung kreativer Konzepte und Drehbücher für Markenaufgaben.",
+                        "Vollständiger Zyklus der Foto- und Videoproduktion - von der Vorproduktion bis zur Nachbearbeitung.",
+                        "Erstellung von Inhalten für digitale, Offline-Medien und Präsentationen.",
+                        "Anpassung von Materialien für verschiedene Formate und Plattformen."
+                    ],
+                    "text": "Wir übersetzen strategische Markenaufgaben in visuelle Sprache: denken Ideen durch, erstellen Storyboards, planen Aufnahmen und kontrollieren die Qualität in jeder Phase. In unserer Arbeit berücksichtigen wir Plattformanforderungen, Produktmerkmale und Erwartungen der Zielgruppe.\n\nAls Ergebnis erhalten Sie fertige Inhalte, die organisch in die Kommunikationsstrategie passen, Schlüsselbotschaften verstärken und der Marke helfen, in allen Kanälen professionell und modern auszusehen."
+                },
+                "events": {
+                    "title": "Events",
+                    "description": "Wir organisieren Events in jedem Format, schaffen Eindrücke.",
+                    "lead": "Events sind eine Möglichkeit, lebendige Interaktion mit der Zielgruppe aufzubauen und Emotionen rund um die Marke zu verstärken.",
+                    "bullets": [
+                        "Entwicklung von Event-Konzept und Szenario für Geschäftsaufgaben.",
+                        "Auswahl von Veranstaltungsort, technischer Ausstattung und Auftragnehmern.",
+                        "Koordination von Programm, Sprechern, Shows und Aktivitäten für Gäste.",
+                        "PR- und Medienbetreuung des Events vor und nach."
+                    ],
+                    "text": "Wir schaffen Events, die spezifische Aufgaben lösen: von Produkteinführung und Loyalitätsaufbau bis hin zu Networking und interner Teammotivation. Wir denken den Gästeweg vom Einladung bis zur Post-Kommunikation durch, damit jeder Kontaktpunkt für die Markenziele arbeitet.\n\nSolche systematische Arbeit ermöglicht es nicht nur, ein Event zu veranstalten, sondern es in einen Wachstumspunkt zu verwandeln: Markenwahrnehmung zu verstärken, Medieneffekt zu erzielen und Inhalte zu schaffen, die nach dem Ende des Events weiterarbeiten."
+                },
+                "aiMarketing": {
+                    "title": "KI-Marketing",
+                    "description": "Wir nutzen Technologien der künstlichen Intelligenz für Personalisierung, Analyse und Steigerung der Kampagneneffektivität.",
+                    "lead": "Künstliche Intelligenz hilft, datenbasierte Entscheidungen zu treffen und die Marketingeffektivität erheblich zu steigern.",
+                    "bullets": [
+                        "Sammlung und Strukturierung von Kunden- und Kampagnendaten.",
+                        "Aufbau von Segmentierungsmodellen und prädiktiver Analytik.",
+                        "Personalisierung von Kommunikationen und Angeboten in Echtzeit.",
+                        "Automatisierung von Routineaufgaben und Optimierung von Medienbudgets."
+                    ],
+                    "text": "Wir analysieren Daten über Zielgruppenverhalten, Conversion und Reaktion auf Kommunikationen, um Muster und Wachstumspunkte zu identifizieren. Basierend darauf bauen wir Modelle auf, die helfen, Botschaften genauer zu zielen, Ergebnisse vorherzusagen und Budgets zu verwalten.\n\nDie Nutzung von KI-Tools ermöglicht es, Kosten zu senken, Hypothesen schneller zu testen und messbare Marketingeffekte zu erzielen. Gleichzeitig bleiben wir transparent: Wir erklären die Logik der Modelle und integrieren Lösungen in bestehende Geschäftsprozesse."
+                },
+                "ads": {
+                    "title": "Werbung",
+                    "description": "Wir starten Kampagnen, die Aufmerksamkeit erregen, Wiedererkennung verstärken und die Zielgruppe zum Handeln motivieren.",
+                    "lead": "Eine effektive Werbekampagne ist eine Kombination aus starker Idee, präzisem Targeting und durchdachtem Funnel.",
+                    "bullets": [
+                        "Analyse von Zielgruppe und Medienkonsum, Bildung eines Medienplans.",
+                        "Entwicklung kreativer Konzepte und Werbebotschaften.",
+                        "Start und Management von Kampagnen in Online- und Offline-Kanälen.",
+                        "Ergebnisoptimierung: A/B-Tests, Verfeinerung von Kreativen und Segmenten."
+                    ],
+                    "text": "Wir beginnen mit dem Verständnis von Geschäftszielen und Zielgruppe, wählen Kanäle und Formate aus, die den größten Effekt erzielen. Wir erstellen Kreative, die für verschiedene Plattformen angepasst sind, richten Kampagnen ein und unterstützen sie, aktualisieren regelmäßig Hypothesen.\n\nDer Hauptfokus liegt auf messbaren Ergebnissen. Wir verfolgen Schlüsselindikatoren, bieten Optimierungsoptionen und erstellen klare Berichte, damit Sie genau sehen können, wie Werbung Verkäufe, Wiedererkennung und andere Geschäftskennzahlen beeinflusst."
+                },
+                "questions": {
+                    "title": "Noch Fragen?",
+                    "description": "Kontaktieren Sie uns und wir helfen",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "our_projects": {
+                "title": "Unsere Projekte",
+                "filters": [
+                    "Fälle"
+                ],
+                "projects": "werden in projects.json gespeichert",
+                "enable": false
+            },
+            "market_response": {
+                "title": "Schnell auf internationale Marktherausforderungen reagieren",
+                "description1": "Professionelles Team im Reputationsmarketing. Wir schaffen Marken, pflegen gute Reputation von Kunden online, prognostizieren mögliche Risiken, Krisen und eliminieren sie professionell.",
+                "description2": "Für verschiedene Situationen finden wir Lösungen, damit Sie Wiedererkennung haben, Vertrauen in Sie, Investoren dann Geld zu Ihnen bringen und vertrauen. Außerhalb der Box denken."
+            },
+            "our_team": {
+                "firstcard": {
+                    "title": "Unser Team",
+                    "description": "Wir entwickeln und wachsen Projekte, die heute, morgen und in 10 Jahren relevant sind."
+                },
+                "members": [
+                    {
+                        "src": "/images/1766409801440-4a22a33c-b2bd-4043-a2dd-f2fd7a8564d3.jpg",
+                        "name": "Lyubov",
+                        "lastname": "Krasnoslobodtseva",
+                        "position": "CEO, Leiterin PR"
+                    },
+                    {
+                        "src": "/images/1766410427632-a8a02b23-4686-4bcd-bf13-bf77b5c09688.png",
+                        "name": "Katenka",
+                        "lastname": "Buchnikova",
+                        "position": "PR, Medien"
+                    },
+                    {
+                        "src": "/images/1766409801573-7853a794-0e20-4678-96c3-bb4ebdda4978.jpg",
+                        "name": "Evgeny",
+                        "lastname": "Zhukov",
+                        "position": "Operativer Direktor"
+                    },
+                    {
+                        "src": "/images/1766409801602-3ba00aea-7556-4329-889d-b802d6d8abc3.jpg",
+                        "name": "Ekaterina",
+                        "lastname": "Anisimova",
+                        "position": "Digitales Marketing"
+                    },
+                    {
+                        "src": "/images/1766064873242-43abef2d-b295-44ac-8ecb-15eebba196fe.jpg",
+                        "name": "Elizaveta",
+                        "lastname": "Zamotayeva",
+                        "position": "Finanzdirektorin"
+                    },
+                    {
+                        "src": "/images/1766409802323-6cedbbc0-4b6c-4ecd-a256-f441b9206702.png",
+                        "name": "Vera",
+                        "lastname": "Poderskaya",
+                        "position": "Leiterin Design"
+                    }
+                ],
+                "lastcard": {
+                    "title": "Möchten Sie Teil des Teams werden?",
+                    "description": "Möchten Sie mit uns arbeiten, senden Sie Ihren Lebenslauf.",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "leave_request": {
+                "contacts": {
+                    "title": "Hinterlassen Sie eine Anfrage, um das Projekt zu besprechen",
+                    "items": [
+                        {
+                            "type": "phone",
+                            "value": "+595 955 084 893",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "email",
+                            "value": "hello@strategix.com",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160522-b6ec1027-52b3-4535-8d8c-215848f0dfbf.svg",
+                            "text": "telegramme",
+                            "href": "https://t.me/strategix",
+                            "value": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160535-78a4e325-647a-4ff8-8527-d0308c2ef933.svg",
+                            "text": "whatsapp",
+                            "href": "https://wa.me/595955084893",
+                            "value": ""
+                        }
+                    ]
+                },
+                "form": {
+                    "title": "Ihre Kontakte",
+                    "name": "Vorname Nachname",
+                    "phone": "Telefon",
+                    "title2": "Über das Projekt",
+                    "question": "Welche Dienstleistungen interessieren Sie?",
+                    "description": "Womit brauchen Sie Hilfe?",
+                    "button": "SENDEN",
+                    "question2": "",
+                    "agree": {
+                        "text": "Durch Klicken auf die Schaltfläche stimme ich der Verarbeitung zu",
+                        "link": "personenbezogener Daten",
+                        "href_pdf": "./processing-personal-data.pdf"
+                    }
+                }
+            },
+            "footer": {
+                "brand": "STRATEGIX",
+                "rights": "© 2022–2025 ALLE RECHTE VORBEHALTEN",
+                "privacy_policy": {
+                    "text": "DATENSCHUTZ\nRICHTLINIE",
+                    "href_pdf": "./privacy-policy.pdf"
+                },
+                "email": "hello@strategix.com",
+                "icons": [
+                    {
+                        "src": "/icons/1766455160554-d04f861e-1da0-4dbc-a85b-b7872bcbbc12.svg",
+                        "href": "https://t.me/strategix"
+                    },
+                    {
+                        "src": "/icons/1766455160562-6246d37e-3bb0-4233-b7ae-801d93d37379.svg",
+                        "href": "https://www.linkedin.com/company/strategix/"
+                    }
+                ]
+            }
+        },
+        "es": {
+            "header": {
+                "navigation_desktop": [
+                    {
+                        "href": "#",
+                        "text": "Inicio"
+                    },
+                    {
+                        "href": "#about-us",
+                        "text": "Sobre Nosotros"
+                    },
+                    {
+                        "href": "#contacts",
+                        "text": "Contactos"
+                    },
+                    {
+                        "href": "#our-projects",
+                        "text": "Proyectos"
+                    },
+                    {
+                        "href": "#market-response",
+                        "text": "Equipo"
+                    }
+                ],
+                "button": {
+                    "text": "LLENAR EL FORMULARIO",
+                    "href": "#contacts"
+                },
+                "mobile_menu": {
+                    "navigation_mobile": [
+                        {
+                            "href": "#about-us",
+                            "text": "Sobre Nosotros"
+                        },
+                        {
+                            "href": "#services",
+                            "text": "Servicios"
+                        },
+                        {
+                            "href": "#our-projects",
+                            "text": "Proyectos"
+                        },
+                        {
+                            "href": "#contacts",
+                            "text": "Contactos"
+                        }
+                    ],
+                    "button": {
+                        "text": "LLENAR EL FORMULARIO",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "welcome": {
+                "title": "CONSTRUIMOS REPUTACIÓN Y ABRIMOS PUERTAS A MERCADOS INTERNACIONALES",
+                "subtitle": "Posicionamiento internacional a través de medios, eventos y confianza de la comunidad profesional.",
+                "button": {
+                    "text": "LLENAR EL FORMULARIO",
+                    "href": "#contacts"
+                },
+                "urls": {
+                    "button1": {
+                        "text": "TELEGRAM",
+                        "href": "https://t.me/strategix"
+                    },
+                    "button2": {
+                        "text": "WHATSAPP",
+                        "href": "https://wa.me/595955084893"
+                    }
+                }
+            },
+            "about_us": {
+                "title": "Sobre Nosotros",
+                "items": [
+                    {
+                        "title": "MISIÓN",
+                        "subtitle": "Reputación como activo estratégico",
+                        "content": "Este enfoque abre el acceso a mercados globales, asociaciones e inversiones y permite usar la reputación no de forma puntual, sino como una herramienta a largo plazo de crecimiento y escalado."
+                    },
+                    {
+                        "title": "VALORES",
+                        "subtitle": "Profundidad de análisis, confidencialidad y trabajo orientado a resultados",
+                        "content": "No usamos soluciones estándar: cada estrategia se desarrolla desde cero y se apoya en los objetivos reales y el estatus profesional del cliente. Para nosotros, la reputación no es el número de menciones, sino un resultado comprobado expresado en medios relevantes, comunidades profesionales y reconocimiento del sector. Trabajamos de forma ética y transparente, protegiendo los intereses del cliente y guiándonos por los estándares internacionales de EE. UU., Europa y Asia."
+                    },
+                    {
+                        "title": "NUESTRO ENFOQUE",
+                        "subtitle": "Valoramos las relaciones a largo plazo, la transparencia de procesos",
+                        "content": "Trabajamos en estrecha colaboración con el cliente, alineando las etapas y explicando la lógica de cada decisión. Para nosotros es importante que el proceso sea transparente y claro. Un enfoque integral conecta estrategia, comunicación y medios en un solo sistema que trabaja para un resultado común."
+                    }
+                ]
+            },
+            "services": {
+                "title": "Servicios",
+                "reputation": {
+                    "title": "Construcción de Reputación",
+                    "description": "Construimos confianza en la marca, creamos una imagen positiva y relaciones a largo plazo con la audiencia.",
+                    "lead": "La reputación de la marca es un activo estratégico que se construye a través de cada punto de contacto con la audiencia.",
+                    "bullets": [
+                        "Auditoría de reputación actual y análisis de puntos de riesgo.",
+                        "Desarrollo de estrategia de reputación y mapa de partes interesadas.",
+                        "Creación e implementación de estándares de reputación para el equipo.",
+                        "Escenarios de crisis y apoyo en situaciones difíciles."
+                    ],
+                    "text": "Evaluamos sistemáticamente cómo la marca es percibida por clientes, socios, empleados y medios, y luego construimos una estrategia de cambio. Formamos un posicionamiento claro, seleccionamos mensajes clave y canales que ayudarán a fortalecer la confianza y reducir los riesgos de reputación.\n\nGracias a este trabajo, la marca se vuelve predecible y comprensible para la audiencia. Los mensajes importantes suenan consistentes y coherentes en todas las comunicaciones, y la empresa obtiene una imagen estable y manejable en el mercado."
+                },
+                "media": {
+                    "title": "Acompañamiento de Medios",
+                    "description": "Creamos una fuerte presencia en los medios, promovemos proyectos y aumentamos la atención a eventos clave.",
+                    "lead": "El acompañamiento de medios es un trabajo integral con el campo de información alrededor de la marca. Construimos estrategia de comunicación en medios y entorno digital, formamos los mensajes correctos.",
+                    "bullets": [
+                        "Desarrollo de estrategia de medios y plan de comunicación.",
+                        "Formación y gestión de oportunidades de noticias.",
+                        "Preparación de comunicados de prensa, artículos y comentarios de expertos.",
+                        "Organización de publicaciones en medios y plataformas digitales."
+                    ],
+                    "text": "Este enfoque permite gestionar la reputación, fortalecer la confianza y formar una imagen positiva estable. Seleccionamos canales y formatos relevantes, preparamos materiales de prensa, organizamos publicaciones y construimos interacción sistemática con periodistas y líderes de opinión. Gracias a esto, la marca obtiene una presencia estable en los medios, y sus mensajes clave se transmiten de la manera más precisa y efectiva posible."
+                },
+                "branding": {
+                    "title": "Branding",
+                    "description": "Desarrollamos una imagen única de la empresa, ayudamos a destacarse en el mercado y ganar confianza.",
+                    "lead": "El branding no es solo un logo e identidad, sino un sistema integral de significados, imágenes e impresiones sobre la empresa.",
+                    "bullets": [
+                        "Investigación de mercado, auditoría de imagen actual y posicionamiento.",
+                        "Desarrollo de plataforma de marca: misión, valores, tono de voz.",
+                        "Creación de identidad visual y pautas para su uso.",
+                        "Adaptación de marca para diferentes canales y puntos de contacto."
+                    ],
+                    "text": "Comenzamos con el análisis de competidores, audiencia y percepción actual de la empresa, formamos la plataforma de marca y posicionamiento claro. Basándonos en esto, creamos lenguaje visual y verbal que ayuda a la marca a ser reconocible y consistente en todos los canales.\n\nGracias al branding bien pensado, la empresa se ve cohesiva, segura y moderna, y los clientes leen rápidamente sus valores y ventajas. Esto aumenta la lealtad, la conversión y facilita el lanzamiento de nuevos productos."
+                },
+                "production": {
+                    "title": "Producción",
+                    "description": "Creamos fotos, videos y contenido creativo que inspira y ayuda a la marca a acercarse.",
+                    "lead": "El contenido de calidad es una de las herramientas clave que hace que una marca sea viva y memorable.",
+                    "bullets": [
+                        "Desarrollo de concepto creativo y guiones para tareas de marca.",
+                        "Ciclo completo de producción de fotos y videos - desde preproducción hasta postprocesamiento.",
+                        "Creación de contenido para medios digitales, offline y presentaciones.",
+                        "Adaptación de materiales para diferentes formatos y plataformas."
+                    ],
+                    "text": "Traducimos las tareas estratégicas de la marca al lenguaje visual: pensamos ideas, creamos storyboards, planificamos tomas y controlamos la calidad en cada etapa. En nuestro trabajo, tenemos en cuenta los requisitos de la plataforma, características del producto y expectativas de la audiencia.\n\nComo resultado, obtienes contenido listo que encaja orgánicamente en la estrategia de comunicación, fortalece mensajes clave y ayuda a la marca a verse profesional y moderna en todos los canales."
+                },
+                "events": {
+                    "title": "Eventos",
+                    "description": "Organizamos eventos de cualquier formato, creamos impresiones.",
+                    "lead": "Los eventos son una forma de construir interacción en vivo con la audiencia y fortalecer las emociones alrededor de la marca.",
+                    "bullets": [
+                        "Desarrollo de concepto y escenario del evento para tareas comerciales.",
+                        "Selección de lugar, equipamiento técnico y contratistas.",
+                        "Coordinación de programa, oradores, shows y actividades para invitados.",
+                        "Acompañamiento de PR y medios del evento antes y después."
+                    ],
+                    "text": "Creamos eventos que resuelven tareas específicas: desde el lanzamiento de productos y construcción de lealtad hasta networking y motivación interna del equipo. Pensamos el viaje del invitado desde la invitación hasta las post-comunicaciones, para que cada punto de contacto funcione para los objetivos de la marca.\n\nTal trabajo sistemático permite no solo realizar un evento, sino convertirlo en un punto de crecimiento: fortalecer la percepción de la marca, obtener efecto mediático y crear contenido que continuará funcionando después de que termine el evento."
+                },
+                "aiMarketing": {
+                    "title": "Marketing con IA",
+                    "description": "Utilizamos tecnologías de inteligencia artificial para personalización, análisis y aumento de la efectividad de campañas.",
+                    "lead": "La inteligencia artificial ayuda a tomar decisiones basadas en datos y aumentar significativamente la efectividad del marketing.",
+                    "bullets": [
+                        "Recopilación y estructuración de datos de clientes y campañas.",
+                        "Construcción de modelos de segmentación y análisis predictivo.",
+                        "Personalización de comunicaciones y ofertas en tiempo real.",
+                        "Automatización de tareas rutinarias y optimización de presupuestos de medios."
+                    ],
+                    "text": "Analizamos datos sobre comportamiento de audiencia, conversiones y respuesta a comunicaciones para identificar patrones y puntos de crecimiento. Basándonos en esto, construimos modelos que ayudan a dirigir mensajes con mayor precisión, predecir resultados y gestionar presupuestos.\n\nEl uso de herramientas de IA permite reducir costos, probar hipótesis más rápido y obtener efecto de marketing medible. Al mismo tiempo, mantenemos la transparencia: explicamos la lógica de los modelos e integramos soluciones en procesos comerciales existentes."
+                },
+                "ads": {
+                    "title": "Publicidad",
+                    "description": "Lanzamos campañas que atraen atención, fortalecen el reconocimiento y motivan a la audiencia a actuar.",
+                    "lead": "Una campaña publicitaria efectiva es una combinación de una idea fuerte, targeting preciso y embudo bien pensado.",
+                    "bullets": [
+                        "Análisis de audiencia y consumo de medios, formación de plan de medios.",
+                        "Desarrollo de concepto creativo y mensajes publicitarios.",
+                        "Lanzamiento y gestión de campañas en canales online y offline.",
+                        "Optimización de resultados: pruebas A/B, refinamiento de creativos y segmentos."
+                    ],
+                    "text": "Comenzamos con la comprensión de objetivos comerciales y audiencia, seleccionamos canales y formatos que darán el mayor efecto. Creamos creativos adaptados para diferentes plataformas, configuramos y apoyamos campañas, actualizando regularmente hipótesis.\n\nEl enfoque principal son los resultados medibles. Rastreamos indicadores clave, ofrecemos opciones de optimización y formamos informes claros, para que veas exactamente cómo la publicidad afecta las ventas, el reconocimiento y otras métricas comerciales."
+                },
+                "questions": {
+                    "title": "¿Tienes preguntas?",
+                    "description": "Contáctanos y te ayudaremos",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "our_projects": {
+                "title": "Nuestros Proyectos",
+                "filters": [
+                    "Casos"
+                ],
+                "projects": "se almacenan en projects.json",
+                "enable": false
+            },
+            "market_response": {
+                "title": "Respondemos rápidamente a los desafíos del mercado internacional",
+                "description1": "Equipo profesional en marketing de reputación. Creamos marcas, mantenemos buena reputación de clientes en línea, predecimos posibles riesgos, crisis y los eliminamos profesionalmente.",
+                "description2": "Para diferentes situaciones encontramos soluciones para que tengas reconocimiento, confianza en ti, los inversores luego traigan dinero y confíen. Pensar fuera de la caja."
+            },
+            "our_team": {
+                "firstcard": {
+                    "title": "Nuestro Equipo",
+                    "description": "Desarrollamos y crecemos proyectos que son relevantes hoy, mañana y en 10 años."
+                },
+                "members": [
+                    {
+                        "src": "/images/1766409801440-4a22a33c-b2bd-4043-a2dd-f2fd7a8564d3.jpg",
+                        "name": "Lyubov",
+                        "lastname": "Krasnoslobodtseva",
+                        "position": "CEO, Directora de RRPP"
+                    },
+                    {
+                        "src": "/images/1766410427632-a8a02b23-4686-4bcd-bf13-bf77b5c09688.png",
+                        "name": "Katenka",
+                        "lastname": "Buchnikova",
+                        "position": "PR, Medios"
+                    },
+                    {
+                        "src": "/images/1766409801573-7853a794-0e20-4678-96c3-bb4ebdda4978.jpg",
+                        "name": "Evgeny",
+                        "lastname": "Zhukov",
+                        "position": "Director de Operaciones"
+                    },
+                    {
+                        "src": "/images/1766409801602-3ba00aea-7556-4329-889d-b802d6d8abc3.jpg",
+                        "name": "Ekaterina",
+                        "lastname": "Anisimova",
+                        "position": "Marketing Digital"
+                    },
+                    {
+                        "src": "/images/1766064873242-43abef2d-b295-44ac-8ecb-15eebba196fe.jpg",
+                        "name": "Elizaveta",
+                        "lastname": "Zamotayeva",
+                        "position": "Directora Financiera"
+                    },
+                    {
+                        "src": "/images/1766409802323-6cedbbc0-4b6c-4ecd-a256-f441b9206702.png",
+                        "name": "Vera",
+                        "lastname": "Poderskaya",
+                        "position": "Directora de Diseño"
+                    }
+                ],
+                "lastcard": {
+                    "title": "¿Quieres formar parte del equipo?",
+                    "description": "¿Quieres trabajar con nosotros? Envía tu currículum.",
+                    "email": "hello@strategix.com"
+                }
+            },
+            "leave_request": {
+                "contacts": {
+                    "title": "Deja una solicitud para discutir el proyecto",
+                    "items": [
+                        {
+                            "type": "phone",
+                            "value": "+595 955 084 893",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "email",
+                            "value": "hello@strategix.com",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160522-b6ec1027-52b3-4535-8d8c-215848f0dfbf.svg",
+                            "text": "telegramas",
+                            "href": "https://t.me/strategix",
+                            "value": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "/icons/1766455160535-78a4e325-647a-4ff8-8527-d0308c2ef933.svg",
+                            "text": "whatsapp",
+                            "href": "https://wa.me/595955084893",
+                            "value": ""
+                        }
+                    ]
+                },
+                "form": {
+                    "title": "Tus Contactos",
+                    "name": "Nombre Apellido",
+                    "phone": "Teléfono",
+                    "title2": "Sobre el Proyecto",
+                    "question": "¿Qué servicios te interesan?",
+                    "description": "¿Con qué necesitas ayuda?",
+                    "button": "ENVIAR",
+                    "question2": "",
+                    "agree": {
+                        "text": "Al hacer clic en el botón, acepto el procesamiento",
+                        "link": "de datos personales",
+                        "href_pdf": ""
+                    }
+                }
+            },
+            "footer": {
+                "brand": "STRATEGIX",
+                "rights": "© 2022–2025 TODOS LOS DERECHOS RESERVADOS",
+                "privacy_policy": {
+                    "text": "POLÍTICA DE\nPRIVACIDAD",
+                    "href_pdf": "./privacy-policy.pdf"
+                },
+                "email": "hello@strategix.com",
+                "icons": [
+                    {
+                        "src": "/icons/1766455160554-d04f861e-1da0-4dbc-a85b-b7872bcbbc12.svg",
+                        "href": "https://t.me/strategix"
+                    },
+                    {
+                        "src": "/icons/1766455160562-6246d37e-3bb0-4233-b7ae-801d93d37379.svg",
+                        "href": "https://www.linkedin.com/company/strategix/"
+                    }
+                ]
+            }
+        },
+        "example": {
+            "header": {
+                "navigation_desktop": [
+                    {
+                        "href": "#",
+                        "text": "текст"
+                    },
+                    {
+                        "href": "#",
+                        "text": "текст"
+                    },
+                    {
+                        "href": "#",
+                        "text": "текст"
+                    },
+                    {
+                        "href": "#",
+                        "text": "текст"
+                    },
+                    {
+                        "href": "#",
+                        "text": "текст"
+                    }
+                ],
+                "button": {
+                    "text": "текст",
+                    "href": "#contacts"
+                },
+                "mobile_menu": {
+                    "navigation_mobile": [
+                        {
+                            "href": "#",
+                            "text": "текст"
+                        },
+                        {
+                            "href": "#",
+                            "text": "текст"
+                        },
+                        {
+                            "href": "#",
+                            "text": "текст"
+                        },
+                        {
+                            "href": "#",
+                            "text": "текст"
+                        }
+                    ],
+                    "button": {
+                        "text": "текст",
+                        "href": "#contacts"
+                    }
+                }
+            },
+            "welcome": {
+                "title": "заголовок",
+                "subtitle": "подзаголовок",
+                "button": {
+                    "text": "текст",
+                    "href": "#contacts"
+                },
+                "urls": {
+                    "button1": {
+                        "text": "текст",
+                        "href": "#"
+                    },
+                    "button2": {
+                        "text": "текст",
+                        "href": "#"
+                    }
+                }
+            },
+            "about_us": {
+                "title": "о нас",
+                "items": [
+                    {
+                        "title": "заголовок",
+                        "subtitle": "подзаголовок",
+                        "content": "контент"
+                    },
+                    {
+                        "title": "заголовок",
+                        "subtitle": "подзаголовок",
+                        "content": "контент"
+                    },
+                    {
+                        "title": "заголовок",
+                        "subtitle": "подзаголовок",
+                        "content": "контент"
+                    }
+                ]
+            },
+            "services": {
+                "title": "Услуги",
+                "reputation": {
+                    "title": "репутация",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "media": {
+                    "title": "медиа",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "branding": {
+                    "title": "брендинг",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "production": {
+                    "title": "продакшн",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "events": {
+                    "title": "ивенты",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "aiMarketing": {
+                    "title": "ИИ-маркетинг",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "ads": {
+                    "title": "реклама",
+                    "description": "описание",
+                    "lead": "лид",
+                    "bullets": [
+                        "пункт",
+                        "пункт",
+                        "пункт",
+                        "пункт"
+                    ],
+                    "text": "текст"
+                },
+                "questions": {
+                    "title": "Остались вопросы?",
+                    "description": "Свяжитесь с нами и мы поможем",
+                    "email": "email@example.com"
+                }
+            },
+            "our_projects": {
+                "enable": false,
+                "title": "Наши проекты",
+                "filters": [
+                    "Кейсы"
+                ],
+                "projects": "хранятся в projects.json"
+            },
+            "market_response": {
+                "title": "заголовок",
+                "description1": "описание",
+                "description2": "описание"
+            },
+            "our_team": {
+                "firstcard": {
+                    "title": "Наша команда",
+                    "description": "описание"
+                },
+                "members": [
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    },
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    },
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    },
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    },
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    },
+                    {
+                        "src": "",
+                        "name": "имя",
+                        "lastname": "фамилия",
+                        "position": "должность"
+                    }
+                ],
+                "lastcard": {
+                    "title": "заголовок",
+                    "description": "описание",
+                    "email": "email@example.com"
+                }
+            },
+            "leave_request": {
+                "contacts": {
+                    "title": "Оставьте заявку, чтобы обсудить проект",
+                    "items": [
+                        {
+                            "type": "email",
+                            "value": "email@example.com",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "phone",
+                            "value": "+000 000 000 000",
+                            "src": "",
+                            "text": "",
+                            "href": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "",
+                            "text": "текст",
+                            "href": "",
+                            "value": ""
+                        },
+                        {
+                            "type": "link",
+                            "src": "",
+                            "text": "текст",
+                            "href": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                "form": {
+                    "title": "Ваши контакты",
+                    "name": "Имя *",
+                    "phone": "Телефон *",
+                    "title2": "О проекте",
+                    "question": "вопрос",
+                    "question2": "вопрос",
+                    "button": "ОТПРАВИТЬ",
+                    "agree": {
+                        "text": "текст",
+                        "link": "ссылка",
+                        "href_pdf": ""
+                    }
+                }
+            },
+            "footer": {
+                "brand": "STRATEGIX",
+                "rights": "© 2022–     ВСЕ ПРАВА ЗАЩИЩЕНЫ",
+                "privacy_policy": {
+                    "text": "ПОЛИТИКА  КОНФИДЕНЦИАЛЬНОСТИ",
+                    "href_pdf": ""
+                },
+                "email": "email@example.com",
+                "icons": [
+                    {
+                        "src": "",
+                        "href": ""
+                    },
+                    {
+                        "src": "",
+                        "href": ""
+                    }
+                ]
+            }
+        }
+    }
+}
