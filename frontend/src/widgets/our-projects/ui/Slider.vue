@@ -1,81 +1,32 @@
 <script setup lang="ts">
-
+import HorizontalSlider from '@/shared/ui/horizontal-slider';
 </script>
 
 <template>
-  <div
-    ref="root"
-    class="slider"
-  >
-    <ul class="slider__list">
-      <!-- Spacer, чтобы казалось, что у нас плошной слайдер -->
-      <span class="slider__spacer" />
-
-      <slot />
-
-      <span class="slider__spacer" />
-    </ul>
-  </div>
+  <HorizontalSlider class="slider">
+    <slot />
+  </HorizontalSlider>
 </template>
 
 <style scoped>
 .slider {
-	width: calc(100% + 2 * var(--padding-section-x));
-  height: 84%;
-	position: relative;
-  margin: 0;
-  overflow: hidden;
-  transform: translateX(calc(-1 * var(--padding-section-x)));
+  --slider-viewport-height: 78%;
+  --slider-gap: 1.25%;
+  --slider-spacer-size: calc(var(--padding-section-x) - 1.25%);
+  --slider-item-snap-align: center;
+}
 
-  @media(--tablet-width){
-    width: 100%;
-    transform: none;
-  }
-
-  @media(--mobile-medium){
-    width: 100%;
-    transform: none;
+@media(--tablet-width){
+  .slider{
+    --slider-spacer-size: var(--padding-section-x);
+    --slider-spacer-margin-left: -1.25%;
   }
 }
 
-.slider__list {
-	width: 100%;
-  height: 100%;
-	overflow-x: auto;
-
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  justify-content: space-between;
-  gap: 1.25%;
-	list-style: none;
-	scrollbar-width: none;
-	scroll-snap-type: x mandatory; /* центрируем элементы */
-}
-
-.slider__list::-webkit-scrollbar {
-	/* Chrome/Safari */
-	display: none;
-}
-
-.slider__list > * {
-	scroll-snap-align: center;
-}
-
-.slider__spacer {
-	min-width: calc(var(--padding-section-x) - 1.25%); /* padding у края*/
-	pointer-events: none;
-
-  @media(--tablet-width){
-    min-width: 0;
-    margin-left: -1.25%;
-  }
-
-  @media(--mobile-medium){
-    min-width: 0;
-    margin-left: -1.25%;
+@media(--mobile-medium){
+  .slider{
+    --slider-spacer-size: var(--padding-section-x);
+    --slider-spacer-margin-left: -1.25%;
   }
 }
-
 </style>

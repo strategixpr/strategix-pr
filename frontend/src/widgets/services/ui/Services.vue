@@ -55,7 +55,7 @@
   </section>
 </template>
 
-<style scped>
+<style scoped>
 .services {
     width: var(--section-width);
     min-height: calc(var(--vh) * 100);

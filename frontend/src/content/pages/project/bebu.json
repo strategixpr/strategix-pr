@@ -1,0 +1,441 @@
+{
+  "id": "bebu",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "WINE & SPIRITS",
+        "name": "BEBU",
+        "src": "/images/1775312571249-9f9b50d3-926e-4210-8c89-5b796436070d.jpg",
+        "autoplay": true,
+        "description": [
+          "Badagoni approached us to design a label for a new product launching in the German market under the BEBU brand.",
+          "The goal was to create a visual concept that reflects the wine’s Georgian heritage while feeling natural and appealing to a German audience.",
+          "The result is a distinctive, modern identity that balances authenticity with a contemporary look."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Badagoni"
+          },
+          {
+            "label": "Country",
+            "value": "Georgia"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategy, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775312571249-5c107b05-050f-44e3-9223-b5b68834b5a8.png",
+        "alt": "логотип BEBU",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TYPOGRAPHY",
+        "fonts": [
+          {
+            "assignment": "Primary",
+            "name": "Morganite",
+            "description": "Used for titles and headlines",
+            "font": {
+              "src": "/fonts/1775312571241-464d214a-2028-4972-8f6c-9f9a089b6e51.ttf",
+              "weight": 300,
+              "scale": 1.825
+            }
+          },
+          {
+            "assignment": "Secondary",
+            "name": "Poppins",
+            "description": "With its wide, open letterforms and high x-height, it was used for smaller body text",
+            "font": {
+              "src": "/fonts/1775312571245-e0af8303-c731-417c-b592-08a469257731.ttf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "COLOR PALETTE",
+        "colors-blocks": [
+          {
+            "assignment": "Основной",
+            "colors": [
+              "2E3348",
+              "F48B7F"
+            ]
+          },
+          {
+            "assignment": "Вспомогательный",
+            "colors": [
+              "D0D2D3",
+              "3C383D",
+              "231F20"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775312571249-173a83c9-9c71-4ac5-9df5-299bd5b318cd.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "big-image-2": {
+        "src": "/images/1775312571245-2f5bdf87-ad49-4ddb-8c65-1b4eb267b188.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "info": {
+        "title": "FOCUSED ON ORIGIN, EXPRESSED THROUGH MINIMAL TYPOGRAPHY",
+        "description": [
+          "The BEBU brand received a visual identity that acts as a bridge between Georgia and Germany — conveying the essence of Georgian wine in a form that resonates with a European audience.",
+          "The project also reinforced Badagoni’s positioning as a producer capable of delivering products that meet international standards in both quality and design."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1775312571248-d1eefdb7-7d9e-4b03-85c5-fe8ce2def3ef.jpg",
+        "alt": "логотип BEBU 2"
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "ВИНО И КРЕПКИЕ НАПИТКИ",
+        "name": "BEBU",
+        "src": "/images/bebu-main.jpg",
+        "description": [
+          "Компания Badagoni обратилась с задачей создать дизайн этикетки для нового продукта, который выходит на немецкий рынок под брендом BEBU.",
+          "Основная цель проекта — разработать визуальное решение, которое подчеркнёт грузинское происхождение вина и в то же время будет органично восприниматься немецким потребителем.",
+          "В рамках проекта была создана современная и лаконичная айдентика."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Брендинг"
+          },
+          {
+            "label": "Клиент",
+            "value": "Badagoni"
+          },
+          {
+            "label": "Страна",
+            "value": "Грузия"
+          },
+          {
+            "label": "Экспертиза",
+            "value": "Стратегия, Брендинг"
+          }
+        ],
+        "autoplay": true
+      },
+      "big-logo": {
+        "src": "/images/beby-logo.png",
+        "alt": "логотип BEBU",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Типографика",
+        "fonts": [
+          {
+            "font": {
+              "src": "/fonts/Morganite-Light.ttf",
+              "weight": 300,
+              "scale": 1.825
+            },
+            "assignment": "Основной",
+            "name": "Morganite",
+            "description": "Было выбрано название и заголовки"
+          },
+          {
+            "font": {
+              "src": "/fonts/Poppins-SemiBold.ttf",
+              "weight": 700,
+              "scale": 1
+            },
+            "assignment": "Вспомогательный",
+            "name": "Poppins",
+            "description": "С их широкими и незамкнутыми буквами и большой высотой x, которые были использованы для основного текста небольшого размера"
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Цветовая палитра",
+        "colors-blocks": [
+          {
+            "assignment": "Основной",
+            "colors": [
+              "2E3348",
+              "F48B7F"
+            ]
+          },
+          {
+            "assignment": "Вспомогательный",
+            "colors": [
+              "D0D2D3",
+              "3C383D",
+              "231F20"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/bebu-image.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "big-image-2": {
+        "src": "/images/bebu-image-2.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "info": {
+        "title": "в центре внимания — символика происхождения и лаконичное типографическое решение",
+        "description": [
+          "Бренд BEBU получил визуальный образ, который стал мостом между Грузией и Германией — отражая душу грузинского вина в форме, близкой европейскому потребителю.",
+          "Проект укрепил восприятие Badagoni как производителя, способного создавать продукты, отвечающие международным стандартам качества и дизайна."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/bebu-image-3.jpg",
+        "alt": "логотип BEBU 2"
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "WEIN & SPIRITUOSEN",
+        "name": "BEBU",
+        "src": "/images/1775312571399-5b0d560a-dc3b-4464-9c43-644f4acc8529.jpg",
+        "autoplay": true,
+        "description": [
+          "Badagoni beauftragte uns mit der Gestaltung eines Etiketts für ein neues Produkt, das unter der Marke BEBU auf dem deutschen Markt eingeführt wird.",
+          "Ziel des Projekts war es, ein visuelles Konzept zu entwickeln, das die georgische Herkunft des Weins hervorhebt und zugleich für den deutschen Markt natürlich und verständlich wirkt.",
+          "Im Rahmen des Projekts wurde eine moderne, reduzierte visuelle Identität entwickelt."
+        ],
+        "about": [
+          {
+            "label": "Sektor",
+            "value": "Branding"
+          },
+          {
+            "label": "Kunde",
+            "value": "Badagoni"
+          },
+          {
+            "label": "Land",
+            "value": "Georgien"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategie, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775312571399-7b65c1ee-0298-409c-a3a1-f69c684ec0ad.png",
+        "alt": "логотип BEBU",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TYPOGRAFIE",
+        "fonts": [
+          {
+            "assignment": "Primärschrift",
+            "name": "Morganite",
+            "description": "Für Namen und Überschriften verwendet",
+            "font": {
+              "src": "/fonts/1775312571388-948f1156-9ac3-4da4-b78f-ec6f6df98586.ttf",
+              "weight": 300,
+              "scale": 1.825
+            }
+          },
+          {
+            "assignment": "Sekundärschrift",
+            "name": "Poppins",
+            "description": "Mit offenen, klaren Buchstabenformen und einer großen x-Höhe, die sich besonders für Fließtext in kleineren Größen eignet",
+            "font": {
+              "src": "/fonts/1775312571399-38e58cfc-4adc-4dae-a67c-3b8f3db7be14.ttf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "FARBPALETTE",
+        "colors-blocks": [
+          {
+            "assignment": "Primärfarben",
+            "colors": [
+              "2E3348",
+              "F48B7F"
+            ]
+          },
+          {
+            "assignment": "Sekundärfarben",
+            "colors": [
+              "D0D2D3",
+              "3C383D",
+              "231F20"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775312571399-173525db-d469-49a4-89c0-53bc027032e9.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "big-image-2": {
+        "src": "/images/1775312571399-5f2a1c39-115e-4999-9a89-5cd64a39feb0.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "info": {
+        "title": "IM FOKUS: HERKUNFT, ÜBERSETZT IN MINIMALE TYPOGRAFIE",
+        "description": [
+          "Die Marke BEBU erhielt eine visuelle Identität, die als Brücke zwischen Georgien und Deutschland funktioniert — sie überträgt den Charakter georgischen Weins in eine Form, die für ein europäisches Publikum selbstverständlich wirkt.",
+          "Das Projekt stärkte zudem die Positionierung von Badagoni als Hersteller, der Produkte auf internationalem Qualitäts- und Designniveau entwickelt."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1775312571399-cf0815ee-0762-4727-85f9-3164a9bf339a.jpg",
+        "alt": "логотип BEBU 2"
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "VINO Y BEBIDAS ESPIRITUOSAS",
+        "name": "BEBU",
+        "src": "/images/1775312571723-21c53cca-d7e6-4623-8627-8448008e62c6.jpg",
+        "autoplay": true,
+        "description": [
+          "Badagoni nos encargó el diseño de la etiqueta para un nuevo producto que se lanza en el mercado alemán bajo la marca BEBU.",
+          "El objetivo del proyecto era desarrollar un concepto visual que resaltara el origen georgiano del vino y, al mismo tiempo, resultara natural y cercano para el consumidor alemán.",
+          "Como resultado, se creó una identidad visual moderna y minimalista."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Cliente",
+            "value": "Badagoni"
+          },
+          {
+            "label": "País",
+            "value": "Georgia"
+          },
+          {
+            "label": "Especialización",
+            "value": "Estrategia, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775312571723-8f1d7d25-0242-45fa-97a9-34f2e0c4d105.png",
+        "alt": "логотип BEBU",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TIPOGRAFÍA",
+        "fonts": [
+          {
+            "assignment": "Tipografía principal",
+            "name": "Morganite",
+            "description": "Utilizada para nombres y encabezados",
+            "font": {
+              "src": "/fonts/1775312571723-80889287-dab5-403d-bf59-00d9b46a3922.ttf",
+              "weight": 300,
+              "scale": 1.825
+            }
+          },
+          {
+            "assignment": "Tipografía secundaria",
+            "name": "Poppins",
+            "description": "Con formas abiertas y una gran altura de x, ideal para textos en tamaños pequeños",
+            "font": {
+              "src": "/fonts/1775312571723-5693dbb5-fd10-462f-b164-fc54dbc585dc.ttf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "PALETA DE COLOR",
+        "colors-blocks": [
+          {
+            "assignment": "Colores principales",
+            "colors": [
+              "2E3348",
+              "F48B7F"
+            ]
+          },
+          {
+            "assignment": "Colores secundarios",
+            "colors": [
+              "D0D2D3",
+              "3C383D",
+              "231F20"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775312571723-8fffee21-2f97-4fd5-93f4-b6dc329e38b5.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "big-image-2": {
+        "src": "/images/1775312571723-4602824f-0217-433e-a055-1ca5abdca60e.jpg",
+        "alt": "большая картинка BEBU"
+      },
+      "info": {
+        "title": "EN EL CENTRO — LA IDENTIDAD DE ORIGEN Y UNA SOLUCIÓN TIPOGRÁFICA DEPURADA",
+        "description": [
+          "La marca BEBU adquirió una identidad visual que actúa como un puente entre Georgia y Alemania, reflejando el alma del vino georgiano en una forma cercana al consumidor europeo.",
+          "El proyecto reforzó la percepción de Badagoni como un productor capaz de crear productos alineados con los estándares internacionales de calidad y diseño."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1775312571723-39612df7-3524-40e5-aaab-7b50238240eb.jpg",
+        "alt": "логотип BEBU 2"
+      },
+      "other-projects": true
+    }
+  }
+}

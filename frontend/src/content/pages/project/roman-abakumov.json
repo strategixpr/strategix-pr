@@ -1,0 +1,566 @@
+{
+  "id": "roman-abakumov",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Roman Abakumov",
+        "name": "HVAC Engineer",
+        "src": "/images/1775817044518-4c95e17f-a950-4db8-a7fc-9847fe132b4a.jpg",
+        "autoplay": true,
+        "description": [
+          "Roman Abakumov is an entrepreneur and engineer in the field of air conditioning systems. We developed a professional positioning strategy for him that highlighted his engineering expertise and practical contribution to the industry."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Personal Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Roman Abakumov"
+          },
+          {
+            "label": "Market",
+            "value": "U.S."
+          }
+        ]
+      },
+      "tasks": {
+        "title": "PROJECT GOALS",
+        "description": [
+          "The client already had successful projects and experience in his local market and country of residence. Over time, he developed the ambition to reach an international level and grow as an expert beyond his home country.",
+          "This was a logical step given the specifics of his field: there are relatively few specialists in this area, and they are in demand worldwide. At the same time, his existing profile was primarily focused on a local audience and did not reflect that broader potential."
+        ],
+        "lists": [
+          {
+            "src": "/images/1775817044518-67f3e146-ef37-4c57-9d33-191ae6f107b7.jpg",
+            "description": "Develop a professional positioning strategy that highlights his expertise and contribution to the industry",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044516-eabd5d26-f18f-4894-b8b7-b86877288bde.jpg",
+            "description": "Increase media visibility in the U.S. market",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044518-bb2483e4-e882-44a0-a4ab-7906e7ff50b7.jpg",
+            "description": "Attract partnership and collaboration opportunities",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1775817044517-3cdfa4f9-cdf5-445d-a1e9-93af5e05951d.jpg",
+            "description": "Build a public profile that is clear, credible, and trustworthy for an international audience",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "OUR STRATEGY",
+        "subtitle": "We developed a comprehensive promotion strategy that included:",
+        "lists": [
+          {
+            "title": "MEDIA AMPLIFICATION",
+            "bullets": [
+              "Prepared and published an article in an international tech media outlet featuring Roman’s expert commentary.",
+              "Built a clear positioning of Roman as an engineer and entrepreneur working with energy-efficient and environmentally friendly solutions.",
+              "Framed his expert agenda around innovation in HVAC systems and energy optimization.и оптимизации энергопотребления."
+            ],
+            "src": "/images/1775817044518-7ccd035b-d66a-455e-a42f-da445276762d.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "BUILDING PROFESSIONAL CREDIBILITY",
+            "bullets": [
+              "Prepared a profile that was clear and relevant for an international audience, including investors, partners, and the professional community.",
+              "Developed a professional positioning strategy focused on his engineering expertise and practical contribution to the industry. Structured his achievements and experience in a way that resonates with the international professional environment.структуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "AWARD RECOGNITION",
+            "bullets": [
+              "Recommended a relevant international competition in the U.S. and prepared a strong application.",
+              "Supported the participation and application process. Roman became a winner in the category “Achievements in Engineering: Consumer Services.”"
+            ],
+            "src": "/images/1775817044519-2ca5d0f7-cba9-4753-bc2c-b6ddafb0e967.jpg",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "RESULTS",
+        "subtitle": "The project took several months and led to meaningful changes in the client’s professional trajectory:",
+        "blocks": [
+          {
+            "title": "INTERNATIONAL RECOGNITION",
+            "description": "Winning an international competition in the U.S. in the category “Achievements in Engineering: Consumer Services” strengthened Roman’s expert status and secured his professional recognition at the international level.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "MEDIA PRESENCE IN THE U.S.",
+            "description": "A publication in a leading technology media outlet, featuring expert commentary on innovation, energy efficiency, and environmentally friendly solutions, increased Roman’s visibility in the U.S. market.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "STRENGTHENED PROFESSIONAL PROFILE",
+            "description": "The positioning strategy and public profile highlighted his engineering expertise and practical contribution to the industry, making his profile clear and credible for an international audience.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "U.S. TALENT VISA",
+            "description": "A strong public profile, documented achievements, and international recognition became part of a successful U.S. talent visa case.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Роман Абакумов",
+        "name": "Инженер HVAC-систем",
+        "src": "/images/1773987820898-6fad6306-1187-4ccc-9f8f-b5284ea72149.jpg",
+        "autoplay": true,
+        "description": [
+          "Роман Абакумов - предприниматель и инженер в сфере\nсистем кондиционирования. Мы выстроили для него\nстратегию профессионального позиционирования, которая\nподчеркнула его инженерную экспертизу и практический\nвклад в отрасль."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Роман Абакумов"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          "Изначально у клиента уже были успешные проекты и опыт работы на локальном рынке в стране проживания. Со временем у него появилось желание выйти на международный уровень и развиваться как эксперт за пределами своей страны.\n\n",
+          "Это логичный шаг, учитывая специфику его сферы: специалистов в этом направлении немного, и они востребованы по всему миру. При этом текущий профиль был ориентирован в основном на локальную аудиторию и не отражал этот потенциал.\n",
+          "Он обратился к нам с запросом:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1773987796990-d50222d4-87a4-466b-92d8-559d0eedf01a.jpg",
+            "description": "Выстроить стратегию\nпрофессионального\nпозиционирования,\nкоторая подчеркнет его\nэкспертизу и вклад в\nотрасль",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1773987796989-2b204413-ee2e-4b34-963f-b9af97b1a964.jpg",
+            "description": "Повысить медийность на\nрынке США",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1773987796990-f9b48a93-2465-4494-9d89-050e2339af43.jpg",
+            "description": "Привлечь предложения о\nсотрудничестве",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1773987796989-a3a8637d-397a-40d0-bc19-27d5b3ed8ef2.jpg",
+            "description": "Сформировать публичный\nпрофиль, понятный и\nдоверительный для\nмеждународной аудитории",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Медийное усиление",
+            "bullets": [
+              "Подготовили и опубликовали материал в международном технологическом СМИ с\nэкспертным комментарием Романа.",
+              "Сформировали понятное позиционирование как инженера и предпринимателя,\nработающего с энергоэффективными и экологичными решениями.",
+              "Упаковали экспертную повестку вокруг инноваций в системах кондиционирования\nи оптимизации энергопотребления."
+            ],
+            "src": "/images/1773988310007-70919c1c-bf93-4697-ace3-6ee73f568bc1.jpg",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Формирование профессионального веса",
+            "bullets": [
+              "Подготовили профиль, понятный для зарубежной аудитории - инвесторов, партнеров и экспертного сообщества.",
+              "Выстроили стратегию профессионального позиционирования с акцентом на инженерную экспертизу и практический вклад в отрасль. Сформировали\nструктуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "Конкурентное продвижение",
+            "bullets": [
+              "Подобрали релевантный международный конкурс в США и подготовили сильную конкурсную заявку. Помогли сформировать сильную конкурсную заявку.",
+              "Сопроводили процесс участия и оформления материалов. Роман стал победителем в номинации\n«Достижения в области инженерии: потребительские услуги»."
+            ],
+            "src": "/images/1773988360416-2dcbe985-fe4c-42eb-a372-49caa213bbe3.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "Международное признание",
+            "description": "Победа в международном конкурсе в США в номинации «Достижения в\nобласти инженерии: потребительские услуги» усилила экспертный статус\nРомана и закрепила его профессиональное признание на международном\nуровне.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "МЕДИЙНОЕ ПРИСУТСТВИЕ В США",
+            "description": "Публикация в ведущем технологическом СМИ с экспертным комментарием\nоб инновациях, энергоэффективности и экологичных решениях повысила\nузнаваемость Романа на американском рынке.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "УСИЛЕНИЕ ПРОФЕССИОНАЛЬНОГО ПРОФИЛЯ",
+            "description": "Сформированная стратегия позиционирования и публичный профиль\nподчеркнули его инженерную экспертизу и практический вклад в отрасль,\nсделав его понятным для международной аудитории.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ВИЗА ТАЛАНТОВ В США",
+            "description": "Публичный профиль, подтвержденные достижения и международное\nпризнание стали частью успешного кейса по получению визы талантов в\nСША.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Роман Абакумов",
+        "name": "Инженер HVAC-систем",
+        "src": "/images/1775817044532-8d23f20f-2aba-43f6-95b4-a68205d4ae70.jpg",
+        "autoplay": true,
+        "description": [
+          "Роман Абакумов - предприниматель и инженер в сфере\nсистем кондиционирования. Мы выстроили для него\nстратегию профессионального позиционирования, которая\nподчеркнула его инженерную экспертизу и практический\nвклад в отрасль."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Роман Абакумов"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          "Изначально у клиента уже были успешные проекты и опыт работы на локальном рынке в стране проживания. Со временем у него появилось желание выйти на международный уровень и развиваться как эксперт за пределами своей страны.\n",
+          "Это логичный шаг, учитывая специфику его сферы: специалистов в этом направлении немного, и они востребованы по всему миру. При этом текущий профиль был ориентирован в основном на локальную аудиторию и не отражал этот потенциал.\n"
+        ],
+        "lists": [
+          {
+            "src": "/images/1775817044532-d3a66352-4461-41e8-8009-ae3831d8df78.jpg",
+            "description": "Выстроить стратегию\nпрофессионального\nпозиционирования,\nкоторая подчеркнет его\nэкспертизу и вклад в\nотрасль",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044531-9ecb52c1-120a-4e73-83dd-2a635126b612.jpg",
+            "description": "Повысить медийность на\nрынке США",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044532-25af2e96-d5dc-48e0-b17d-7edc038bc598.jpg",
+            "description": "Привлечь предложения о\nсотрудничестве",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1775817044532-0d2d1e18-25bd-4b3e-8104-a1864f07356d.jpg",
+            "description": "Сформировать публичный\nпрофиль, понятный и\nдоверительный для\nмеждународной аудитории",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Медийное усиление",
+            "bullets": [
+              "Подготовили и опубликовали материал в международном технологическом СМИ с\nэкспертным комментарием Романа.",
+              "Сформировали понятное позиционирование как инженера и предпринимателя,\nработающего с энергоэффективными и экологичными решениями.",
+              "Упаковали экспертную повестку вокруг инноваций в системах кондиционирования\nи оптимизации энергопотребления."
+            ],
+            "src": "/images/1775817044532-c2f6520c-4f09-46f6-b3b9-2d72bf9e9761.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Формирование профессионального веса",
+            "bullets": [
+              "Подготовили профиль, понятный для зарубежной аудитории - инвесторов, партнеров и экспертного сообщества.",
+              "Выстроили стратегию профессионального позиционирования с акцентом на инженерную экспертизу и практический вклад в отрасль. Сформировали\nструктуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "Конкурентное продвижение",
+            "bullets": [
+              "Подобрали релевантный международный конкурс в США и подготовили сильную конкурсную заявку. Помогли сформировать сильную конкурсную заявку.",
+              "Сопроводили процесс участия и оформления материалов. Роман стал победителем в номинации\n«Достижения в области инженерии: потребительские услуги»."
+            ],
+            "src": "/images/1775817044532-06c7373f-a298-40d6-846c-88bc133f6a01.jpg",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "Международное признание",
+            "description": "Победа в международном конкурсе в США в номинации «Достижения в\nобласти инженерии: потребительские услуги» усилила экспертный статус\nРомана и закрепила его профессиональное признание на международном\nуровне.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "МЕДИЙНОЕ ПРИСУТСТВИЕ В США",
+            "description": "Публикация в ведущем технологическом СМИ с экспертным комментарием\nоб инновациях, энергоэффективности и экологичных решениях повысила\nузнаваемость Романа на американском рынке.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "УСИЛЕНИЕ ПРОФЕССИОНАЛЬНОГО ПРОФИЛЯ",
+            "description": "Сформированная стратегия позиционирования и публичный профиль\nподчеркнули его инженерную экспертизу и практический вклад в отрасль,\nсделав его понятным для международной аудитории.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ВИЗА ТАЛАНТОВ В США",
+            "description": "Публичный профиль, подтвержденные достижения и международное\nпризнание стали частью успешного кейса по получению визы талантов в\nСША.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Роман Абакумов",
+        "name": "Инженер HVAC-систем",
+        "src": "/images/1775817044537-7fe63fed-a865-4497-aa3a-39bee6208a55.jpg",
+        "autoplay": true,
+        "description": [
+          "Роман Абакумов - предприниматель и инженер в сфере\nсистем кондиционирования. Мы выстроили для него\nстратегию профессионального позиционирования, которая\nподчеркнула его инженерную экспертизу и практический\nвклад в отрасль."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Роман Абакумов"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          "Изначально у клиента уже были успешные проекты и опыт работы на локальном рынке в стране проживания. Со временем у него появилось желание выйти на международный уровень и развиваться как эксперт за пределами своей страны.\n",
+          "Это логичный шаг, учитывая специфику его сферы: специалистов в этом направлении немного, и они востребованы по всему миру. При этом текущий профиль был ориентирован в основном на локальную аудиторию и не отражал этот потенциал.\n"
+        ],
+        "lists": [
+          {
+            "src": "/images/1775817044537-ede53e0d-6cb1-41c0-ad99-67a6f667db63.jpg",
+            "description": "Выстроить стратегию\nпрофессионального\nпозиционирования,\nкоторая подчеркнет его\nэкспертизу и вклад в\nотрасль",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044537-f76d542e-d4c7-4cb6-931f-9e9418379e0b.jpg",
+            "description": "Повысить медийность на\nрынке США",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1775817044537-f11d8944-ad33-417e-ab13-4153504a6043.jpg",
+            "description": "Привлечь предложения о\nсотрудничестве",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1775817044537-c3ab5316-2484-4e9c-ab0c-937cdfe497b1.jpg",
+            "description": "Сформировать публичный\nпрофиль, понятный и\nдоверительный для\nмеждународной аудитории",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Медийное усиление",
+            "bullets": [
+              "Подготовили и опубликовали материал в международном технологическом СМИ с\nэкспертным комментарием Романа.",
+              "Сформировали понятное позиционирование как инженера и предпринимателя,\nработающего с энергоэффективными и экологичными решениями.",
+              "Упаковали экспертную повестку вокруг инноваций в системах кондиционирования\nи оптимизации энергопотребления."
+            ],
+            "src": "/images/1775817044537-a757793b-7797-45d3-a691-bb9331283838.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Формирование профессионального веса",
+            "bullets": [
+              "Подготовили профиль, понятный для зарубежной аудитории - инвесторов, партнеров и экспертного сообщества.",
+              "Выстроили стратегию профессионального позиционирования с акцентом на инженерную экспертизу и практический вклад в отрасль. Сформировали\nструктуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "Конкурентное продвижение",
+            "bullets": [
+              "Подобрали релевантный международный конкурс в США и подготовили сильную конкурсную заявку. Помогли сформировать сильную конкурсную заявку.",
+              "Сопроводили процесс участия и оформления материалов. Роман стал победителем в номинации\n«Достижения в области инженерии: потребительские услуги»."
+            ],
+            "src": "/images/1775817044537-12c5fb92-2128-4b42-ae62-8717319f49b4.jpg",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "Международное признание",
+            "description": "Победа в международном конкурсе в США в номинации «Достижения в\nобласти инженерии: потребительские услуги» усилила экспертный статус\nРомана и закрепила его профессиональное признание на международном\nуровне.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "МЕДИЙНОЕ ПРИСУТСТВИЕ В США",
+            "description": "Публикация в ведущем технологическом СМИ с экспертным комментарием\nоб инновациях, энергоэффективности и экологичных решениях повысила\nузнаваемость Романа на американском рынке.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "УСИЛЕНИЕ ПРОФЕССИОНАЛЬНОГО ПРОФИЛЯ",
+            "description": "Сформированная стратегия позиционирования и публичный профиль\nподчеркнули его инженерную экспертизу и практический вклад в отрасль,\nсделав его понятным для международной аудитории.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ВИЗА ТАЛАНТОВ В США",
+            "description": "Публичный профиль, подтвержденные достижения и международное\nпризнание стали частью успешного кейса по получению визы талантов в\nСША.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    }
+  }
+}

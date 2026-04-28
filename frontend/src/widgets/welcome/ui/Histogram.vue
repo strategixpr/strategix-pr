@@ -51,7 +51,10 @@
         <div
           class="bar-column"
           :class="[column.color, { animate }]"
-          :style="{ '--h': column.height + '%' }"
+          :style="{
+            '--h': column.height + '%',
+            '--hover-h': getHoveredHeight(Number(column.height)) + '%',
+          }"
           @mouseenter="hoveredColumnIndex = index"
           @mouseleave="hoveredColumnIndex = null"
         />
@@ -156,7 +159,7 @@
   }
 
   .bar-column:hover{
-    height: calc(var(--h) + clamp(10%, ((100% - var(--h)) * (100% - var(--h)) / 200%), 32%));
+    height: min(var(--hover-h), 100%);
   }
 
   /* анимация только когда есть класс */

@@ -1,23 +1,31 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import xWhite from "@/assets/images/x-white.svg";
+import imagePlaceholder from "@/assets/images/image-placeholder.svg";
 import index from '@/content/pages/index.json'
+import { resolveMediaSrc, resolveNuxtImageSrc } from '@/shared/lib/media/resolveMediaSrc'
 
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const route = useRoute()
+const { app } = useRuntimeConfig()
+const baseURL = app?.baseURL ?? '/'
 const currentLocale = locale.value || 'example'
 const translations = index.translations[currentLocale as keyof typeof index.translations] || index.translations.example
 
 const brand = translations.footer.brand
 const rights = translations.footer.rights
 const privacyPolicy = translations.footer.privacy_policy
-const privacyPolicyLink = privacyPolicy.href_pdf || '#'
+const resolvedPrivacyPolicyLink = computed(() => {
+  const rawHref = (privacyPolicy.href_pdf || '').trim()
+  if (!rawHref || rawHref === '#') return '#'
+  return resolveMediaSrc(rawHref, baseURL)
+})
 const email = translations.footer.email
 
 const normalizeIconSrc = (src?: string) => {
   if (!src || typeof src !== 'string') return ''
-  if (src.startsWith('@/public')) return src.replace(/^@\/public/, '')
-  if (src.startsWith('./')) return src.replace(/^\.\//, '/')
-  return src
+  return resolveNuxtImageSrc(src, baseURL)
 }
 
 const footerIcons = computed(() => {
@@ -32,6 +40,15 @@ const footerIcons = computed(() => {
   return normalizedIcons
 })
 
+const normalizePath = (path: string) => {
+  const normalized = path.replace(/\/+$/, '')
+  return normalized || '/'
+}
+
+const homeRoutePath = computed(() => localePath('/'))
+const homePath = computed(() => resolveMediaSrc(homeRoutePath.value, baseURL))
+const isIndexPage = computed(() => normalizePath(route.path) === normalizePath(homeRoutePath.value))
+
 const formattedPrivacyPolicyText = computed(() => {
   const text = privacyPolicy.text || ''
   const [firstWord, ...restWords] = text.trim().split(/\s+/)
@@ -39,12 +56,29 @@ const formattedPrivacyPolicyText = computed(() => {
   if (!firstWord) return ''
   return restWords.length ? `${firstWord}\n${restWords.join(' ')}` : firstWord
 })
+
+const showPlaceholderIcon = ref<Record<number, boolean>>({})
 </script>
 
 <template>
   <footer class="footer">
     <div class="footer__left">
+      <a
+        v-if="!isIndexPage"
+        :href="homePath"
+        class="logo-link"
+        aria-label="На главную"
+      >
+        <NuxtImg
+          :src="xWhite"
+          class="logo"
+          :width="50"
+          :height="43"
+          loading="lazy"
+        />
+      </a>
       <NuxtImg
+        v-else
         :src="xWhite"
         class="logo"
         :width="50"
@@ -62,7 +96,9 @@ const formattedPrivacyPolicyText = computed(() => {
       </div>
 
       <a
-        :href="privacyPolicyLink"
+        :href="resolvedPrivacyPolicyLink"
+        target="_blank"
+        rel="noopener"
         class="base-text policy hover"
       >
         {{ formattedPrivacyPolicyText }}
@@ -78,20 +114,31 @@ const formattedPrivacyPolicyText = computed(() => {
       </a>
 
       <a
-        v-for="(icon, index) in footerIcons"
-        :key="icon.href || icon.src || index"
+        v-for="(icon, iconIndex) in footerIcons"
+        :key="icon.href || icon.src || iconIndex"
         :href="icon.href || '#'"
         class="icon"
         target="_blank"
         rel="noopener"
       >
         <NuxtImg
+          v-if="!showPlaceholderIcon[iconIndex]"
           :src="icon.src"
-          :alt="`footer icon ${index + 1}`"
+          :alt="`footer icon ${iconIndex + 1}`"
           :width="24"
           :height="24"
           loading="lazy"
+          @error="showPlaceholderIcon[iconIndex] = true"
         />
+        <img
+          v-else
+          :src="imagePlaceholder"
+          :alt="`footer icon ${iconIndex + 1}`"
+          :width="24"
+          :height="24"
+          loading="lazy"
+          decoding="async"
+        >
       </a>
     </div>
   </footer>
@@ -137,6 +184,28 @@ const formattedPrivacyPolicyText = computed(() => {
   @media(--mobile-medium){
     width: auto;
     height: calc(var(--vh) * 5);
+  }
+}
+
+.logo-link {
+  width: 6.5%;
+  height: auto;
+  aspect-ratio: 7 / 6;
+  display: inline-flex;
+
+  @media(--mobile-medium){
+    width: auto;
+    height: calc(var(--vh) * 5);
+  }
+}
+
+.logo-link .logo {
+  width: 100%;
+  height: auto;
+
+  @media(--mobile-medium){
+    width: auto;
+    height: 100%;
   }
 }
 
@@ -240,8 +309,8 @@ const formattedPrivacyPolicyText = computed(() => {
   border-radius: 50%;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 
   transition: all 0.3s;
 
@@ -260,5 +329,8 @@ const formattedPrivacyPolicyText = computed(() => {
   width: auto;
   height: 55%;
   aspect-ratio: 1 / 1;
+  object-fit: contain;
+  
+  margin: auto;
 }
 </style>

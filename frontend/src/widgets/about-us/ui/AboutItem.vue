@@ -243,6 +243,8 @@
   .about-subtitle {
     width: 70vw;
     font-weight: 700;
+    font-synthesis: none;
+    font-variation-settings: "wght" 600;
     text-align: left;
     font-size: clamp(20px, 1.65vw, 40px);
     display: none;
@@ -262,6 +264,8 @@
   .about-subtitle-2 {
     width: 90%;
     font-weight: 700;
+    font-synthesis: none;
+    font-variation-settings: "wght" 700;
     text-align: left;
     font-size: min(23px, 10vw);
     display: block;

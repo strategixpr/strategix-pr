@@ -235,7 +235,8 @@
   margin-left: min(4.4%, 15px);
 
   @media(--tablet-width){
-    font-size: 36px; /* Изменение размера точек рядом с шрифтом*/
+    font-size: clamp(15px, 2.8vw, 42px); /* Изменение размера точек рядом с шрифтом*/
+    
     line-height: 60%;
     margin-left: 7.75%;
     margin-bottom: calc(var(--vh) * 0.8);
@@ -254,11 +255,12 @@
   text-align: left;
   font-size: min(16px, 4.1vw);
   line-height: 130%;
+  vertical-align: top;
 
   @media(--tablet-width){
-    font-size: clamp(14px, 1.335vw, 32px);
+    font-size: clamp(14px, 1.335vw, 32px); 
 
-    vertical-align: top;
+    vertical-align: middle;
     line-height: 165%;
   }
 

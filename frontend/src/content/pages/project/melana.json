@@ -1,0 +1,441 @@
+{
+  "id": "melana",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "OLIVE OIL",
+        "name": "MELANA",
+        "src": "/images/1777312043365-1e7dd7b1-b145-47e1-86ff-66b5c2b1c49a.png",
+        "autoplay": true,
+        "description": [
+          "The Melana brand produces olive oil in Greece.",
+          "The task was to create a bold and distinctive brand identity without relying on stereotypical olive branches or olives. For the client, the focus on illustration was especially important."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Client",
+            "value": "MELANA"
+          },
+          {
+            "label": "Country",
+            "value": "Greece"
+          },
+          {
+            "label": "Expertise",
+            "value": "Logo, Packaging"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1777312900775-109c7e2b-72a6-4b89-8f98-15af67a92442.png",
+        "alt": "Frame 2131328224 (1)",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Typografie",
+        "fonts": [
+          {
+            "assignment": "Basic font",
+            "name": "Liberty  Bold",
+            "description": "For the title and headings",
+            "font": {
+              "src": "/fonts/1777312043364-3149b651-89b0-4c4a-b0ae-e9479a99ea77.otf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Auxiliary font ",
+            "name": "Liberty  Regular",
+            "description": "For the text on the packaging",
+            "font": {
+              "src": "/fonts/1777312043364-fd4542b4-86dd-4f19-8ced-fa85e138cd72.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Color palette",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "F1E2C1",
+              "EE9D80",
+              "9FB5DE",
+              "78732E",
+              "9D986B",
+              "3D5F95",
+              "F04E4D",
+              "3A3935"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1777312043366-21635ca2-abcd-4955-81d8-35afa654d21c.png",
+        "srcMobile": "",
+        "alt": "Group 2131328540 (1)"
+      },
+      "big-image-2": {
+        "src": "/images/1777312043366-97170229-ffa1-4809-b057-96a1f51e0d6f.png",
+        "srcMobile": "",
+        "alt": "Group 2131328533 (2)"
+      },
+      "info": {
+        "title": "ILLUSTRATION AS THE FOUNDATION OF THE VISUAL LANGUAGE",
+        "description": [
+          "For the Melana brand, we created a visual language that breaks away from traditional category codes and reveals the product's origins through illustrations that are lively, emotional, and human.",
+          "The design is built around an olive-harvesting scene, conveying the atmosphere, culture, and handcrafted nature of production in a simple, contemporary form."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1777374925549-878cf326-c02c-406e-88de-f344d245e76c.png",
+        "srcMobile": "",
+        "alt": "Group 2131328534 (1)"
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Оливкое масло",
+        "name": "MELANA",
+        "src": "/images/1777284529753-7c59b459-1f58-434d-9e9a-f45efdfd1860.png",
+        "autoplay": true,
+        "description": [
+          "Бренд Melana занимается производством оливкового масла в Греции.",
+          "Задача состояла в том чтобы сделать яркий и нестандартный фирменный стиль бренда.  Без стереотипных веточек и оливок. Для клиента был важен упор на иллюстрацию."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Брендинг"
+          },
+          {
+            "label": "Клиент",
+            "value": "MELANA"
+          },
+          {
+            "label": "Страна",
+            "value": "Греция"
+          },
+          {
+            "label": "Экспертиза",
+            "value": "Логотип, Этикетка"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1777314073708-b51a5bf3-7b15-4f82-ae27-bf03e12c6ed2.png",
+        "alt": "Frame 2131328224 (1)",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Типографика",
+        "fonts": [
+          {
+            "assignment": "Основной",
+            "name": "Liberty  Bold",
+            "description": "Было выбрано название и заголовки",
+            "font": {
+              "src": "/fonts/1777311822247-14bf2287-f90e-4c9f-828e-ed7550f3ca26.otf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Вспомогательный",
+            "name": "Liberty  Regular",
+            "description": "С их широкими и незамкнутыми буквами и большой высотой x, которые были использованы для основного текста небольшого размера",
+            "font": {
+              "src": "/fonts/1777311859788-095453e9-8a9c-45c9-8f12-4700c3cd2d94.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Цветовая палитра",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "F1E2C1",
+              "EE9D80",
+              "9FB5DE",
+              "78732E",
+              "9D986B",
+              "3D5F95",
+              "F04E4D",
+              "3A3935"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1777305494747-1ea762e3-79da-4dba-afb8-eeb9d1d32a55.png",
+        "srcMobile": "",
+        "alt": "Group 2131328540 (1)"
+      },
+      "big-image-2": {
+        "src": "/images/1777285006755-cc8479f5-aa4c-4879-8ef7-d87ad0fc12d8.png",
+        "srcMobile": "",
+        "alt": "Group 2131328533 (2)"
+      },
+      "info": {
+        "title": "ИЛЛЮСТРАЦИЯ КАК ОСНОВА ВИЗУАЛЬНОГО ЯЗЫКА",
+        "description": [
+          "Для бренда Melana мы создали визуальный язык, который отходит от привычных кодов категории и раскрывает происхождение продукта через иллюстрацию — живую, эмоциональную и человечную.",
+          "Образ строится вокруг сцены сбора оливок, передавая атмосферу, культуру и ручной характер производства в простой и современной форме."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1777374941868-69b8d6e9-8cc0-46c9-89e6-a0050bbe2721.png",
+        "srcMobile": "",
+        "alt": "Group 2131328534 (1)"
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Olivenöl",
+        "name": "MELANA",
+        "src": "/images/1777360294626-5b8bb943-85a7-416a-8a8f-9251da5998b5.png",
+        "autoplay": true,
+        "description": [
+          "\nMelana produziert Olivenöl in Griechenland.",
+          "Die Herausforderung bestand darin, eine lebendige und einzigartige Markenidentität zu schaffen, frei von stereotypen Zweigen und Oliven. Der Kunde legte zudem Wert auf Illustrationen."
+        ],
+        "about": [
+          {
+            "label": "Sektor",
+            "value": "Branding"
+          },
+          {
+            "label": "Kunde",
+            "value": "MELANA"
+          },
+          {
+            "label": "Land",
+            "value": "Griechenland"
+          },
+          {
+            "label": "Expertise",
+            "value": "Logo, Verpackung"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1777360294628-aafc789d-5c0b-4caf-b359-48ccbcd5fd61.png",
+        "alt": "Frame 2131328224 (1)",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Typografie",
+        "fonts": [
+          {
+            "assignment": "Primär",
+            "name": "Liberty  Bold",
+            "description": "Für Titel und Überschriften",
+            "font": {
+              "src": "/fonts/1777360294625-0f821ed9-3fc2-4701-848d-e34259014ec1.otf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Hilfs",
+            "name": "Liberty  Regular",
+            "description": "Für den Text der Zutatenliste",
+            "font": {
+              "src": "/fonts/1777360294626-b1b963a9-44ff-4a7c-91c2-b0c8c8052c6e.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Farbpalette",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "F1E2C1",
+              "EE9D80",
+              "9FB5DE",
+              "78732E",
+              "9D986B",
+              "3D5F95",
+              "F04E4D",
+              "3A3935"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1777360294627-6086f180-f80f-4fbb-b748-26e271995df5.png",
+        "srcMobile": "",
+        "alt": "Group 2131328540 (1)"
+      },
+      "big-image-2": {
+        "src": "/images/1777360294627-5ace5260-3ee7-4c2e-96ce-f48ec1da96ce.png",
+        "srcMobile": "",
+        "alt": "Group 2131328533 (2)"
+      },
+      "info": {
+        "title": "EINE VISUELLE SPRACHE, DIE AUF ILLUSTRATION AUFBAUT",
+        "description": [
+          "Für die Marke Melana haben wir eine Bildsprache entwickelt, die sich von traditionellen Kategoriencodes löst und die Ursprünge des Produkts durch lebendige, emotionale und menschliche Illustrationen offenbart.",
+          "Das Bild basiert auf der Szene der Olivenernte und vermittelt die Atmosphäre, die Kultur und den handwerklichen Charakter der Produktion in einer einfachen und modernen Form."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1777374954411-4016f8b5-ae24-470c-966f-418b0a42f265.png",
+        "srcMobile": "",
+        "alt": "Group 2131328534 (1)"
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Aceite de oliva",
+        "name": "MELANA",
+        "src": "/images/1777360294635-72cae8c1-e6f1-4ff0-94c1-b33b795a284a.png",
+        "autoplay": true,
+        "description": [
+          "La marca Melana produce aceite de oliva en Grecia.",
+          "El objetivo era crear una identidad de marca vibrante y única, libre de los estereotipos de ramas y aceitunas. Para el cliente, era fundamental dar gran importancia a la ilustración."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Брендинг"
+          },
+          {
+            "label": "Cliente",
+            "value": "MELANA"
+          },
+          {
+            "label": "País",
+            "value": "Grecia"
+          },
+          {
+            "label": "Experiencia",
+            "value": "Logotipo, Packaging"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1777360294636-3ee9b629-6c8e-4014-8650-2f5b4add2547.png",
+        "alt": "Frame 2131328224 (1)",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Tipografía",
+        "fonts": [
+          {
+            "assignment": "Fuente básica",
+            "name": "Liberty  Bold",
+            "description": "Para el título y los encabezados",
+            "font": {
+              "src": "/fonts/1777360294635-c1889407-4399-423e-ad4f-2356f57ddefb.otf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Fuente auxiliar",
+            "name": "Liberty  Regular",
+            "description": "Para textos sobre embalaje",
+            "font": {
+              "src": "/fonts/1777360294635-28a21bf3-b069-46f9-a9bb-952b18c40dec.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Paleta de colores",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "F1E2C1",
+              "EE9D80",
+              "9FB5DE",
+              "78732E",
+              "9D986B",
+              "3D5F95",
+              "F04E4D",
+              "3A3935"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1777360294636-adc80ec2-d5a9-4019-be24-ebc9b46f7429.png",
+        "srcMobile": "",
+        "alt": "Group 2131328540 (1)"
+      },
+      "big-image-2": {
+        "src": "/images/1777360294635-d35909e6-2cf3-4495-9f79-e84e0ccc18a0.png",
+        "srcMobile": "",
+        "alt": "Group 2131328533 (2)"
+      },
+      "info": {
+        "title": "LA ILUSTRACIÓN COMO BASE DEL LENGUAJE VISUAL",
+        "description": [
+          "Para la marca Melana, creamos un lenguaje visual que rompe con los códigos de categoría tradicionales y revela los orígenes del producto a través de ilustraciones vivaces, emotivas y humanas.",
+          "La imagen se basa en una escena de la cosecha de aceitunas, transmitiendo la atmósfera, la cultura y el carácter artesanal de la producción de una forma sencilla y moderna."
+        ]
+      },
+      "big-image-3": {
+        "src": "/images/1777374971412-abeb7d12-0f55-485c-906c-5673e9ee3d22.png",
+        "srcMobile": "",
+        "alt": "Group 2131328534 (1)"
+      },
+      "other-projects": true
+    }
+  }
+}

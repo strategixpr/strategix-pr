@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import localesConfig from '@/content/locales.json'
 
+const { theme } = defineProps({
+  theme: {
+    type: String as () => 'dark' | 'light',
+    default: 'dark'
+  } 
+})
 
 const { locale, setLocale } = useI18n()
 const isDropdown = localesConfig.locales.length >= 5
@@ -16,7 +22,9 @@ const changeLanguage = (langCode: string) => {
 </script>
 
 <template>
-  <nav class="lang-nav">
+  <nav
+    :class="['lang-nav', theme]"
+  >
     <div class="lang-switcher">
       <!-- активный язык со стрелкой -->
       <button
@@ -50,6 +58,18 @@ const changeLanguage = (langCode: string) => {
     position: relative;
   }
 
+  .lang-nav.light{
+    --lang-text-color: var(--strategix-dark);
+    --lang-text-color-hover: var(--strategix-light);
+    --lang-dropdown-bg: #9A9A9A;
+  }
+
+  .lang-nav.dark{
+    --lang-text-color: var(--strategix-light);
+    --lang-text-color-hover: var(--strategix-light);
+    --lang-dropdown-bg: #37393D;
+  }
+
   .lang-switcher {
     position: relative;
     display: inline-block;     
@@ -70,7 +90,7 @@ const changeLanguage = (langCode: string) => {
 
     border: none;
     background: transparent;
-    color: #ffffff;
+    color: var(--lang-text-color);
 
     cursor: pointer;
     white-space: nowrap;
@@ -92,8 +112,8 @@ const changeLanguage = (langCode: string) => {
     width: 6px;
     height: 6px;
 
-    border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid var(--lang-text-color);
+    border-bottom: 2px solid var(--lang-text-color);
     transform: translateY(-2px) rotate(45deg);      /* стрелка вниз */
     transform-origin: center;
     transition: transform 0.15s ease;
@@ -104,14 +124,14 @@ const changeLanguage = (langCode: string) => {
   .lang-list-column {
     position: absolute;
     top: 100%;
-    right: -12px;
+    right: -2px;
 
     margin: 0;
-    padding: 12px 18px;
+    padding: 12px 8px;
     list-style: none;
 
     border-radius: var(--card-radius);
-    background-color: #262626;
+    background-color: var(--lang-dropdown-bg);
 
     opacity: 0;
     pointer-events: none;
@@ -133,7 +153,7 @@ const changeLanguage = (langCode: string) => {
     outline: none;
 
     text-decoration: none;
-    color: white;
+    color: var(--lang-text-color-hover);
     white-space: nowrap;
 
     @media(width < 768px){
@@ -190,6 +210,10 @@ const changeLanguage = (langCode: string) => {
       opacity: 1;
       pointer-events: auto;
       transform: none;
+    }
+
+    .lang-link{
+      color: var(--lang-text-color);
     }
 
     .lang-list .lang-item + .lang-item {

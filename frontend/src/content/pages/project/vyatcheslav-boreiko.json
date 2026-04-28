@@ -1,0 +1,309 @@
+{
+  "id": "vyatcheslav-boreiko",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Vyacheslav Boreiko",
+        "name": "Restaurateur",
+        "src": "/images/1774784726896-9c2f01c7-dd87-4481-a7ac-a28dd6136bc7.jpg",
+        "autoplay": true,
+        "description": [
+          "Vyacheslav Boreiko is a restaurateur who entered the U.S. market and received an offer to open a restaurant in California."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Personal Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Vyacheslav Boreiko"
+          },
+          {
+            "label": "Country",
+            "value": "Russia"
+          },
+          {
+            "label": "Market",
+            "value": "USA"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Client’s Goals",
+        "description": [
+          "Vyacheslav Boreiko is a Moscow-based restaurateur with eight years of experience in launching and managing turnkey restaurant projects.\n",
+          "He approached us with the following goals:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1774784726899-f3bc5006-539d-40dd-9429-5e7fa41ae1e3.jpg",
+            "description": "Strengthen personal brand and expert positioning internationally",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1774784726898-9389060f-fda0-4331-925a-c5b738365e7d.jpg",
+            "description": "Increase media presence in the U.S.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1774784726898-ca720100-a8ae-402a-ad7e-5556b0bda45f.jpg",
+            "description": "Build a public profile trusted by international investors",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1774784726898-189875cb-f567-445a-9f83-62ab4d9c5423.jpg",
+            "description": "Expand professional network in the U.S. and find partners for a new restaurant project",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "OUR STRATEGY",
+        "subtitle": "We developed a comprehensive promotion strategy that included:",
+        "lists": [
+          {
+            "title": "MEDIA POSITIONING",
+            "bullets": [
+              "Secured and published multiple features in international media, including a piece in Grit Daily on restaurant business strategies and Vyacheslav’s experience launching projects from scratch.",
+              "Built a clear English-language positioning profile, presenting him as an entrepreneur who has successfully launched restaurants in the CIS and can scale this experience in the U.S.",
+              "Strengthened his LinkedIn profile by structuring his expertise, achievements, and English-language content to make it compelling for U.S. investors and partners."
+            ],
+            "src": "/images/1774784726898-5887e626-22ca-472f-98e4-b94f029b735f.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "BUILDING PROFESSIONAL CREDIBILITY",
+            "bullets": [
+              "Analyzed relevant industry awards and competitions.",
+              "Selected a suitable international competition and fully supported Vyacheslav throughout the process — from application to final submission.",
+              "Structured a strong track record narrative, from restaurant revenue to event масштабы — including 50,000–70,000 guests annually through banquet operations."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "COMPETITIVE POSITIONING",
+            "bullets": [
+              "Developed a strong application for an international competition.",
+              "Vyacheslav won the award, reinforcing his international positioning."
+            ],
+            "src": "/images/1774784726897-ecc52467-2a0d-46ba-abd6-7cd9a3e743d7.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "RESULTS",
+        "subtitle": "The project took several months and led to significant shifts in the client’s professional trajectory:",
+        "blocks": [
+          {
+            "title": "INTERNATIONAL RECOGNITION",
+            "description": "Winning the competition and media coverage established a strong expert presence for Vyacheslav in the English-speaking market.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "EXPANDING PROFESSIONAL NETWORK IN THE U.S.",
+            "description": "As a result of his media presence and positioning, U.S.-based entrepreneurs began reaching out for collaboration.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "RESTAURANT LAUNCH OPPORTUNITY IN THE U.S.",
+            "description": "Following the publication and competition, Vyacheslav received an offer from partners in California to open a joint restaurant.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "RELOCATION TO THE U.S.",
+            "description": "A strong public profile, recognized achievements, and international visibility strengthened his case. Vyacheslav relocated to the U.S. and began developing projects in the American market.",
+            "background": "transparent",
+            "border": true
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Вячеслав Борейко",
+        "name": "Ресторатор",
+        "src": "/images/1773977890020-801c09b4-5593-48e3-92eb-b3ab03a45aa0.jpg",
+        "autoplay": true,
+        "description": [
+          "Вячеслав Борейко — ресторатор, который вышел на рынок США и получил предложение открыть ресторан в Калифорнии"
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Вячеслав Борейко"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          "Вячеслав Борейко — успешный московский ресторатор с восемью годами опыта управления и открытия ресторанов «под ключ».",
+          "Он обратился к нам с запросом:"
+        ],
+        "lists": [
+          {
+            "src": "/images/world-map.jpg",
+            "description": "Усилить личный бренд и экспертность в международной среде",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/digital-marketing.jpg",
+            "description": "Повысить медийность в США",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/handshake.jpg",
+            "description": "Создать публичный профиль, который будет понятен и доверителен для иностранных инвесторов",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/flag-USA.jpg",
+            "description": "Расширить сеть профессиональных контактов в США и найти партнеров для нового ресторанного проекта",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Медийное усиление",
+            "bullets": [
+              "Подготовили и опубликовали несколько материалов в международных медиа, включая публикацию в издании Grit Dail — о стратегиях ресторанного бизнеса и опыте Вячеслава как руководителя, открывающего проекты с нуля.",
+              "Сформировали понятный англоязычный позиционирующий профиль — как предпринимателя, который создал успешные рестораны в странах СНГ и способен тиражировать этот опыт в США.",
+              "Мы также усилили LinkedIn-профиль, оформив экспертное позиционирование, достижения и англоязычный контент так, чтобы он стал понятен и убедителен для американских инвесторов и партнеров."
+            ],
+            "src": "/images/cooking.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Формирование профессионального веса",
+            "bullets": [
+              "Проанализировали отраслевых премий и конкурсов.",
+              "Подобрали релевантный международный конкурс и полностью сопровождали Вячеслава: от подачи заявки до финального пакета материалов.",
+              "Подготовили историю достижений: от оборотов ресторанов до объемов мероприятий — более 50 000 – 70 000 гостей в год только на банкетах."
+            ],
+            "src": "",
+            "location": "",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "Конкурентное продвижение",
+            "bullets": [
+              "Помогли сформировать сильную конкурсную заявку.",
+              "Вячеслав победил в конкурсе, что стало еще одной точкой для его международного позиционирования."
+            ],
+            "src": "/images/boreyko.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "Международное признание",
+            "description": "Победа в конкурсе и публикации в медиа сформировали устойчивый экспертный образ Вячеслава на англоязычном рынке.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "Расширение профессиональных контактов в США",
+            "description": "Благодаря медийному присутствию и позиционированию к Вячеславу начали обращаться американские предприниматели.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Предложение об открытии ресторана в США",
+            "description": "После выхода материала и конкурса Вячеслав получил приглашение от партнеров в Калифорнии — открыть совместное заведение.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Релокация в США",
+            "description": "Сформированный публичный профиль, собранные достижения и признание усилили его международный кейс. Вячеслав переехал в США и начал развивать свои проекты на американском рынке.",
+            "background": "",
+            "border": true
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    }
+  }
+}

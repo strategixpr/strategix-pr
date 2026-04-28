@@ -1,0 +1,417 @@
+{
+  "id": "toba",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "CAN OF WINE",
+        "name": "TOBA",
+        "src": "/images/1775331166387-53ef3043-977f-4e62-a683-1b1370e9b7ba.jpg",
+        "autoplay": true,
+        "description": [
+          "The TOBA project is Georgian wine in an aluminum can, developed for the European market.",
+          "The core idea is to introduce consumers to Georgia’s rich cultural heritage in a contemporary format.",
+          "Each can features a QR code that leads to a page dedicated to one of the country’s cultural landmarks. To explore the full heritage collection, consumers are encouraged to collect all TOBA cans."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Client",
+            "value": "TOBA"
+          },
+          {
+            "label": "Country",
+            "value": "Georgia"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategy, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775331166387-03d12094-fcc4-4b1a-a5e3-81bfe0dcea1e.png",
+        "alt": "логотип Тоба",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TYPOGRAPHY",
+        "fonts": [
+          {
+            "assignment": "Primary",
+            "name": "Bebas",
+            "description": "The typeface was chosen for titles and headings",
+            "font": {
+              "src": "/fonts/1775331166384-cc47200b-2ae4-4510-811c-68edde3820b3.ttf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Secondary",
+            "name": "Futura futuris c",
+            "description": "With its wide, open letterforms and high x-height, it was used for smaller body text",
+            "font": {
+              "src": "/fonts/1775331166385-1cfd3a11-8778-4fee-ad7e-b34d0b326786.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "COLOR PALETTE",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "232F5F",
+              "EF5F5E",
+              "FCBB48"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775331166386-24715c6d-4b56-499d-b478-d23889ebbe1b.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "big-image-2": {
+        "src": "/images/1775331166385-97a3e861-fa37-4377-8f18-a81a03abd226.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "info": {
+        "title": "A fusion of cultural storytelling, technology, and a contemporary product format",
+        "description": [
+          "We developed a visual concept where each can represents a distinct element of Georgia’s cultural heritage — from architecture and art to history and craftsmanship. Illustrations and color schemes vary from release to release, forming a collectible series.",
+          "The design blends the minimalism of contemporary European aesthetics with recognizable Georgian motifs."
+        ]
+      },
+      "big-logo-2": {
+        "src": "/images/1775331166386-1eda846c-cd17-4dba-bb9b-69fe00d4666f.jpg",
+        "alt": "логотип Тоба 2",
+        "backgroundColor": "#212D61"
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "БАНКА ВИНА",
+        "name": "TOBA",
+        "src": "/images/toba-main.jpg",
+        "autoplay": true,
+        "description": [
+          "Проект TOBA — это грузинское вино в алюминиевой банке, разработанное для европейского рынка.",
+          "Главная идея — познакомить потребителя с богатым культурным наследием Грузии в современном формате.",
+          "Каждая банка снабжена QR-кодом, который ведёт на страницу с описанием одного из культурных памятников страны.Чтобы узнать всё о грузинском наследии, необходимо собрать все банки TOBA."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Брендинг"
+          },
+          {
+            "label": "Клиент",
+            "value": "TOBA"
+          },
+          {
+            "label": "Страна",
+            "value": "Грузия"
+          },
+          {
+            "label": "Экспертиза",
+            "value": "Стратегия, Брендинг"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/toba-logo.png",
+        "alt": "логотип Тоба",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "Типографика",
+        "fonts": [
+          {
+            "font": {
+              "src": "/fonts/BebasNeue-Regular.ttf",
+              "weight": 700,
+              "scale": 1.6
+            },
+            "assignment": "Основной",
+            "name": "Bebas",
+            "description": "Было выбрано название и заголовки"
+          },
+          {
+            "font": {
+              "src": "/fonts/Futurafuturisc.otf",
+              "weight": 700,
+              "scale": 1
+            },
+            "assignment": "Вспомогательный",
+            "name": "Futurafuturisc",
+            "description": "С их широкими и незамкнутыми буквами и большой высотой x, которые были использованы для основного текста небольшого размера"
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "Цветовая палитра",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "232F5F",
+              "EF5F5E",
+              "FCBB48"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/toba-image.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "big-image-2": {
+        "src": "/images/toba-image-2.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "info": {
+        "title": "объединение культурного повествование, технологичность и современный формат продукта",
+        "description": [
+          "Мы создали визуальную концепцию, в которой каждая банка представляет отдельный элемент культурного наследия Грузии: архитектуру, искусство, историю и ремёсла. Иллюстрации и цвета варьируются от выпуска к выпуску, формируя коллекционную серию.",
+          "Графика сочетает минимализм современного европейского дизайна и узнаваемые грузинские мотивы."
+        ]
+      },
+      "big-logo-2": {
+        "src": "/images/toba-logo-2.jpg",
+        "alt": "логотип Тоба 2",
+        "backgroundColor": "#212D61"
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "WEINKRUG",
+        "name": "TOBA",
+        "src": "/images/1775331166412-e09a59e2-d1e1-46fb-a58d-d43360e54974.jpg",
+        "autoplay": true,
+        "description": [
+          "TOBA ist georgischer Wein in der Dose, entwickelt für den europäischen Markt.",
+          "Im Kern bringt das Projekt das reiche kulturelle Erbe Georgiens in ein modernes, zugängliches Format.",
+          "Jede Dose enthält einen QR-Code, der die Geschichte eines kulturellen Wahrzeichens des Landes erlebbar macht. Wer alle Dosen sammelt, entdeckt das georgische Erbe Stück für Stück."
+        ],
+        "about": [
+          {
+            "label": "Sektor",
+            "value": "Branding"
+          },
+          {
+            "label": "Клиент",
+            "value": "TOBA"
+          },
+          {
+            "label": "Land",
+            "value": "Georgien"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategie, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775331166412-a83c4ea1-7a07-41d7-8caf-06f6a3fcd167.png",
+        "alt": "логотип Тоба",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TYPOGRAFIE",
+        "fonts": [
+          {
+            "assignment": "Primär",
+            "name": "Bebas",
+            "description": "Die Schrift wurde für Titel und Überschriften ausgewählt",
+            "font": {
+              "src": "/fonts/1775331166411-ed587318-3e5f-42fa-80d4-878583c97d8f.ttf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Sekundär",
+            "name": "Futura futuris c",
+            "description": "Mit ihren breiten, offenen Buchstabenformen und der hohen x-Höhe eignet sie sich für Fließtext in kleineren Größen",
+            "font": {
+              "src": "/fonts/1775331166411-f809bfc3-cea8-4a2b-a46f-6dfd81177bf6.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "FARBPALETTE",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "232F5F",
+              "EF5F5E",
+              "FCBB48"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775331166411-da10e71c-cf01-4dbb-a175-016852101d6b.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "big-image-2": {
+        "src": "/images/1775331166411-c7764da2-9586-435e-aa1c-f1ff75bf563c.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "info": {
+        "title": "EINE VERBINDUNG AUS KULTURELLEM STORYTELLING, TECHNOLOGIE UND EINEM MODERNEN PRODUKTFORMAT",
+        "description": [
+          "Wir haben ein visuelles Konzept entwickelt, bei dem jede Dose ein eigenes Element des kulturellen Erbes Georgiens repräsentiert — von Architektur und Kunst bis hin zu Geschichte und Handwerk. Illustrationen und Farbwelten variieren je nach Edition und formen eine sammelbare Serie.",
+          "Das Design verbindet den Minimalismus zeitgenössischer europäischer Gestaltung mit wiedererkennbaren georgischen Motiven."
+        ]
+      },
+      "big-logo-2": {
+        "src": "/images/1775331166411-0b2c7e7b-ad07-46f6-9cbc-98d8615ca84c.jpg",
+        "alt": "логотип Тоба 2",
+        "backgroundColor": "#212D61"
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "VINO EN LATA",
+        "name": "TOBA",
+        "src": "/images/1775331166443-2e9e7518-e32d-4f29-817b-abced4722777.jpg",
+        "autoplay": true,
+        "description": [
+          "TOBA es vino georgiano en lata, creado para el mercado europeo.",
+          "En esencia, el proyecto acerca el rico patrimonio cultural de Georgia en un formato contemporáneo y accesible.",
+          "Cada lata incorpora un código QR que abre la historia de uno de los monumentos culturales del país. Para descubrir toda la colección, se invita a los consumidores a reunir todas las latas de TOBA."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Cliente",
+            "value": "TOBA"
+          },
+          {
+            "label": "País",
+            "value": "Georgia"
+          },
+          {
+            "label": "Experiencia",
+            "value": "Estrategia, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775331166443-24d1ed38-5fad-43e1-b2e3-500b339d7d49.png",
+        "alt": "логотип Тоба",
+        "backgroundColor": "#F1F1F1"
+      },
+      "typograhy": {
+        "title": "TIPOGRAFÍA",
+        "fonts": [
+          {
+            "assignment": "Principal",
+            "name": "Bebas",
+            "description": "La tipografía fue elegida para títulos y encabezados",
+            "font": {
+              "src": "/fonts/1775331166443-a17fa251-f27d-4a3b-b089-5f0823c9c950.ttf",
+              "weight": 700,
+              "scale": 1.6
+            }
+          },
+          {
+            "assignment": "Secundaria",
+            "name": "Futura futuris c",
+            "description": "Con sus formas abiertas y su gran altura de x, se utilizó para textos en tamaños más pequeños",
+            "font": {
+              "src": "/fonts/1775331166443-b1371657-0bbc-46eb-b258-02f447e5790c.otf",
+              "weight": 700,
+              "scale": 1
+            }
+          }
+        ]
+      },
+      "color-palette": {
+        "title": "PALETA DE COLORES",
+        "colors-blocks": [
+          {
+            "assignment": "",
+            "colors": [
+              "232F5F",
+              "EF5F5E",
+              "FCBB48"
+            ]
+          }
+        ]
+      },
+      "big-image": {
+        "src": "/images/1775331166443-227a49c5-29a0-477b-afe2-0f4dec582da0.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "big-image-2": {
+        "src": "/images/1775331166443-b9489274-a944-4cb6-a90a-526ad8844f50.jpg",
+        "alt": "большая картинкаТоба"
+      },
+      "info": {
+        "title": "UNA FUSIÓN DE NARRATIVA CULTURAL, TECNOLOGÍA Y UN FORMATO DE PRODUCTO CONTEMPORÁNEO",
+        "description": [
+          "Desarrollamos un concepto visual en el que cada lata representa un elemento distinto del patrimonio cultural de Georgia — desde la arquitectura y el arte hasta la historia y la artesanía. Las ilustraciones y las paletas de color varían de una edición a otra, creando una serie coleccionable.",
+          "El diseño combina el minimalismo del diseño europeo contemporáneo con motivos georgianos reconocibles."
+        ]
+      },
+      "big-logo-2": {
+        "src": "/images/1775331166443-6791f90a-890f-4399-a371-7ed66ea492da.jpg",
+        "alt": "логотип Тоба 2",
+        "backgroundColor": "#212D61"
+      },
+      "other-projects": true
+    }
+  }
+}

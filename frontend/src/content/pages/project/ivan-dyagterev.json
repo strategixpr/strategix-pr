@@ -1,0 +1,525 @@
+{
+  "id": "ivan-dyagterev",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Ivan Dyagterev",
+        "name": "Senior Systems Administrator",
+        "src": "/images/1777278014456-05004fc5-c06d-4821-994f-523f76d60bcc.png",
+        "autoplay": true,
+        "description": [
+          "Ivan Dyagterev is an expert in IT infrastructure and a Senior Systems Administrator. He works for a U.S.-based company whose clients include major medical centers and real estate development projects. He is currently preparing for international certifications in information security (Cisco CCNP Security and Cisco CCIE Security).\n",
+          "Previously, he worked for large companies in the IT and agricultural sectors."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Personal Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Ivan Dyagterev"
+          },
+          {
+            "label": "Country",
+            "value": "Russia"
+          },
+          {
+            "label": "Market",
+            "value": "United States"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Client Goals",
+        "description": [
+          "The client already had a strong professional background and a stable career in the local market. Through his network, he saw peers successfully entering international markets, relocating, and significantly increasing their income and opportunities.",
+          "He approached us with the following goals:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1777278213129-9488aec4-2b97-4c01-bb90-9eef2e769638.png",
+            "description": "Elevate his local experience into a global positioning",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777278249982-40a05b77-d275-46e3-82f1-38ca968f7bc1.png",
+            "description": "Showcase his expertise to gain visibility in the U.S. market",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777278359373-31f8f0d6-429c-441e-b636-3f1366511ede.png",
+            "description": "Prepare a profile aligned with global career opportunities and partnerships",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777278434857-b83c820e-db31-41f1-9295-00c73bff8c75.png",
+            "description": "Strengthen his case for talent visa approval\n",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "OUR Strategy",
+        "subtitle": "We developed a comprehensive strategy that included:",
+        "lists": [
+          {
+            "title": "MEDIA POSITIONING",
+            "bullets": [
+              "Expanded the client’s professional profile beyond his core role as a Senior Systems Administrator by highlighting his expertise in cybersecurity — a highly relevant and in-demand field where he has strong practical experience.",
+              "Chose a more relevant media angle: focusing on cybersecurity allowed us to place the client’s expertise within the current media landscape and make it accessible to a broader audience.",
+              "We aligned the outreach with a spike in media attention around cybersecurity, fueled by data breaches and cyberattacks. This helped position the client within the ongoing conversation and drive strong media coverage."
+            ],
+            "src": "/images/1775825461621-f2296151-540d-4ca4-ade4-8c8b1e4826d3.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "BUILDING PROFESSIONAL CREDIBILITY",
+            "bullets": [
+              "Developed a clear international positioning, presenting the client as a specialist working at the intersection of systems administration and cybersecurity.",
+              "Strengthened his professional profile by identifying additional opportunities for recognition, including professional associations and credentials, making his profile more credible and compelling for an international audience."
+            ],
+            "src": "/images/1775825461622-78cdb35c-fde9-48bc-a84d-32fa867ff743.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Results",
+        "subtitle": "The project took several months and led to real changes in the client’s career",
+        "blocks": [
+          {
+            "title": "BROAD MEDIA VISIBILITY",
+            "description": "Media materials featuring the client were cited more than 50 times across other publications and social platforms, creating a strong ripple effect and significantly expanding overall reach.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "STRENGTHENED PROFESSIONAL PROFILE",
+            "description": "We positioned the client as a nationally recognized cybersecurity expert — someone who could offer informed commentary on the most relevant and sensitive issues in the industry.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "FORBES COMMENTARY REQUEST",
+            "description": "The client received a request for expert commentary from Forbes, which further reinforced his credibility. Forbes remains one of the most recognizable and respected media brands globally.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "U.S. GREEN CARD THROUGH EB-1A",
+            "description": "A strong public profile, international media coverage, and documented expert recognition became part of a successful EB-1A case for a U.S. green card, a category for individuals with extraordinary ability.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Иван Дягтерев",
+        "name": "Senior Systems Administrator",
+        "src": "/images/1776661886299-06f351e2-921c-4d83-bed7-f074ccc05cb0.jpg",
+        "autoplay": true,
+        "description": [
+          "Иван Дегтярев — эксперт в области IT-инфраструктуры и Senior Systems Administrator. Работает в американской компании, среди клиентов которой — крупные медицинские центры и девелоперские проекты. В настоящее время готовится к получению международных сертификаций в области информационной безопасности (Cisco CCNP Security и Cisco CCIE Security).\n\n",
+          "Ранее работал в крупных компаниях в сфере ИТ и агропромышленного сектора."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Иван Дегтярев"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          " у клиента уже был сильный профессиональный бэкграунд и стабильная карьера на локальном рынке. Благодаря окружению и профессиональным контактам он видел примеры специалистов из своей сферы, которые выходили на международный рынок, переезжали и значительно росли в доходе и возможностях.\n",
+          "Поэтому он обратился к нам с запросом:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1777278191612-80adf44a-effe-4cc9-a2f3-3b5625dc5b3d.png",
+            "description": "Упаковать уже сильный локальный опыт в понятное международное позиционирование",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777278272308-70f9afc4-958d-4e51-8f3f-2b178ffc9533.png",
+            "description": "Показать его экспертизу так, чтобы она была заметна на рынке США ",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777278340958-62c6cdb0-3ecf-4104-b84f-74edda584b42.png",
+            "description": "Подготовить профиль к карьерным возможностям за рубежом ",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777278417450-cc0f384c-0a8d-40ad-a524-e3b382007647.png",
+            "description": "Усилить профиль под визовые критерии",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Медийное усиление",
+            "bullets": [
+              "Расширили профессиональный профиль клиента: помимо основной должности Senior System Administrator предложили усилить его экспертизой в сфере кибербезопасности — как актуальным и прикладным направлением, в котором специалист действительно обладает сильной компетенцией.",
+              "Выбрали более релевантный для медиа угол позиционирования: тема кибербезопасности позволила встроить экспертизу клиента в современную повестку и сделать ее понятной для широкой аудитории.",
+              "Точно попали в момент повышенного интереса СМИ к вопросам кибербезопасности на фоне инфоповодов, связанных со взломами и утечками данных. Это позволило органично включить клиента в актуальный общественный контекст и получить широкий охват."
+            ],
+            "src": "/images/1775822098981-33e2c03a-7843-4e39-99d0-edbe2bf82b7e.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "ФОРМИРОВАНИЕ ПРОФЕССИОНАЛЬНОГО ВЕСА",
+            "bullets": [
+              "Выстроили понятное международное позиционирование клиента как специалиста, работающего на пересечении системного администрирования и кибербезопасности.",
+              "Проработали дополнительные возможности для усиления профильных ассоциаций и профессионального статуса, чтобы сделать образ специалиста более устойчивым и убедительным для внешней аудитории."
+            ],
+            "src": "/images/1775822284909-bf790419-d6e8-4845-bbb1-89a67465b389.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "ШИРОКИЙ МЕДИЙНЫЙ РЕЗОНАНС",
+            "description": "Материалы с участием клиента получили более 50 цитирований в других изданиях и СМИ, что дало сильный каскадный эффект и значительно расширило охват",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "УСИЛЕНИЕ ПРОФЕССИОНАЛЬНОГО ПРОФИЛЯ",
+            "description": "Мы выстроили позиционирование клиента как эксперта национального уровня в теме кибербезопасности — специалиста, который может профессионально комментировать самые актуальные и чувствительные для рынка вопросы",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Запрос от Forbes",
+            "description": "Клиент получил запрос на комментарий от Forbes. Это дополнительно усилило его статус, поскольку Forbes остается одним из самых узнаваемых и авторитетных медиа на международном уровне.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ГРИН-КАРТА США ПО EB-1A",
+            "description": "Сильный публичный профиль, международные публикации и подтвержденная экспертность стали частью успешного кейса по получению грин-карты США по визе для людей с выдающимися способностями EB-1A.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Ivan Djägterew",
+        "name": "Senior Systems Administrator",
+        "src": "/images/1777278058831-174f8b05-d26e-414d-9ffc-756539b64e98.png",
+        "autoplay": true,
+        "description": [
+          "Ivan Degtjarjow ist ein Experte im Bereich der IT-Infrastruktur und Senior Systems Administrator. Er arbeitet in einem amerikanischen Unternehmen, zu dessen Kunden große medizinische Zentren und Entwicklungsprojekte gehören. Derzeit bereitet er sich auf den Erwerb internationaler Zertifizierungen im Bereich der Informationssicherheit vor (Cisco CCNP Security und Cisco CCIE Security).",
+          "Zuvor arbeitete er in großen Unternehmen im IT- und Agrarindustriesektor."
+        ],
+        "about": [
+          {
+            "label": "Bereich",
+            "value": "Persönliche Vermarktung"
+          },
+          {
+            "label": "Kunde",
+            "value": "Ivan Degtjarjow"
+          },
+          {
+            "label": "Land",
+            "value": "Russland"
+          },
+          {
+            "label": "Markt",
+            "value": "USA"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Aufgabe des Kunden",
+        "description": [
+          "Der Kunde verfügte bereits über einen starken beruflichen Hintergrund und eine stabile Karriere auf dem lokalen Markt. Dank seines Umfelds und seiner beruflichen Kontakte sah er Beispiele von Fachleuten aus seiner Branche, die auf den internationalen Markt gingen, umzogen und ihr Einkommen sowie ihre Möglichkeiten deutlich steigerten.",
+          "Daher wandte er sich mit folgender Anfrage an uns:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1775825461635-6efa7860-6ef5-43d7-b3c5-dc362922354b.png",
+            "description": "Den bereits starken lokalen Erfahrungshintergrund in eine klare internationale Positionierung übersetzen",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777278291070-941a0e7e-ddcc-4602-8335-441a86c15592.png",
+            "description": "Seine Expertise so darstellen, dass sie auf dem US-Markt sichtbar wird",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777278372173-9b1e5f41-5aa2-4d62-a8b2-fb6239cf248a.png",
+            "description": "Das Profil auf Karrieremöglichkeiten im Ausland und den Erhalt relevanter Kooperationsangebote vorbereiten",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777278449190-87d36a61-74b0-45ed-bcd3-69cca120d59f.png",
+            "description": "Das Profil im Hinblick auf Visakriterien stärken",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Welche Strategie wir vorgeschlagen haben",
+        "subtitle": "Wir haben eine umfassende Vermarktungsstrategie entwickelt, die Folgendes umfasste:",
+        "lists": [
+          {
+            "title": "Mediale Stärkung",
+            "bullets": [
+              "Wir haben das berufliche Profil des Kunden erweitert: Neben seiner Hauptposition als Senior System Administrator schlugen wir vor, sein Profil zusätzlich durch Expertise im Bereich Cybersicherheit zu stärken — als ein aktuelles und praxisnahes Feld, in dem der Spezialist tatsächlich über hohe Kompetenz verfügt.",
+              "Wir wählten einen für die Medien relevanteren Positionierungsansatz: Das Thema Cybersicherheit ermöglichte es, die Expertise des Kunden in die aktuelle Agenda einzubetten und sie für ein breites Publikum verständlich zu machen.",
+              "Wir trafen genau den Zeitpunkt des gesteigerten Medieninteresses an Fragen der Cybersicherheit vor dem Hintergrund von Nachrichtenanlässen im Zusammenhang mit Hackerangriffen und Datenlecks. Dadurch konnten wir den Kunden organisch in den aktuellen öffentlichen Kontext einbinden und eine große Reichweite erzielen."
+            ],
+            "src": "/images/1775825461636-c077fa7f-a8cb-461d-89d5-b39e401b5b22.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "AUFBAU PROFESSIONELLER GEWICHTUNG",
+            "bullets": [
+              "Wir haben eine klare internationale Positionierung des Kunden als Spezialisten entwickelt, der an der Schnittstelle von Systemadministration und Cybersicherheit arbeitet.",
+              "Wir haben zusätzliche Möglichkeiten zur Stärkung fachlicher Assoziationen und des beruflichen Status ausgearbeitet, um das Profil des Spezialisten für die externe Zielgruppe stabiler und überzeugender zu machen."
+            ],
+            "src": "/images/1775825461636-638a5b65-6a65-450d-8101-59df5e5711aa.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Ergebnis",
+        "subtitle": "Die Arbeit dauerte mehrere Monate und führte zu Veränderungen in der beruflichen Laufbahn des Kunden:",
+        "blocks": [
+          {
+            "title": "BREITE MEDIALE RESONANZ",
+            "description": "Materialien mit Beteiligung des Kunden wurden in anderen Publikationen und Medien mehr als 50-mal zitiert, was einen starken Kaskadeneffekt auslöste und die Reichweite erheblich vergrößerte.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "STÄRKUNG DES PROFESSIONELLEN PROFILS",
+            "description": "Wir haben den Kunden als Experten von nationalem Rang im Bereich Cybersicherheit positioniert — als Spezialisten, der die aktuellsten und sensibelsten Fragen des Marktes professionell kommentieren kann.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "ANFRAGE VON FORBES",
+            "description": "Der Kunde erhielt eine Anfrage für einen Kommentar von Forbes. Dies stärkte seinen Status zusätzlich, da Forbes international weiterhin zu den bekanntesten und angesehensten Medien gehört.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "US-GREEN-CARD NACH EB-1A",
+            "description": "Ein starkes öffentliches Profil, internationale Veröffentlichungen und nachgewiesene Expertise wurden Teil eines erfolgreichen Falls zur Erlangung einer US-Green-Card im Rahmen des Visums EB-1A für Personen mit außergewöhnlichen Fähigkeiten.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Iván Degtiariov",
+        "name": "Senior Systems Administrator",
+        "src": "/images/1777278071360-86d44d2c-77b8-402d-a2df-5e1b3644aa0c.png",
+        "autoplay": true,
+        "description": [
+          "Iván Degtiariov es experto en infraestructura IT y Senior Systems Administrator. Trabaja en una empresa estadounidense cuyos clientes incluyen grandes centros médicos y proyectos de desarrollo inmobiliario. Actualmente se está preparando para obtener certificaciones internacionales en seguridad de la información, como Cisco CCNP Security y Cisco CCIE Security.\n",
+          "Anteriormente trabajó en grandes empresas de los sectores IT y agroindustrial."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Promoción personal"
+          },
+          {
+            "label": "Cliente",
+            "value": "Iván Degtiariov"
+          },
+          {
+            "label": "Mercado",
+            "value": "Estados Unidos"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "SOLICITUD DEL CLIENTE",
+        "description": [
+          "El cliente ya contaba con una sólida trayectoria profesional y una carrera estable en el mercado local. Gracias a su entorno y a sus contactos profesionales, veía ejemplos de especialistas de su sector que estaban entrando en mercados internacionales, se mudaban al extranjero y lograban crecer significativamente en ingresos y oportunidades.",
+          "Por eso acudió a nosotros con la siguiente solicitud:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1777278115492-cf526727-4a77-43de-adbd-faf37f65d230.png",
+            "description": "Convertir su sólida experiencia local en un posicionamiento internacional claro y comprensible",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777278303548-ef95b147-286e-4e2b-bc46-7c2a195b511a.png",
+            "description": "Hacer visible su expertise en el mercado estadounidense",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777278382986-66c78162-f11d-45fe-b720-d22164cfcf29.png",
+            "description": "Preparar su perfil para oportunidades profesionales fuera del país y para recibir propuestas relevantes de colaboración",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777278461939-a7dab0f9-2a72-476d-a1c3-4fff3a15552b.png",
+            "description": "Fortalecer su perfil de acuerdo con los criterios migratorios",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "QUÉ ESTRATEGIA PROPUSIMOS",
+        "subtitle": "DESARROLLAMOS UNA ESTRATEGIA INTEGRAL DE PROMOCIÓN QUE INCLUÍA:",
+        "lists": [
+          {
+            "title": "REFUERZO MEDIÁTICO",
+            "bullets": [
+              "Ampliamos el perfil profesional del cliente: además de su puesto principal como Senior Systems Administrator, destacamos su expertise en ciberseguridad, un área relevante y aplicada en la que el especialista cuenta con competencias sólidas.",
+              "Elegimos un ángulo de posicionamiento más atractivo para los medios: el tema de la ciberseguridad permitió conectar la experiencia del cliente con la agenda actual y hacerla comprensible para una audiencia más amplia.",
+              "Aprovechamos un momento de mayor interés mediático por la ciberseguridad, impulsado por noticias sobre hackeos y filtraciones de datos. Esto permitió integrar de forma orgánica al cliente en el contexto informativo actual y lograr una mayor cobertura."
+            ],
+            "src": "/images/1775825461646-bc1238ca-05c2-4b7c-b85d-f88f4e3922c7.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "CONSOLIDACIÓN DEL PERFIL PROFESIONAL",
+            "bullets": [
+              "Desarrollamos un posicionamiento internacional claro para el cliente como especialista en la intersección entre administración de sistemas y ciberseguridad.",
+              "Trabajamos oportunidades adicionales para fortalecer asociaciones profesionales y estatus experto, con el objetivo de hacer su perfil más sólido y convincente para audiencias externas."
+            ],
+            "src": "/images/1775825461646-227a7b15-6786-4e28-8c7c-527a209b44f0.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "RESULTADO",
+        "subtitle": "EL TRABAJO DURÓ VARIOS MESES Y GENERÓ CAMBIOS REALES EN LA TRAYECTORIA PROFESIONAL DEL CLIENTE",
+        "blocks": [
+          {
+            "title": "AMPLIA VISIBILIDAD MEDIÁTICA",
+            "description": "Los materiales en los que participó el cliente fueron citados más de 50 veces por otros medios y plataformas sociales, lo que generó un fuerte efecto multiplicador y amplió significativamente su alcance.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "FORTALECIMIENTO DEL PERFIL PROFESIONAL",
+            "description": "Posicionamos al cliente como un experto en ciberseguridad reconocido a nivel nacional, capaz de aportar comentarios profesionales sobre los temas más actuales y sensibles del sector.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "SOLICITUD DE COMENTARIO DE FORBES",
+            "description": "El cliente recibió una solicitud de comentario experto por parte de Forbes. Esto reforzó aún más su credibilidad, ya que Forbes sigue siendo una de las marcas mediáticas más reconocidas y respetadas a nivel internacional.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "GREEN CARD DE EE. UU. POR EB-1A",
+            "description": "Un perfil público sólido, publicaciones internacionales y una expertise documentada formaron parte de un caso exitoso para obtener la green card estadounidense bajo la categoría EB-1A, destinada a personas con habilidades extraordinarias.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    }
+  }
+}

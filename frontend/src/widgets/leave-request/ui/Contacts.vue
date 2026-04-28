@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import index from '@/content/pages/index.json'
+import { resolveNuxtImageSrc } from '@/shared/lib/media/resolveMediaSrc'
 
 type ContactItemType = 'link' | 'phone' | 'email'
 type ContactItem = {
@@ -18,6 +19,8 @@ type ContactDisplayItem =
   | { type: 'email'; value: string; href: string }
 
 const { locale } = useI18n()
+const { app } = useRuntimeConfig()
+const baseURL = app?.baseURL ?? '/'
 const currentLocale = locale.value || 'example'
 const translations = index.translations[currentLocale as keyof typeof index.translations] || index.translations.example
 
@@ -50,7 +53,8 @@ const contactItems = sourceItems
 
 const normalizeIconSrc = (src?: string) => {
   if (!src) return ''
-  return src.startsWith('@/public') ? src.replace(/^@\/public/, '') : src
+  const normalizedSrc = src.startsWith('@/public') ? src.replace(/^@\/public/, '') : src
+  return resolveNuxtImageSrc(normalizedSrc, baseURL)
 }
 
 const hasTripleGrid = computed(() => contactItems.length > 0 && (contactItems.length % 3 === 0 || contactItems.length % 5 === 0))

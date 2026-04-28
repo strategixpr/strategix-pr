@@ -1,9 +1,0 @@
-{
-    "id": "project",
-    "translations": {
-        "en": {"title": "We create project"},
-        "ru": {"title": "Мы создали проект"},
-        "de": {"title": "Wir erstellen ein Projekt"},
-        "es": {"title": "Creamos un proyecto"}
-    }
-}

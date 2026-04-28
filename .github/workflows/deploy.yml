@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: yarn
           cache-dependency-path: frontend/yarn.lock   # lock-файл не в корне, а в frontend
 
@@ -38,7 +38,7 @@ jobs:
       - name: Generate static site
         run: yarn generate
         env:
-          NUXT_APP_BASE_URL: /
+          NUXT_APP_BASE_URL: /Strategix/
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4

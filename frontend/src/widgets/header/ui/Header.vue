@@ -1,39 +1,101 @@
 <script setup lang="ts">
   import ButtonWithIcon from "@/shared/ui/button-with-icon"
-  import strategixLogo from "@/assets/images/strategix-white.svg";
+  import strategixLogoWhite from "@/assets/images/strategix-white.svg";
+  import strategixLogoBlack from "@/assets/images/strategix-black.svg";
   import LangSwitcher from './LangSwitcher.vue'
   import NavigationMenu from "./NavigationMenu.vue";
   import NavigationMenuMobile from "./NavigationMenuMobile.vue";
   import index from '@/content/pages/index.json'
+  import { resolveMediaSrc } from '@/shared/lib/media/resolveMediaSrc'
 
   const { locale } = useI18n()
+  const localePath = useLocalePath()
+  const route = useRoute()
+  const { app } = useRuntimeConfig()
+  const baseURL = app?.baseURL ?? '/'
   const currentLocale = locale.value || 'example'
   const translations = index.translations[currentLocale as keyof typeof index.translations] || index.translations.example
 
-  const navData = {
+  const { theme } = defineProps({
+    theme: {
+      type: String as () => 'dark' | 'light',
+      default: 'dark'
+    } 
+  })
+
+  const normalizePath = (path: string) => {
+    const normalized = path.replace(/\/+$/, '')
+    return normalized || '/'
+  }
+
+  const resolveInternalHref = (href: string) => {
+    const raw = href.trim()
+    if (!raw || raw === '#') return '#'
+    if (/^(https?:)?\/\//i.test(raw) || raw.startsWith('mailto:') || raw.startsWith('tel:')) {
+      return raw
+    }
+    return resolveMediaSrc(raw, baseURL)
+  }
+
+  const homeRoutePath = computed(() => localePath('/'))
+  const homePath = computed(() => resolveInternalHref(homeRoutePath.value))
+  const isIndexPage = computed(() => normalizePath(route.path) === normalizePath(homeRoutePath.value))
+  const resolveHeaderHref = (href: string) => {
+    if (!href.startsWith('#')) {
+      return resolveInternalHref(href)
+    }
+
+    if (isIndexPage.value) {
+      return href
+    }
+
+    if (href === '#') {
+      return homePath.value
+    }
+
+    return `${homePath.value}${href}`
+  }
+
+  const navData = computed(() => ({
     links: translations.header.navigation_desktop.map(item => ({
-      href: item.href,
+      href: resolveHeaderHref(item.href),
       label: item.text
     }))
-  }
-  const navData2 = {
+  }))
+  const navData2 = computed(() => ({
     links: translations.header.mobile_menu.navigation_mobile.map(item => ({
-      href: item.href,
+      href: resolveHeaderHref(item.href),
       label: item.text
     }))
-  }
+  }))
   const buttonText = translations.header.button.text
-  const buttonHref = translations.header.button.href
+  const buttonHref = computed(() => resolveHeaderHref(translations.header.button.href))
+  const buttonHrefMobile = computed(() => resolveHeaderHref(translations.header.mobile_menu.button.href))
 </script>
 
 <template>
   <header
     id="header"
-    class="header"
+    :class="['header', theme]"
   >
+    <a
+      v-if="!isIndexPage"
+      :href="homePath"
+      aria-label="На главную"
+    >
+      <NuxtImg
+        class="strategix-logo"
+        :src="theme === 'light' ? strategixLogoBlack : strategixLogoWhite"
+        alt="strategix logo"
+        :width="172"
+        :height="36"
+        fetchpriority="high"
+      />
+    </a>
     <NuxtImg
+      v-else
       class="strategix-logo"
-      :src="strategixLogo"
+      :src="theme === 'light' ? strategixLogoBlack : strategixLogoWhite"
       alt="strategix logo"
       :width="172"
       :height="36"
@@ -42,19 +104,26 @@
     
     <span class="space" />
 
-    <NavigationMenu :nav-data="navData" /> <!-- планшет - пк -->
+    <NavigationMenu
+      :nav-data="navData"
+      :theme="theme"
+    /> <!-- планшет - пк -->
 
-    <LangSwitcher />
+    <LangSwitcher :theme="theme" />
 
     <ButtonWithIcon
       class="fill-form-button"
       style-button="green"
       :href="buttonHref"
+      :theme="theme"
     >
       {{ buttonText }}
     </ButtonWithIcon>
 
-    <NavigationMenuMobile :nav-data="navData2" /> <!-- мобилка -->
+    <NavigationMenuMobile
+      :nav-data="navData2"
+      :button-href="buttonHrefMobile"
+    /> <!-- мобилка -->
   </header>
 </template>
 
@@ -65,8 +134,6 @@
     padding: calc(var(--vh) * 6.75) var(--padding-section-x) 0;
     box-sizing: border-box;
 
-    background-color: var(--strategix-dark);
-
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -74,6 +141,14 @@
 
     position: relative;
     z-index: 5;
+  }
+
+  .header.light {
+    background-color: var(--strategix-light);
+  }
+  
+  .header.dark {
+    background-color: var(--strategix-dark);
   }
 
   .strategix-logo{

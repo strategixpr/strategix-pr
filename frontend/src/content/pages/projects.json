@@ -1,129 +1,429 @@
 {
-    "id": "projects",
-    "projects": {
-        "group1": {
-            "ru": {
-                "title": "Брендинг",
-                "cases": {
-                    "toba": {
-                        "src": "/images/toba.jpg",
-                        "title": "тоба",
-                        "description": "для тоба мы ньюсмейкером российского разработчика ПО для резервного копирования"
-                    },
-                    "touch": {
-                        "src": "/images/touch.jpg",
-                        "title": "тач",
-                        "description": "для тач мы сделали ньюсмейкером российского разработчика ПО для резервного копирования"
-                    },
-                    "pti-vehicle-inspection": {
-                        "src": "/images/PTI.jpg",
-                        "title": "PTI vehicle inspection",
-                        "description": "для пти мы сделали ньюсмейкером российского разработчика ПО для резервного копирования"
-                    }
-                }
-            },
-            "en": {
-                "title": "Branding",
-                "cases": {
-                    "toba": {
-                        "src": "/images/toba.jpg",
-                        "title": "toba",
-                        "description": "How we made a Russian backup software developer a newsmaker"
-                    },
-                    "touch": {
-                        "src": "/images/touch.jpg",
-                        "title": "touch",
-                        "description": "How we made a Russian backup software developer a newsmaker"
-                    },
-                    "pti-vehicle-inspection": {
-                        "src": "/images/PTI.jpg",
-                        "title": "PTI vehicle inspection",
-                        "description": "How we made a Russian backup software developer a newsmaker"
-                    }
-                }
-            },
-            "de": {
-                "title": "Branding",
-                "cases": {
-                    "toba": {
-                        "src": "/images/toba.jpg",
-                        "title": "toba",
-                        "description": "Wie wir einen russischen Backup-Software-Entwickler zum Nachrichtenmacher gemacht haben"
-                    },
-                    "touch": {
-                        "src": "/images/touch.jpg",
-                        "title": "touch",
-                        "description": "Wie wir einen russischen Backup-Software-Entwickler zum Nachrichtenmacher gemacht haben"
-                    },
-                    "pti-vehicle-inspection": {
-                        "src": "/images/PTI.jpg",
-                        "title": "PTI vehicle inspection",
-                        "description": "Wie wir einen russischen Backup-Software-Entwickler zum Nachrichtenmacher gemacht haben"
-                    }
-                }
-            },
-            "es": {
-                "title": "Branding",
-                "cases": {
-                    "toba": {
-                        "src": "/images/toba.jpg",
-                        "title": "toba",
-                        "description": "Cómo convertimos a un desarrollador ruso de software de respaldo en noticia"
-                    },
-                    "touch": {
-                        "src": "/images/touch.jpg",
-                        "title": "touch",
-                        "description": "Cómo convertimos a un desarrollador ruso de software de respaldo en noticia"
-                    },
-                    "pti-vehicle-inspection": {
-                        "src": "/images/PTI.jpg",
-                        "title": "PTI vehicle inspection",
-                        "description": "Cómo convertimos a un desarrollador ruso de software de respaldo en noticia"
-                    }
-                }
-            }
+  "id": "projects",
+  "projects": {
+    "group1": {
+      "de": {
+        "cases": {
+          "touch": {
+            "description": "Designkonzept für die größte Technologiekonferenz in Georgien",
+            "src": "/images/1775796951627-f08c3e1b-84c8-4e11-9e02-c519eca3eb13.jpg",
+            "title": "Touch",
+            "hidden": false
+          },
+          "bebu": {
+            "description": "Etikettendesign für ein neues Produkt zur Markteinführung in Deutschland",
+            "src": "/images/1775796875449-6cc2b9ea-738c-4318-9fd2-424ec9c88c03.jpg",
+            "title": "Bebu",
+            "hidden": false
+          },
+          "pti-vehicle-inspection": {
+            "description": "Im Auftrag des georgischen Infrastrukturministeriums wurde das Unternehmen PTI gegründet.",
+            "src": "/images/1775330846492-23d1f0ed-bc94-4948-a4e3-16bc626704bd.png",
+            "title": "PTI vehicle inspection",
+            "hidden": false
+          },
+          "toba": {
+            "description": "Branding für einen georgischen Wein für den europäischen Markt",
+            "src": "/images/1775797021646-8e0492e2-5d72-4919-a079-6ee5e8b3c53a.jpg",
+            "title": "TOBA",
+            "hidden": false
+          },
+          "melana": {
+            "description": "Wir haben die Verpackung für Olivenöl der griechischen Marke Melana entwickelt.",
+            "src": "/images/1777363046192-4e87ddc9-849e-4c26-932b-419145310646.png",
+            "title": "MELANA",
+            "hidden": false
+          }
         },
-        "group2": {
-            "ru": {
-                "title": "Продакшн"
-            },
-            "en": {
-                "title": "Production"
-            },
-            "de": {
-                "title": "Produktion"
-            },
-            "es": {
-                "title": "Producción"
-            }
+        "title": "Branding"
+      },
+      "en": {
+        "cases": {
+          "touch": {
+            "description": "Design concept for the largest tech conference in Georgia",
+            "src": "/images/1775796656084-a3272761-c81f-4234-9f73-0c88c5b0509e.jpg",
+            "title": "Touch",
+            "hidden": false
+          },
+          "bebu": {
+            "description": "Packaging label design for a new product entering the German market",
+            "src": "/images/1775796875446-ea7fc101-0ee0-4c91-be2f-817fef047138.jpg",
+            "title": "Bebu",
+            "hidden": false
+          },
+          "pti-vehicle-inspection": {
+            "description": "PTI was launched as a new company commissioned by Georgia’s Ministry of Infrastructure",
+            "src": "/images/1775330825300-33101d62-4d09-4386-bcda-3781c5bfa3d9.png",
+            "title": "PTI vehicle inspection",
+            "hidden": false
+          },
+          "toba": {
+            "description": "Developed branding for a Georgian wine tailored to the European market",
+            "src": "/images/1775797021644-46c55aa4-f023-4b06-9561-eb04ad467d00.jpg",
+            "title": "TOBA",
+            "hidden": false
+          },
+          "melana": {
+            "description": "We developed olive oil packaging for the Greek brand Melana.",
+            "src": "/images/1777363034467-84a79d3b-ab8f-4b85-a5ff-df0d8da57d8e.png",
+            "title": "MELANA",
+            "hidden": false
+          }
         },
-        "group3": {
-            "ru": {
-                "title": "Реклама"
-            },
-            "en": {
-                "title": "Advertising"
-            },
-            "de": {
-                "title": "Werbung"
-            },
-            "es": {
-                "title": "Publicidad"
-            }
+        "title": "Branding"
+      },
+      "es": {
+        "cases": {
+          "touch": {
+            "description": "Concepto de diseño para la mayor conferencia tecnológica de Georgia",
+            "src": "/images/1775796951630-c0998c3a-7a65-4c2c-8283-d0bebe080fe5.jpg",
+            "title": "Touch",
+            "hidden": false
+          },
+          "bebu": {
+            "description": "Diseño de etiqueta para el lanzamiento de un nuevo producto en Alemania",
+            "src": "/images/1775796875452-416bace8-4cff-410b-b180-e1c0821382c9.jpg",
+            "title": "Bebu",
+            "hidden": false
+          },
+          "pti-vehicle-inspection": {
+            "description": "Por encargo del Ministerio de Infraestructura de Georgia, se lanzó una nueva empresa, PTI.",
+            "src": "/images/1775330858062-8162b98b-b801-4034-835c-1c5e3cb247b6.png",
+            "title": "PTI vehicle inspection",
+            "hidden": false
+          },
+          "toba": {
+            "description": "Desarrollamos el branding para un vino georgiano dirigido al mercado europeo",
+            "src": "/images/1775797021649-109b62ec-d864-4680-acba-b7444dfc144d.jpg",
+            "title": "TOBA",
+            "hidden": false
+          },
+          "melana": {
+            "description": "Desarrollamos el envase para aceite de oliva de la marca griega Melana.",
+            "src": "/images/1777363053944-bec00592-e480-4acb-b214-b0a0154452e1.png",
+            "title": "MELANA",
+            "hidden": false
+          }
         },
-        "group4": {
-            "ru": {
-                "title": "Построение репутации"
-            },
-            "en": {
-                "title": "Reputation Building"
-            },
-            "de": {
-                "title": "Reputationsaufbau"
-            },
-            "es": {
-                "title": "Construcción de Reputación"
-            }
-        }
+        "title": "Branding"
+      },
+      "ru": {
+        "cases": {
+          "touch": {
+            "description": "Дизайн-концепция для крупнейшей технологическая конференция в Грузии",
+            "src": "/images/touch.jpg",
+            "title": "Touch",
+            "hidden": false
+          },
+          "bebu": {
+            "description": "Дизайн этикетки для нового продукта, который выходит на немецкий рынок",
+            "src": "/images/bebu.jpg",
+            "title": "Bebu",
+            "hidden": false
+          },
+          "pti-vehicle-inspection": {
+            "description": "По заказу Министерства инфраструктуры в Грузии была запущена новая компания PTI",
+            "src": "/images/PTI.jpg",
+            "title": "PTI vehicle inspection",
+            "hidden": false
+          },
+          "toba": {
+            "description": "Разработали брендинг для грузинского вина, ориентированного на европейский рынок",
+            "src": "/images/toba.jpg",
+            "title": "TOBA",
+            "hidden": false
+          },
+          "melana": {
+            "description": "Разработали упаковка оливкого масло для греческого бренда Melana ",
+            "src": "/images/1777284376710-8ae8ff0e-76c3-4a83-ae40-3401e1256e97.png",
+            "title": "MELANA",
+            "hidden": false
+          }
+        },
+        "title": "Брендинг"
+      }
+    },
+    "group2": {
+      "de": {
+        "cases": {
+          "mariage": {
+            "description": "Wir organisierten die Videoproduktion und eine Brautmodenschau für ein Hochzeitsatelier in Georgien",
+            "src": "/images/1775827440662-7d914783-a6c9-43cb-8108-4f627340258e.jpg",
+            "title": "GALOGREA",
+            "hidden": false
+          }
+        },
+        "title": "Produktion"
+      },
+      "en": {
+        "cases": {
+          "mariage": {
+            "description": "Organized video production and a bridal fashion show for a wedding atelier in Georgia",
+            "src": "/images/1775827433538-05bef0bf-f162-4840-b7a9-96549456c76b.jpg",
+            "title": "GALOGREA",
+            "hidden": false
+          }
+        },
+        "title": "Production"
+      },
+      "es": {
+        "cases": {
+          "mariage": {
+            "description": "Organizamos la producción de video y un desfile de moda nupcial para un atelier de vestidos de novia en Georgia",
+            "src": "/images/1775827446396-24f3f473-f50c-49cb-98be-e4894ef530b2.jpg",
+            "title": "GALOGREA",
+            "hidden": false
+          }
+        },
+        "title": "Producción"
+      },
+      "ru": {
+        "cases": {
+          "mariage": {
+            "description": "Организовали видеопродакшн и показ свадебных платьев для ателье bridal-fashion в Грузии",
+            "src": "/images/mariage.jpg",
+            "title": "GALOGREA",
+            "hidden": false
+          }
+        },
+        "title": "Продакшн"
+      }
+    },
+    "group3": {
+      "de": {
+        "cases": {
+          "css": {
+            "description": "Ein Londoner Unternehmen, spezialisiert auf umfassende Dienstleistungen für Modemarken",
+            "src": "/images/1775410793525-49cf74ba-e511-4841-8e07-0bc258f56be5.png",
+            "title": "CSS",
+            "hidden": false
+          },
+          "m&m": {
+            "description": "Ein Unternehmen, das Fachleuten und Unternehmern hilft, Talentvisa, Geschäftsvisa zu erhalten und die Umsiedlung in die USA zu organisieren",
+            "src": "/images/1775655202323-4728bbd5-706d-4ca4-8bc8-d919ebcd1654.png",
+            "title": "M&M",
+            "hidden": false
+          },
+          "play-create-eat": {
+            "description": "Ein Familienraum in Dubai. Eine Zielgruppe aufgebaut und zum Launch einen stabilen Anfragenfluss generiert",
+            "src": "/images/1775655380325-39f7a135-4698-4c3e-86e3-d8fdd1460a0b.png",
+            "title": "Play Create Eat",
+            "hidden": false
+          }
+        },
+        "title": "Werbung"
+      },
+      "en": {
+        "cases": {
+          "css": {
+            "description": "A London company specializing in comprehensive services for fashion brands",
+            "src": "/images/1775410764827-95ee6bdb-8da0-48db-a65f-1caa3e668314.png",
+            "title": "CSS",
+            "hidden": false
+          },
+          "m&m": {
+            "description": "A company helping professionals and entrepreneurs obtain talent visas, business visas, and arrange relocation to the USA",
+            "src": "/images/1775655194632-ff47188f-6039-4125-9526-4fcd023fa422.png",
+            "title": "M&M",
+            "hidden": false
+          },
+          "play-create-eat": {
+            "description": "A family space in Dubai. Attracted an audience and generated a steady flow of inquiries at launch",
+            "src": "/images/1775655386162-18cc45d0-6a35-466e-8cb9-463ce845530a.png",
+            "title": "Play Create Eat",
+            "hidden": false
+          }
+        },
+        "title": "Advertising"
+      },
+      "es": {
+        "cases": {
+          "css": {
+            "description": "Una empresa con sede en Londres, especializada en servicios integrales para marcas de moda",
+            "src": "/images/1775410807522-66f18aa1-74ee-4537-b433-b9d43723eb96.png",
+            "title": "CSS",
+            "hidden": false
+          },
+          "m&m": {
+            "description": "Una empresa que ayuda a profesionales y emprendedores a obtener visas de talento, visas de negocios y gestionar la reubicación en Estados Unidos",
+            "src": "/images/1775655207673-b4f5017f-a2d1-4a47-b3cc-aaffbf987b4a.png",
+            "title": "M&M",
+            "hidden": false
+          },
+          "play-create-eat": {
+            "description": "Un espacio familiar en Dubái. Atraímos audiencia y generamos un flujo constante de solicitudes en el lanzamiento",
+            "src": "/images/1775655373796-233cdb3c-edeb-4890-998b-086747effdb2.png",
+            "title": "Play Create Eat",
+            "hidden": false
+          }
+        },
+        "title": "Publicidad"
+      },
+      "ru": {
+        "cases": {
+          "css": {
+            "description": "Лондонская компания, специализирующаяся на комплексных услугах для модных брендов",
+            "src": "/images/css.jpg",
+            "title": "CSS",
+            "hidden": false
+          },
+          "m&m": {
+            "description": "Компания, оказывающая услуги по получению виз талантов, бизнес-виз и релокации в США",
+            "src": "/images/m-and-m.jpg",
+            "title": "M&M Document",
+            "hidden": false
+          },
+          "play-create-eat": {
+            "description": "Семейное пространство в Дубае. Привлекли аудиторию и обеспечили поток заявок на запуске",
+            "src": "/images/play-create-eat.jpg",
+            "title": "Play Create Eat",
+            "hidden": false
+          }
+        },
+        "title": "Реклама"
+      }
+    },
+    "group4": {
+      "de": {
+        "cases": {
+          "vyatcheslav-boreiko": {
+            "description": "Ein Restaurateur, der in den US-Markt eingetreten ist und ein Angebot erhielt, ein Restaurant in Kalifornien zu eröffnen",
+            "src": "",
+            "title": "Vyatcheslav Boreiko",
+            "hidden": true
+          },
+          "roman-abakumov": {
+            "description": "Medien in den USA und der Gewinn eines internationalen Wettbewerbs",
+            "src": "/images/1777364456244-20a99ecd-3441-44dc-a432-523560f9186b.png",
+            "title": "Roman Abakumov",
+            "hidden": false
+          },
+          "evgeniya-kormina": {
+            "description": "Wir haben einer Psychologin dabei geholfen, in führenden Medien veröffentlicht zu werden und ihre professionelle Positionierung in den USA zu stärken",
+            "src": "/images/1777377643197-5b3344a1-3fef-404e-ac1a-8f73b8dbf5ce.png",
+            "title": "Evgeniya Kormina",
+            "hidden": false
+          },
+          "ivan-dyagterev": {
+            "description": "Als Ergebnis unserer Arbeit erhielt die Expertin 50 Medienerwähnungen sowie eine Anfrage von Forbes für einen Kommentar.",
+            "src": "/images/1777364343687-7d547d46-9d94-4a3e-97f9-a05bf64614ba.png",
+            "title": "Ivan Degtyarev",
+            "hidden": false
+          },
+          "ekaterina-talalaeva": {
+            "description": "Wir haben ein Medienprofil für eine E-Commerce-Spezialistin aufgebaut",
+            "src": "/images/1777364288340-8d8c2f42-9a91-44a6-ac9d-d98bbd60fcd3.png",
+            "title": "Ekaterina Talalaeva",
+            "hidden": false
+          }
+        },
+        "title": "Reputationsaufbau"
+      },
+      "en": {
+        "cases": {
+          "vyatcheslav-boreiko": {
+            "description": "A restaurateur who entered the US market and received an offer to open a restaurant in California",
+            "src": "",
+            "title": "Vyatcheslav Boreiko",
+            "hidden": true
+          },
+          "roman-abakumov": {
+            "description": "Media in the USA and winning an international competition",
+            "src": "/images/1777364469821-3557b744-4f5b-4851-ac82-4f4ab888fe74.png",
+            "title": "Roman Abakumov",
+            "hidden": false
+          },
+          "evgeniya-kormina": {
+            "description": "Helped a psychologist get featured in top-tier media and strengthen her professional positioning in the U.S.",
+            "src": "/images/1777377633960-a2abc6f0-a4f9-445b-8267-1742dc8a69de.png",
+            "title": "Evgeniya Kormina",
+            "hidden": false
+          },
+          "ivan-dyagterev": {
+            "description": "As a result of our work, the expert received 50 media citations and a request for comment from Forbes",
+            "src": "/images/1777364350991-b71ea880-621a-4c1d-ae71-0c583abbfaae.png",
+            "title": "Ivan Degtyarev",
+            "hidden": false
+          },
+          "ekaterina-talalaeva": {
+            "description": "Built a media profile for an e-commerce specialist",
+            "src": "/images/1777364281660-bfed0264-421d-4d15-be2b-06e113219f5b.png",
+            "title": "Ekaterina Talalaeva",
+            "hidden": false
+          }
+        },
+        "title": "Reputation Building"
+      },
+      "es": {
+        "cases": {
+          "vyatcheslav-boreiko": {
+            "description": "Un restaurador que ingresó al mercado estadounidense y recibió una oferta para abrir un restaurante en California",
+            "src": "",
+            "title": "Vyatcheslav Boreiko",
+            "hidden": true
+          },
+          "roman-abakumov": {
+            "description": "Medios de comunicación en EE. UU. y ganar un concurso internacional.",
+            "src": "/images/1777364475609-11d4be03-f28a-4fc7-b024-a39b50b9e3f7.png",
+            "title": "Roman Abakumov",
+            "hidden": false
+          },
+          "evgeniya-kormina": {
+            "description": "Ayudamos a una psicóloga a aparecer en medios de primer nivel y a fortalecer su posicionamiento profesional en Estados Unidos",
+            "src": "/images/1777377650391-840dce3c-6771-4088-9954-8815958f6ba4.png",
+            "title": "Evgeniya Kormina",
+            "hidden": false
+          },
+          "ivan-dyagterev": {
+            "description": "Como resultado de nuestro trabajo, la experta obtuvo 50 menciones en medios y una solicitud de comentario por parte de Forbes.",
+            "src": "/images/1777364334673-955da6bb-e2c5-4602-a2e6-a06bb79e1647.png",
+            "title": "Ivan Degtyarev",
+            "hidden": false
+          },
+          "ekaterina-talalaeva": {
+            "description": "Desarrollamos un perfil mediático para una especialista en comercio electrónico",
+            "src": "/images/1777364295734-1de5ab2a-c4a6-4419-a951-47ccb7f46efd.png",
+            "title": "Ekaterina Talalaeva",
+            "hidden": false
+          }
+        },
+        "title": "Construcción de Reputación"
+      },
+      "ru": {
+        "cases": {
+          "vyatcheslav-boreiko": {
+            "description": "Международное позиционирование и выход на рынок США",
+            "src": "/images/1773977863038-0c5ff250-05b6-457b-8802-550bc707cd02.jpg",
+            "title": "Вячеслав Борейко",
+            "hidden": true
+          },
+          "roman-abakumov": {
+            "description": "Медиа в США и победа в международном конкурсе",
+            "src": "/images/1777364464161-c81102ae-3284-4ff1-8088-260f7f58188f.png",
+            "title": "Роман Абакумов",
+            "hidden": false
+          },
+          "evgeniya-kormina": {
+            "description": "Помогли психологу попасть в топовые СМИ, а также усилить своё позиционирование в США",
+            "src": "/images/1777377626601-f8242b30-01bc-4425-839a-0f9a0d78250b.png",
+            "title": "Евгения Кормина",
+            "hidden": false
+          },
+          "ivan-dyagterev": {
+            "description": "В результате работы получили 50 цитирований эксперта и запрос на комментарии от Forbes",
+            "src": "/images/1777364357472-de7a4ab3-38c8-4e16-91b2-fa1616830707.png",
+            "title": "Иван Дягтерев",
+            "hidden": false
+          },
+          "ekaterina-talalaeva": {
+            "description": "Сформировали медиапрофиль специалиста по электронной коммерции",
+            "src": "/images/1777364273430-6e0e2860-23f6-4af6-aa06-789797d9f998.png",
+            "title": "Екатерина Талалаева",
+            "hidden": false
+          }
+        },
+        "title": "Построение репутации"
+      }
     }
+  }
 }

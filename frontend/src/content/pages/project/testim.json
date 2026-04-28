@@ -1,0 +1,71 @@
+{
+  "id": "testim",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "ru": {
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "ar": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Арабский",
+        "name": "Арабы кайф",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      }
+    }
+  }
+}

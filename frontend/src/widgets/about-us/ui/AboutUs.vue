@@ -37,6 +37,7 @@
     box-sizing: border-box;
 
     background-color: var(--strategix-light);
+    font-synthesis: none;
 
     display: flex;
     flex-direction: column;

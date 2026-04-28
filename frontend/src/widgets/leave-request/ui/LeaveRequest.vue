@@ -10,7 +10,7 @@ import Form from './Form.vue';
   </section>
 </template>
 
-<style scped>
+<style scoped>
 .leave-request {
     width: var(--section-width);
     min-height: calc(var(--vh) * 100);

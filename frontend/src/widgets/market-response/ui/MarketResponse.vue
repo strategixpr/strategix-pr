@@ -27,7 +27,7 @@ const description2 = translations.market_response.description2
   </section>
 </template>
 
-<style scped>
+<style scoped>
 .market-response {
     width: var(--section-width);
     min-height: calc(var(--vh) * 30);
@@ -43,6 +43,7 @@ const description2 = translations.market_response.description2
 
     @media(--tablet-width){
       padding: calc(var(--vh) * 8.5) var(--padding-section-x) calc(var(--vh) * 4);
+      gap: 1%;
     }
 }
 
@@ -63,7 +64,7 @@ const description2 = translations.market_response.description2
     font-size: min(25px, 6.4vw);
 
     @media(--tablet-width){
-      width: 50.4%;
+      width: 49.4%;
       height: fit-content;
       font-size: clamp(25px, calc(1.291vw + var(--vh) * 1.533), 52px);
     }

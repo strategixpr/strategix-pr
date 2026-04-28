@@ -1,20 +1,40 @@
 <script setup lang="ts">
+import { computed, ref } from 'vue'
+import imagePlaceholder from '@/assets/images/image-vertical-placeholder.svg'
+import { resolveNuxtImageSrc } from '@/shared/lib/media/resolveMediaSrc'
+
 const {src, name, lastname, position} = defineProps<{src: string, name: string, lastname: string, position: string}>()
+const { app } = useRuntimeConfig()
+const baseURL = app?.baseURL ?? '/'
+
+const showPlaceholder = ref(false)
+const resolvedSrc = computed(() => resolveNuxtImageSrc(src, baseURL))
 </script>
 
 <template>
   <article class="member-card">
     <NuxtImg
+      v-if="!showPlaceholder && resolvedSrc"
       class="image-card"
-      :src="src"
-      sizes="(max-width: 767px) 170px, (max-width: 1023px) 25vw, 25vw"
+      :src="resolvedSrc"
+      sizes="xs:170px sm:170px md:25vw lg:25vw xl:25vw xxl:25vw"
       format="webp"
       :quality="70"
       :alt="`${name} ${lastname}`"
       loading="lazy"
+      decoding="async"
       :width="600"
       :height="600"
+      @error="showPlaceholder = true"
     />
+    <img
+      v-else
+      class="image-card"
+      :src="imagePlaceholder"
+      :alt="`${name} ${lastname}`"
+      loading="lazy"
+      decoding="async"
+    >
     <div class="text-background">
       <h4 class="small-text name">
         {{ name }} {{ lastname }}
@@ -62,7 +82,7 @@ const {src, name, lastname, position} = defineProps<{src: string, name: string, 
 }
 
 .name{
-    margin: 2.5% 4% 0;
+    margin: 2.5% 4%;
 
     font-size: min(12px, calc(1.2vw + var(--vh) * 0.8));
     line-height: 110%;
@@ -86,6 +106,7 @@ const {src, name, lastname, position} = defineProps<{src: string, name: string, 
     font-size: min(12px, calc(1.2vw + var(--vh) * 0.8));
     line-height: 110%;
     font-weight: 600;
+    font-variation-settings: "wght" 500;
     text-align: left;
 
     color: var(--strategix-gray);

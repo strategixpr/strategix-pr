@@ -1,0 +1,333 @@
+{
+  "id": "css",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "CSS",
+        "src": "/images/1775385225880-410ff433-5b78-43ca-b69b-083d6c3e8cf2.jpg",
+        "autoplay": true,
+        "description": [
+          "CSS is a London-based company specializing in end-to-end services for fashion brands.\nThis includes design, sample development, production, marketing, mentorship, and bespoke tailoring."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Advertising"
+          },
+          {
+            "label": "Client",
+            "value": "CSS"
+          },
+          {
+            "label": "Location",
+            "value": "UK"
+          },
+          {
+            "label": "Target audience:",
+            "value": "UK, USA — launch aimed at English-speaking markets"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "Project goals",
+        "list": [
+          "Grow the number of Instagram followers",
+          "Promote the company’s services primarily among fashion brand owners and designers",
+          "Generate new client leads via Instagram and WhatsApp"
+        ]
+      },
+      "what-did": {
+        "title": "WHAT WE DID",
+        "description": "From March 30 to June 30, 2025, we launched three advertising campaigns, each focused on different objectives:",
+        "list": [
+          "Instagram engagement — aimed at generating leads",
+          "Instagram traffic — to warm up the audience, attract new followers, and drive leads",
+          "WhatsApp traffic — to generate direct inquiries from potential clients",
+          "We used branded banners and short-form videos tailored to the visual language of the fashion industry"
+        ]
+      },
+      "results-metrics": {
+        "title": "RESULTS",
+        "description": "The goal was achieved — the client gained a steady flow of leads and an engaged audience for the months ahead.",
+        "items": [
+          {
+            "title": "Leads generated",
+            "result": "282",
+            "unit_measurement": "Leads"
+          },
+          {
+            "title": "New followers",
+            "result": "476",
+            "unit_measurement": "New"
+          },
+          {
+            "title": "Cost per lead",
+            "result": "$15,73 ",
+            "unit_measurement": "Leads"
+          },
+          {
+            "title": "Cost per lead (new audience)",
+            "result": "$9,31",
+            "unit_measurement": "New"
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "",
+        "name": "CSS",
+        "src": "/images/css-image.jpg",
+        "autoplay": true,
+        "description": [
+          "CSS — лондонская компания,специализирующаяся на комплексных услугах для модных брендов. Дизайн, разработка образцов, производство, маркетинг, наставничество и индивидуальный пошив."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Реклама"
+          },
+          {
+            "label": "Клиент",
+            "value": "CSS"
+          },
+          {
+            "label": "Страна",
+            "value": "Лондон"
+          },
+          {
+            "label": "Аудитория",
+            "value": "Великобритания, США — запуск на англоязычную аудиторию"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "Цель компании",
+        "list": [
+          "Получение подписок в Instagram",
+          "Продвижение услуг компании преимущественно среди владельцев модных брендов и дизайнеров",
+          "Привлечение новых клиентов через Instagram и WhatsApp"
+        ]
+      },
+      "what-did": {
+        "title": "Что сделали",
+        "description": "В период с 30 марта по 30 июня 2025 года были запущены 3 рекламные кампании с разными целями",
+        "list": [
+          "Вовлеченность в Instagram — на получение заявок.",
+          "Трафик в Instagram — для прогрева аудитории и привлечения новых подписчиков, а также получения заявок.",
+          "Трафик WhatsApp — для получения прямых запросов от потенциальных клиентов.",
+          "В рекламе использовались баннеры и короткие видео в фирменном стиле, адаптированные под визуальный язык fashion-индустрии."
+        ]
+      },
+      "results-metrics": {
+        "title": "Результаты",
+        "description": "Цель достигнута — клиент получил устойчивый поток заявок и вовлечённую аудиторию на год вперёд.",
+        "items": [
+          {
+            "title": "Получили",
+            "result": "282",
+            "unit_measurement": "Заявок"
+          },
+          {
+            "title": "Подписчики",
+            "result": "476",
+            "unit_measurement": "Новые"
+          },
+          {
+            "title": "Стоимость лида",
+            "result": "$15,73 ",
+            "unit_measurement": "Заявок"
+          },
+          {
+            "title": "Стоимость лида",
+            "result": "$9,31",
+            "unit_measurement": "Новые"
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "CSS",
+        "src": "/images/1775385225888-a8954fc6-b80c-4521-a222-428f423d6381.jpg",
+        "autoplay": true,
+        "description": [
+          "CSS ist ein in London ansässiges Unternehmen, das sich auf umfassende Dienstleistungen für Modemarken spezialisiert hat. Dazu gehören Design, Musterentwicklung, Produktion, Marketing, Mentoring sowie maßgeschneiderte Anfertigungen."
+        ],
+        "about": [
+          {
+            "label": "Branche",
+            "value": "Werbung"
+          },
+          {
+            "label": "Kunde",
+            "value": "CSS"
+          },
+          {
+            "label": "Standort",
+            "value": "London"
+          },
+          {
+            "label": "Zielgruppe",
+            "value": "Großbritannien, USA — Launch für eine englischsprachige Zielgruppe"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "ZIELE",
+        "list": [
+          "Aufbau einer Instagram-Community",
+          "Positionierung der Unternehmensleistungen bei Inhabern von Modemarken und Designern",
+          "Gewinnung neuer Kunden über Instagram und WhatsApp"
+        ]
+      },
+      "what-did": {
+        "title": "WAS WIR GEMACHT HABEN",
+        "description": "Im Zeitraum vom 30. März bis 30. Juni 2025 wurden drei Werbekampagnen mit unterschiedlichen Zielen umgesetzt:",
+        "list": [
+          "Instagram-Engagement — zur Generierung von Leads",
+          "Instagram-Traffic — zur Aktivierung der Zielgruppe, Gewinnung neuer Follower und Generierung von Leads",
+          "WhatsApp-Traffic — zur Gewinnung direkter Anfragen potenzieller Kunden",
+          "In den Kampagnen wurden Banner und kurze Videos im Corporate Design eingesetzt, abgestimmt auf die visuelle Sprache der Fashion-Branche"
+        ]
+      },
+      "results-metrics": {
+        "title": "ERGEBNISSE",
+        "description": "Die Ziele wurden erreicht — der Kunde erhielt einen stabilen Zustrom an Leads sowie eine engagierte Zielgruppe für die kommenden Monate.",
+        "items": [
+          {
+            "title": "Generierte Leads",
+            "result": "282",
+            "unit_measurement": ""
+          },
+          {
+            "title": "Neue Follower",
+            "result": "476",
+            "unit_measurement": ""
+          },
+          {
+            "title": "Kosten pro Lead",
+            "result": "$15,73 ",
+            "unit_measurement": ""
+          },
+          {
+            "title": " Neue Zielgruppe",
+            "result": "$9,31",
+            "unit_measurement": ""
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "CSS",
+        "src": "/images/1775385225899-07f11dfc-7c5b-4259-9146-cdaf651c53b5.jpg",
+        "autoplay": true,
+        "description": [
+          "CSS es una empresa con sede en Londres especializada en servicios integrales para marcas de moda. Esto incluye diseño, desarrollo de muestras, producción, marketing, mentoría y confección a medida."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Publicidad"
+          },
+          {
+            "label": "Cliente",
+            "value": "CSS"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Londres"
+          },
+          {
+            "label": "Audiencia",
+            "value": "Reino Unido, EE. UU. — lanzamiento enfocado en el público angloparlante"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "ENFOQUE DEL PROYECTO",
+        "list": [
+          "Aumentar el número de seguidores en Instagram",
+          "Promocionar los servicios de la empresa principalmente entre propietarios de marcas de moda y diseñadores",
+          "Atraer nuevos clientes a través de Instagram y WhatsApp"
+        ]
+      },
+      "what-did": {
+        "title": "QUÉ HICIMOS",
+        "description": "Entre el 30 de marzo y el 30 de junio de 2025, lanzamos tres campañas publicitarias con diferentes objetivos:",
+        "list": [
+          "Engagement en Instagram — enfocado en la generación de leads",
+          "Tráfico a Instagram — para activar la audiencia, atraer nuevos seguidores y generar leads",
+          "Tráfico a WhatsApp — para obtener consultas directas de clientes potenciales",
+          "En las campañas utilizamos banners y videos cortos en línea con la identidad de marca, adaptados al lenguaje visual de la industria de la moda"
+        ]
+      },
+      "results-metrics": {
+        "title": "RESULTADOS",
+        "description": "Objetivo alcanzado — el cliente obtuvo un flujo estable de leads y una audiencia comprometida para los próximos meses.",
+        "items": [
+          {
+            "title": "Leads generados",
+            "result": "282",
+            "unit_measurement": ""
+          },
+          {
+            "title": "Nuevos seguidores",
+            "result": "476",
+            "unit_measurement": ""
+          },
+          {
+            "title": "Costo por lead",
+            "result": "$15,73 ",
+            "unit_measurement": ""
+          },
+          {
+            "title": "Costo por lead",
+            "result": "$9,31",
+            "unit_measurement": "(nueva audiencia)"
+          }
+        ]
+      },
+      "other-projects": true
+    }
+  }
+}

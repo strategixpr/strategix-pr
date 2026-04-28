@@ -3,56 +3,64 @@ export type LeaveRequestField = {
   response: string;
 };
 
-export type LeaveRequestPayload = {
-  name: LeaveRequestField;
-  phone: LeaveRequestField;
-  question: LeaveRequestField;
-  question2: LeaveRequestField;
-};
+export type LeaveRequestPayload = Array<LeaveRequestField | string>;
 
 export type LeaveRequestResponse = {
   'send-data': boolean;
   error: string;
+  [channel: string]: boolean | string;
 };
 
-export type PostPayload<TBody extends Record<string, unknown> = Record<string, unknown>> = TBody & {
-  endpoint: string;
+export type RequestError = Error & {
+  statusCode?: number;
 };
 
-const BASE_URL = 'https://d5duk9lecjq24mdnd4nk.sk0vql13.apigw.yandexcloud.net/api';
+export type PostPayload<TBody = unknown> = {
+  rpcUrl: string;
+  body: TBody;
+};
 
-const resolveUrl = (endpoint: string) => {
-  const trimmed = endpoint.trim();
+const BASE_URL = ""; //У нас нет как такого бэкенда, потому что используются удалённый вызов конкретной функции, отправляющей письма и сообщения в тг 
+
+const resolveUrl = (rpcUrl: string) => {
+  const trimmed = rpcUrl.trim();
   if (!trimmed) {
-    throw new Error('Endpoint is required');
+    throw new Error('RPC URL is required');
   }
-  if (/^https?:\/\//i.test(trimmed)) {
-    return trimmed;
-  }
-  const base = BASE_URL.replace(/\/+$/, '');
-  const path = trimmed.startsWith('/') ? trimmed : `/${trimmed}`;
-  return `${base}${path}`;
+  return trimmed;
 };
 
 export const postJson = async <
   TResponse = unknown,
-  TBody extends Record<string, unknown> = Record<string, unknown>
+  TBody = unknown
 >(
   payload: PostPayload<TBody>,
 ) => {
-  const { endpoint, ...body } = payload;
-  const response = await fetch(resolveUrl(endpoint), {
+  const { rpcUrl, body } = payload;
+  const response = await fetch(resolveUrl(rpcUrl), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
   });
 
+  const contentType = response.headers.get('content-type') || '';
+
   if (!response.ok) {
-    const text = await response.text().catch(() => '');
-    throw new Error(text || `Request failed (${response.status})`);
+    let errorMessage = '';
+
+    if (contentType.includes('application/json')) {
+      const data = await response.json().catch(() => null) as { error?: unknown } | null;
+      errorMessage = typeof data?.error === 'string' ? data.error.trim() : '';
+    } else {
+      const text = await response.text().catch(() => '');
+      errorMessage = text.trim();
+    }
+
+    const requestError = new Error(errorMessage || `Request failed (${response.status})`) as RequestError;
+    requestError.statusCode = response.status;
+    throw requestError;
   }
 
-  const contentType = response.headers.get('content-type') || '';
   if (contentType.includes('application/json')) {
     return response.json() as Promise<TResponse>;
   }
@@ -60,5 +68,5 @@ export const postJson = async <
   return response.text() as Promise<TResponse>;
 };
 
-export const postLeaveRequest = (payload: PostPayload<LeaveRequestPayload>) =>
-  postJson<LeaveRequestResponse>(payload);
+export const postLeaveRequest = (rpcUrl: string, requestItems: LeaveRequestPayload) =>
+  postJson<LeaveRequestResponse, LeaveRequestPayload>({ rpcUrl, body: requestItems });

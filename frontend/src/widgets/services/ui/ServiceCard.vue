@@ -106,7 +106,7 @@ const {service} = defineProps<{service: ServiceItem;}>();
 }
 
 .service-card__title {
-  padding-top: 5px;
+  padding-top: 20px;
   margin: auto 0 auto;
   text-align: left;
 
@@ -121,7 +121,7 @@ const {service} = defineProps<{service: ServiceItem;}>();
   }
 
   @media (--laptop-width) and (min-aspect-ratio: 4/3){
-    font-size: clamp(16px, calc(0.525vw + var(--vh) * 1.75), 40px);
+    font-size: clamp(16px, calc(0.425vw + var(--vh) * 1.75), 40px);
   }
 
   @media(--mobile-medium){
@@ -133,10 +133,17 @@ const {service} = defineProps<{service: ServiceItem;}>();
   width: min-content;
   min-height: 18.75%;
   height: 18.75%;
+  /* min-height: (var(--vh) * 5);
+  height: (var(--vh) * 5); */
   aspect-ratio: 1 / 1 ;
   margin: 0;
 
+  /* background-color: aquamarine; */
+
   transition: all 0.3s ease-in-out;
+
+  
+  /* overflow: hidden; */
 }
 
 .service-card__description {
@@ -148,7 +155,7 @@ const {service} = defineProps<{service: ServiceItem;}>();
   text-align: left;
 
   font-size: clamp(12px, calc(0.446vw + var(--vh) * 1.14), 32px);
-  /* line-height: 100%; */
+  line-height: 110%;
   transition: all 0.3s ease-in-out;
 
   @media (--laptop-width) and (min-aspect-ratio: 4/3){
@@ -173,11 +180,11 @@ const {service} = defineProps<{service: ServiceItem;}>();
   }
 
   .service-card:hover .service-card__title{
-    padding-top: 15px;
+    /* padding-top: 15px; */
     
     color: var(--strategix-light);
 
-    font-size: clamp(20px, calc(0.675vw + var(--vh) * 2.1), 44px);
+    font-size: clamp(20px, calc(0.475vw + var(--vh) * 2.1), 44px);
 
     @media(--mobile-medium){
       font-size: min(20px, calc(var(--vh) * 4.6));
@@ -189,7 +196,9 @@ const {service} = defineProps<{service: ServiceItem;}>();
 
     color: var(--strategix-light);
 
-    font-size: clamp(14px, calc(0.4vw + var(--vh) * 1.5), 34px);
+    line-height: 100%;
+
+    /* font-size: clamp(14px, calc(0.3vw + var(--vh) * 1.5), 34px); */
 
     @media(--mobile-medium) {
         font-size: min(14px, calc(var(--vh) * 3.325));
@@ -338,6 +347,10 @@ const {service} = defineProps<{service: ServiceItem;}>();
   .ads .service-card__decor {
     width: 10.935%;
     height: auto;
+  }
+
+  .ads .service-card__description{
+    width: 65%;
   }
 
   .ads:hover .ads__decor{

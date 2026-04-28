@@ -1,0 +1,130 @@
+{
+  "id": "new-case-14",
+  "translations": {
+    "ru": {
+      "welcome": {
+        "sphere": "Русский",
+        "name": "Название проекта",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      },
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "en": {
+      "welcome": {
+        "sphere": "Английский",
+        "name": "Название проекта",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      },
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "welcome": {
+        "sphere": "Немецкий",
+        "name": "Название проекта",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      },
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "es": {
+      "welcome": {
+        "sphere": "Испанский",
+        "name": "Название проекта",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      },
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "ar": {
+      "welcome": {
+        "sphere": "Арабский",
+        "name": "Название проекта",
+        "src": "",
+        "autoplay": true,
+        "description": [
+          "Кратко опишите проект в 1-2 предложениях."
+        ],
+        "about": [
+          {
+            "label": "Клиент",
+            "value": "Название клиента"
+          }
+        ]
+      },
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "id": "pti-vehicle-inspection",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "VEHICLE INSPECTION",
+        "name": "PTI",
+        "src": "/images/1775328521847-fa81b46b-90c1-4ffd-a728-ce201986b778.jpg",
+        "autoplay": true,
+        "description": [
+          "Commissioned by Georgia’s Ministry of Infrastructure, a new company, PTI, was launched to introduce modern vehicle inspection standards across the country.",
+          "The project’s main goal was to improve road safety and increase public trust in the vehicle inspection system by making the process transparent, technologically advanced, and easy to understand for every car owner."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Techinspection"
+          },
+          {
+            "label": "Country",
+            "value": "Georgia"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategy, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775328521847-66bce939-b46d-4fad-b744-bcac004e8b5a.jpg",
+        "alt": "логотип PTI",
+        "backgroundColor": "#129047"
+      },
+      "big-image": {
+        "src": "/images/1775328521845-f83f8a38-9ce5-4101-b6ed-dc7394eab0fd.jpg",
+        "alt": "большая картинка PTI 2"
+      },
+      "big-image-2": {
+        "src": "/images/1775328521846-d257de5d-6f82-4ced-8185-807d16626eb2.jpg",
+        "srcMobile": "/images/1775328521846-d74534fb-ce03-4ec4-929e-fbeafee6bbf2.jpg",
+        "alt": "большая картинка PTI 3"
+      },
+      "big-image-3": {
+        "src": "/images/1775328521846-32acfdc1-8ef7-4f0d-b9db-ba1b921722c4.jpg",
+        "srcMobile": "/images/1775328521846-52e6291d-c9bf-4071-bda1-73cf683460fb.jpg",
+        "alt": "большая картинка PTI 4"
+      },
+      "info": {
+        "title": "A bridge between government and society",
+        "description": [
+          "The newly created brand has become a symbol of a new stage in the development of Georgia’s transport infrastructure. PTI is perceived as a modern, transparent, and efficient system aimed at improving citizens’ quality of life and strengthening trust in government initiatives.",
+          "The project demonstrates how thoughtful branding can help reforms take on a clear and human-centered identity."
+        ]
+      },
+      "big-image-4": {
+        "src": "/images/1775328521847-c130ac74-6f94-4b2d-9248-c3e6534ca399.jpg",
+        "alt": "большая картинка PTI"
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Гордская инфраструктура",
+        "name": "PTI",
+        "src": "/images/PTI-image.jpg",
+        "autoplay": true,
+        "description": [
+          "По заказу Министерства инфраструктуры в Грузии была запущена новая компания PTI, призванная внедрить современные стандарты контроля качества транспортных средств по всей стране.",
+          "Главная цель проекта — повысить уровень безопасности на дорогах и доверие граждан к системе технического осмотра, сделать процесс прозрачным, технологичным и понятным каждому владельцу автомобиля."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Брендинг"
+          },
+          {
+            "label": "Клиент",
+            "value": "Правительство Грузии"
+          },
+          {
+            "label": "Страна",
+            "value": "Грузия"
+          },
+          {
+            "label": "Экспертиза",
+            "value": "Стратегия, Брендинг"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/pti-logo.jpg",
+        "alt": "логотип PTI",
+        "backgroundColor": "#129047"
+      },
+      "big-image": {
+        "src": "/images/PTI-image-2.jpg",
+        "alt": "большая картинка PTI 2"
+      },
+      "big-image-2": {
+        "src": "/images/PTI-image-3.jpg",
+        "srcMobile": "/images/PTI-image-3-mobile.jpg",
+        "alt": "большая картинка PTI 3"
+      },
+      "big-image-3": {
+        "src": "/images/PTI-image-4.jpg",
+        "srcMobile": "/images/PTI-image-4-mobile.jpg",
+        "alt": "большая картинка PTI 4"
+      },
+      "info": {
+        "title": "инструмент коммуникации между государством и обществом",
+        "description": [
+          "Созданный бренд стал символом нового этапа развития транспортной инфраструктуры Грузии. PTI воспринимается как современная, прозрачная и эффективная система, направленная на улучшение качества жизни граждан и повышение доверия к государственным инициативам.",
+          "Проект стал примером того, как грамотный брендинг может помочь реформе приобрести понятное и человеческое лицо."
+        ]
+      },
+      "big-image-4": {
+        "src": "/images/PTI-image-5.jpg",
+        "alt": "большая картинка PTI"
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Fahrzeuginspektion",
+        "name": "PTI",
+        "src": "/images/1775328521852-399491e8-d1a9-4847-ae81-6d6c48acaf34.jpg",
+        "autoplay": true,
+        "description": [
+          "Im Auftrag des georgischen Infrastrukturministeriums wurde PTI gegründet, um moderne Prüfstandards für Fahrzeuge landesweit zu implementieren.",
+          "Ziel des Projekts war es, die Verkehrssicherheit zu erhöhen und das Vertrauen der Bevölkerung in das System der technischen Inspektion zu stärken, indem der Prozess transparent, technologisch fortschrittlich und für jeden Fahrzeughalter verständlich gestaltet wurde."
+        ],
+        "about": [
+          {
+            "label": "Sektor",
+            "value": "Branding"
+          },
+          {
+            "label": "Kunde",
+            "value": "Techinspection"
+          },
+          {
+            "label": "Land",
+            "value": "Georgien"
+          },
+          {
+            "label": "Expertise",
+            "value": "Strategie, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775328521852-2f41d475-4f3b-4e2b-83c4-ce7211a04adb.jpg",
+        "alt": "логотип PTI",
+        "backgroundColor": "#129047"
+      },
+      "big-image": {
+        "src": "/images/1775328521851-e43fee78-32ac-4eca-9cef-da7c7777c4d2.jpg",
+        "alt": "большая картинка PTI 2"
+      },
+      "big-image-2": {
+        "src": "/images/1775328521851-3bca35fa-d8eb-4364-a235-1884ce7788c9.jpg",
+        "srcMobile": "/images/1775328521851-0b96cdb9-0ac1-49f4-8e62-159d27e33e0c.jpg",
+        "alt": "большая картинка PTI 3"
+      },
+      "big-image-3": {
+        "src": "/images/1775328521851-c4449e6e-8227-4415-a96d-412e46912890.jpg",
+        "srcMobile": "/images/1775328521851-519ae583-63e2-4f1a-b39e-0136fa37b38b.jpg",
+        "alt": "большая картинка PTI 4"
+      },
+      "info": {
+        "title": "EINE BRÜCKE ZWISCHEN STAAT UND GESELLSCHAFT",
+        "description": [
+          "Die neu geschaffene Marke wurde zum Symbol einer neuen Phase in der Entwicklung der Verkehrsinfrastruktur in Georgien. PTI wird als modernes, transparentes und effizientes System wahrgenommen, das darauf abzielt, die Lebensqualität der Bürger zu verbessern und das Vertrauen in staatliche Initiativen zu stärken.",
+          "Das Projekt zeigt, wie durchdachtes Branding Reformen ein klares und menschliches Gesicht verleihen kann."
+        ]
+      },
+      "big-image-4": {
+        "src": "/images/1775328521851-6d656448-c635-4e7f-aa0e-a72b770a4b73.jpg",
+        "alt": "большая картинка PTI"
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Inspección de vehículos",
+        "name": "PTI",
+        "src": "/images/1775328521867-09edabf1-f58d-4d33-b938-d0247bff7ae0.jpg",
+        "autoplay": true,
+        "description": [
+          "Por encargo del Ministerio de Infraestructura de Georgia, se lanzó una nueva empresa, PTI, para implementar estándares modernos de inspección técnica de vehículos en todo el país.",
+          "El objetivo principal del proyecto fue mejorar la seguridad vial y aumentar la confianza de los ciudadanos en el sistema de inspección técnica, haciendo el proceso transparente, tecnológicamente avanzado y comprensible para todos los propietarios de vehículos."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Branding"
+          },
+          {
+            "label": "Cliente",
+            "value": "Techinspection"
+          },
+          {
+            "label": "País",
+            "value": "Georgia"
+          },
+          {
+            "label": "Experiencia",
+            "value": "Estrategia, Branding"
+          }
+        ]
+      },
+      "big-logo": {
+        "src": "/images/1775328521867-dfbe4333-3b88-49d7-8f73-0b38e5b59ed0.jpg",
+        "alt": "логотип PTI",
+        "backgroundColor": "#129047"
+      },
+      "big-image": {
+        "src": "/images/1775328521862-7331f7d9-c48c-482f-b8d1-ff90292d9782.jpg",
+        "alt": "большая картинка PTI 2"
+      },
+      "big-image-2": {
+        "src": "/images/1775328521863-e76da7a9-6ef1-4b1c-86e0-003a7beef7d3.jpg",
+        "srcMobile": "/images/1775328521863-3ece0871-3218-4d4e-870d-3ad478acef75.jpg",
+        "alt": "большая картинка PTI 3"
+      },
+      "big-image-3": {
+        "src": "/images/1775328521864-ef06b092-72e9-4283-ae37-0b25eda8b762.jpg",
+        "srcMobile": "/images/1775328521864-ff09c8ea-c17f-4015-aee8-ca13998b150b.jpg",
+        "alt": "большая картинка PTI 4"
+      },
+      "info": {
+        "title": "UN PUENTE ENTRE EL GOBIERNO Y LA SOCIEDAD",
+        "description": [
+          "La marca creada se ha convertido en un símbolo de una nueva etapa en el desarrollo de la infraestructura de transporte en Georgia. PTI se percibe como un sistema moderno, transparente y eficiente, orientado a mejorar la calidad de vida de los ciudadanos y fortalecer la confianza en las iniciativas gubernamentales.",
+          "El proyecto demuestra cómo un branding bien pensado puede ayudar a que las reformas adquieran una identidad clara y centrada en las personas."
+        ]
+      },
+      "big-image-4": {
+        "src": "/images/1775328521866-a3aa1290-65ec-4a2a-884e-54d4dbf18607.jpg",
+        "alt": "большая картинка PTI"
+      },
+      "other-projects": true
+    }
+  }
+}

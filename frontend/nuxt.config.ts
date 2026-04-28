@@ -1,24 +1,46 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+import {readdirSync} from "node:fs";
+import {join} from "node:path";
+
 // eslint-disable-next-line import/no-internal-modules
 import localesConfig from './src/content/locales.json';
 
-// CMS включён только в dev, а при generate (и в любых других командах) — выключен
-const cmsEnabled = process.argv.some((arg) => arg === 'dev') && !process.argv.some((arg) => arg === 'generate');
-const modules = cmsEnabled 
-                  ? ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n", "@nuxtjs/color-mode", "@nuxtjs/tailwindcss", "shadcn-nuxt"] 
-                  : ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n"];
+const modules = ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n", "@nuxtjs/sitemap"];
+const localeCodes = localesConfig.locales.map((locale: {code: string;}) => locale.code);
+const projectSlugs = readdirSync(join(process.cwd(), "src/content/pages/project"))
+  .filter((fileName) => fileName.endsWith(".json"))
+  .map((fileName) => fileName.replace(".json", ""))
+  .sort();
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   srcDir: "src",
   modules,
+  runtimeConfig: {
+    sitemapData: {
+      localeCodes,
+      projectSlugs,
+    },
+  },
+  site: {
+    url: process.env.NUXT_SITE_URL ?? "https://strategix-pr.ru",
+  },
   app:{
     baseURL: process.env.NUXT_APP_BASE_URL ?? "/",
   },
   experimental: {
     payloadExtraction: false,
+    defaults: {
+      nuxtLink: {
+        prefetch: false,
+        prefetchOn: {
+          visibility: false,
+          interaction: false,
+        },
+      },
+    },
   },
   vite: {
     build: {
@@ -34,31 +56,17 @@ export default defineNuxtConfig({
       devSourcemap: false,
     }
   },
-  hooks: {
-    // Отрубаем CMS-страницы из роутинга, если флаг не выставлен (например, на generate)
-    'pages:extend'(pages) {
-      if (cmsEnabled) {
-        return;
-      }
-
-      const cmsRoutes = pages.filter((page) => page.path?.startsWith('/cms'));
-      cmsRoutes.forEach((page) => {
-        const index = pages.indexOf(page);
-        if (index !== -1) {
-          pages.splice(index, 1);
-        }
-      });
-    },
-  },
   nitro: {
     preset: "github_pages",
     prerender: {
-      crawlLinks: true
+      crawlLinks: true,
+      routes: ["/sitemap.xml"],
     },
     compressPublicAssets: true,
     minify: true
   },
   image: {
+    provider: "ipxStatic",
     quality: 80,
     format: ['webp'],
     screens: {
@@ -85,22 +93,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  tailwindcss: cmsEnabled ? {
-    cssPath: '@/shared/ui/shadcn/styles/tailwind.css',
-    configPath: 'tailwind.config.ts',
-    viewer: false,
-    exposeConfig: false,
-  } : undefined,
-  colorMode: cmsEnabled ? {
-    classSuffix: '',
-    preference: 'light',
-    fallback: 'light',
-  } : undefined,
-  shadcn: cmsEnabled ? {
-    prefix: '',
-    componentDir: 'src/shared/ui/shadcn/components',
-    utilsDir: 'src/shared/ui/shadcn/lib',
-  } : undefined,
   i18n: {
     //Код языков опираются на https://w3schoolsrus.github.io/tags/ref_language_codes.html#gsc.tab=0
     locales: localesConfig.locales.map((l: {code: string; iso: string; name: string;}) => ({
@@ -110,5 +102,11 @@ export default defineNuxtConfig({
     })),
     defaultLocale: localesConfig.default,
     strategy: 'prefix_and_default',
-  }
+  },
+  sitemap: {
+    sitemapsPathPrefix: '/', // Переносим все sitemap-файлы в корень, чтобы было ru.xml и en.xml
+    autoI18n: false,
+    excludeAppSources: true,
+    sources: ["/api/__sitemap__/urls"],
+  },
 });

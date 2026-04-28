@@ -48,6 +48,7 @@ const members = translations.our_team.members
     box-sizing: border-box;
 
     background-color: var(--strategix-light);
+    font-synthesis: none;
 
     @media(--mobile-width){
       margin-bottom: calc(-2 * var(--padding-section-x));
@@ -56,6 +57,10 @@ const members = translations.our_team.members
     @media(--tablet-width){
       padding: 0 var(--padding-section-x) calc(var(--vh) * 8);
       margin: 0;
+    }
+
+    @media(--laptop-width){
+      min-height: calc(var(--vh) * 100);
     }
 
     @media(--mobile-medium){
@@ -86,7 +91,8 @@ const members = translations.our_team.members
 
   @media(--laptop-width){
     grid-template-columns: repeat(auto-fit, minmax(calc(25.175% - var(--gap-grid)), 1fr));
-    grid-auto-rows: clamp(250px, calc(var(--vh) * 30.75), 600px);
+    /* grid-auto-rows: clamp(250px, calc(var(--vh) * 30.75), 600px); */
+    grid-auto-rows: min(calc((var(--vh) * 90 - var(--gap-grid)) / 2), 600px);
   }
 
   @media(--mobile-medium){

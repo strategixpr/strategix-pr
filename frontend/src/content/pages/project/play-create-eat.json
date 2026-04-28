@@ -1,0 +1,325 @@
+{
+  "id": "play-create-eat",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "Play Create Eat",
+        "src": "/images/1775651439390-271e27d2-b36f-423d-b1fb-9490d555e470.jpg",
+        "autoplay": true,
+        "description": [
+          "Play Create Eat is a family space in Dubai, designed to help children develop through play, creativity, and healthy habits, while supporting parents as well. Its mission is to foster a child’s growth across all areas: physical, cognitive, and emotional."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Advertising"
+          },
+          {
+            "label": "Client",
+            "value": "Play Create Eat"
+          },
+          {
+            "label": "Country",
+            "value": "UAE"
+          },
+          {
+            "label": "Audience",
+            "value": "Dubai"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "Project Goals",
+        "list": [
+          "Build an audience and drive inquiries via Instagram and WhatsApp before and after launch",
+          "Increase brand awareness among parents"
+        ]
+      },
+      "what-did": {
+        "title": "What we did",
+        "description": "We started working with the project at the pre-launch stage. From March 20 to July 31, 2025, we ran 8 campaigns with different goals",
+        "list": [
+          "Drove traffic to Instagram and WhatsApp to generate inquiries for the launch and key services (birthdays, breakfasts, kids’ camps, etc.)",
+          "Ran reach campaigns to warm up the audience, build awareness, and grow followers",
+          "Tested multiple creatives, including banners, Reels, and video teasers featuring brand elements, club spaces, and launch offers"
+        ]
+      },
+      "results-metrics": {
+        "title": "Results",
+        "description": "The goal was achieved — the client now has a steady flow of inquiries and an engaged audience for the year ahead.",
+        "items": [
+          {
+            "title": "New followers",
+            "result": "5324",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Leads",
+            "result": "1126",
+            "unit_measurement": "Instagram & WhatsApp"
+          },
+          {
+            "title": "Cost per follower",
+            "result": "$2,18",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Cost per lead",
+            "result": "$10,79",
+            "unit_measurement": "Instagram & WhatsApp"
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "",
+        "name": "Play Create Eat",
+        "src": "/images/play-create-eat-image.jpg",
+        "autoplay": true,
+        "description": [
+          "Play Create Eat — это семейное пространство в Дубае, созданное так, чтобы дети могли развиваться через игру, творчество и здоровые привычки, а родители. Цель — поддерживать рост ребёнка во всех аспектах: физическом, умственном и эмоциональном."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Реклама"
+          },
+          {
+            "label": "Клиент",
+            "value": "Play Create Eat"
+          },
+          {
+            "label": "Страна",
+            "value": "ОАЭ"
+          },
+          {
+            "label": "Аудитория",
+            "value": "Дубай"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "Цели компании",
+        "list": [
+          "Привлечение подписчиков и получение заявок в Instagram и WhatsApp к открытию клуба и после открытия",
+          "Повышение узнаваемости бренда среди родителей."
+        ]
+      },
+      "what-did": {
+        "title": "Что сделали",
+        "description": "СОТРУДНИЧЕСТВО НАЧАЛОСЬ ЕЩЕ НА ЭТАПЕ ПОДГОТОВКИ К ОТКРЫТИЮ. С 20 МАРТА 2025 ПО 31 ИЮЛЯ 2025 БЫЛО ЗАПУЩЕНО 8 КАМПАНИЙ С РАЗНЫМИ ЦЕЛЯМИ",
+        "list": [
+          "Трафик в Instagram и WhatsApp для заявок на открытие и разные услуги (дни рождения, завтраки, детский лагерь и др.)",
+          "Охват для прогрева аудитории, повышения узнаваемости, роста подписчиков.",
+          "Протестировали серию баннеров, Reels и видеоанонсов с элементами брендинга, фото зон клуба и выгодными предложениями на открытие."
+        ]
+      },
+      "results-metrics": {
+        "title": "Результаты",
+        "description": "Цель достигнута — клиент получил устойчивый поток заявок и вовлечённую аудиторию на год вперёд.",
+        "items": [
+          {
+            "title": "Новые подписчики",
+            "result": "5324",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Заявки",
+            "result": "1126",
+            "unit_measurement": "Instagram & WhatsApp"
+          },
+          {
+            "title": "Стоимость подписчика",
+            "result": "$2,18",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Стоимость лида",
+            "result": "$10,79",
+            "unit_measurement": "Instagram & WhatsApp"
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "Play Create Eat",
+        "src": "/images/1775651439400-e4937c5b-b878-4106-b2f8-171f217a5946.jpg",
+        "autoplay": true,
+        "description": [
+          "Play Create Eat ist ein Familienraum in Dubai, der so gestaltet wurde, dass Kinder sich durch Spiel, Kreativität und gesunde Gewohnheiten entwickeln können – und gleichzeitig auch Eltern unterstützt. Ziel ist es, die ganzheitliche Entwicklung des Kindes zu fördern: körperlich, kognitiv und emotional."
+        ],
+        "about": [
+          {
+            "label": "Branche",
+            "value": "Werbung"
+          },
+          {
+            "label": "Kunde",
+            "value": "Play Create Eat"
+          },
+          {
+            "label": "Land",
+            "value": "VAE"
+          },
+          {
+            "label": "Zielgruppe",
+            "value": "Dubai"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "UNTERNEHMENSZIELE",
+        "list": [
+          "Gewinnung von Followern und Anfragen über Instagram und WhatsApp vor und nach der Cluberöffnung.",
+          "Steigerung der Markenbekanntheit bei Eltern."
+        ]
+      },
+      "what-did": {
+        "title": "UMGESETZTE MASSNAHMEN",
+        "description": "Die Zusammenarbeit begann bereits in der Vorbereitungsphase vor der Eröffnung. Vom 20. März 2025 bis zum 31. Juli 2025 wurden 8 Kampagnen mit unterschiedlichen Zielen umgesetzt.",
+        "list": [
+          "Traffic auf Instagram und WhatsApp zur Generierung von Anfragen für die Eröffnung und verschiedene Angebote (Geburtstage, Frühstücke, Kinderlager usw.).",
+          "Reichweitenkampagnen zur Aufwärmung der Zielgruppe, Steigerung der Bekanntheit und Gewinnung neuer Follower.",
+          "Test verschiedener Banner, Reels und Video-Teaser mit Branding-Elementen, Club-Fotobereichen und attraktiven Eröffnungsangeboten."
+        ]
+      },
+      "results-metrics": {
+        "title": "Ergebnisse",
+        "description": "Das Ziel wurde erreicht — der Kunde verfügt nun über einen stabilen Anfragenstrom und eine engagierte Community für das kommende Jahr.",
+        "items": [
+          {
+            "title": "Neue Follower",
+            "result": "5324",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Anfragen",
+            "result": "1126",
+            "unit_measurement": "Instagram & WhatsApp"
+          },
+          {
+            "title": "Kosten pro Follower",
+            "result": "$2,18",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Kosten pro Lead",
+            "result": "$10,79",
+            "unit_measurement": "Instagram & WhatsApp"
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "Play Create Eat",
+        "src": "/images/1775651439415-20889360-b26e-4fe5-870a-c22d895dc68b.jpg",
+        "autoplay": true,
+        "description": [
+          "Play Create Eat es un espacio familiar en Dubái, diseñado para que los niños se desarrollen a través del juego, la creatividad y hábitos saludables, al mismo tiempo que apoya a los padres. Su objetivo es fomentar el crecimiento del niño en todos los aspectos: físico, cognitivo y emocional."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Publicidad"
+          },
+          {
+            "label": "Cliente",
+            "value": "Play Create Eat"
+          },
+          {
+            "label": "País",
+            "value": "EAU"
+          },
+          {
+            "label": "Audiencia",
+            "value": "Dubái"
+          }
+        ]
+      },
+      "goals-company": {
+        "title": "OBJETIVOS DE LA EMPRESA",
+        "list": [
+          "Atraer seguidores y generar solicitudes a través de Instagram y WhatsApp antes y después de la apertura del club.",
+          "Aumentar el reconocimiento de la marca entre los padres."
+        ]
+      },
+      "what-did": {
+        "title": "QUÉ SE HIZO",
+        "description": "La colaboración comenzó en la fase previa a la apertura. Del 20 de marzo de 2025 al 31 de julio de 2025, se lanzaron 8 campañas con distintos objetivos.",
+        "list": [
+          "Generación de tráfico hacia Instagram y WhatsApp para obtener solicitudes relacionadas con la apertura y diversos servicios (cumpleaños, desayunos, campamentos infantiles, etc.).",
+          "Campañas de alcance para calentar la audiencia, aumentar el reconocimiento de marca y crecer en seguidores.",
+          "Pruebas de distintos banners, Reels y videos promocionales con elementos de marca, zonas fotográficas del club y ofertas especiales de apertura."
+        ]
+      },
+      "results-metrics": {
+        "title": "Resultados",
+        "description": "El objetivo se cumplió: el cliente cuenta ahora con un flujo constante de solicitudes y una audiencia comprometida para el próximo año.",
+        "items": [
+          {
+            "title": "Nuevos seguidores",
+            "result": "5324",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Solicitudes",
+            "result": "1126",
+            "unit_measurement": "Instagram & WhatsApp"
+          },
+          {
+            "title": "Costo por seguidor",
+            "result": "$2,18",
+            "unit_measurement": "Instagram"
+          },
+          {
+            "title": "Costo por lead",
+            "result": "$10,79",
+            "unit_measurement": "Instagram & WhatsApp"
+          }
+        ]
+      },
+      "other-projects": true
+    }
+  }
+}

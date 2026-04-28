@@ -1,0 +1,549 @@
+{
+  "id": "evgeniya-kormina",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Evgeniya Kormina",
+        "name": "Psychologist",
+        "src": "/images/1777377704383-b0ed6fbf-5d2d-484f-8214-d4b89f6c9ac2.png",
+        "autoplay": true,
+        "description": [
+          "Evgeniya Kormina is a psychologist working with entrepreneurs, helping them overcome internal barriers, navigate professional pressure, and unlock higher levels of performance and income."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Personal Branding"
+          },
+          {
+            "label": "Client",
+            "value": "Evgeniya Kormina"
+          },
+          {
+            "label": "Market",
+            "value": "USA"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "THE BRIEF",
+        "description": [
+          "\n\nOur goal was to strengthen the client’s personal brand through a structured expert positioning strategy on the international market.\n\nAt the start of the project, the client already had a strong professional foundation: over 20 years of experience helping people, a private practice, and proprietary educational programs. ",
+          "However, this expertise had not yet been fully translated into visibility and professional recognition in the U.S. market:"
+        ],
+        "lists": [
+          {
+            "src": "/images/1777307519975-f47d501e-5959-46f0-9b09-dd012e2adcf8.png",
+            "description": "Strengthen the client’s personal brand through structured expert positioning",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777307603075-9967f86c-aaf5-4623-abb2-d702570facb9.png",
+            "description": "Increase visibility and trust among a professional audience in the U.S.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777307700552-f7c28e05-9a42-44d0-bdbd-5d30366a6308.png",
+            "description": "Build a public profile aligned with U.S. talent visa criteria",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777307772000-50e3c392-ebd5-4e16-b7d4-1ebddeacc2c4.png",
+            "description": "Structure and promote original psychological methods",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "OUR STRATEGY",
+        "subtitle": "We developed a comprehensive promotion strategy that included:",
+        "lists": [
+          {
+            "title": "POSITIONING",
+            "bullets": [
+              "We began by redefining the client’s positioning to align with the expectations and demands of the U.S. market. Given Evgeniya’s broad expertise, it was essential to narrow the focus — shifting from general psychological consulting to working at the intersection of psychology and business.",
+              "In communications, we emphasized that the client helps entrepreneurs and professionals reach new levels of income, achieve financial independence, and systematically develop a growth mindset."
+            ],
+            "src": "/images/1777364926535-b6df8de2-f748-4f47-8418-524353822d64.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "AUTHOR-DEVELOPED METHODS",
+            "bullets": [
+              "We analyzed demand in the U.S. market to align content and topics with audience expectations.",
+              "To strengthen credibility, we focused on the scientific foundation and her author-developed methods: supported academic publications and structured her methodology into a clear, professional framework.структуру достижений и опыта, релевантную международной профессиональной среде.",
+              "We also shaped a strong professional profile, highlighting real-world impact and presenting her experience in a way that resonates with an international audience."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "MEDIA PRESENCE",
+            "bullets": [
+              "We built a consistent media presence by securing publications, integrating the client into the professional community, and reinforcing her expert status through regular commentary and features."
+            ],
+            "src": "/images/1777365039558-6c9dc079-ef64-485e-8509-e5d7d8c4911e.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "RESULTS",
+        "subtitle": "The project lasted several months and led to measurable shifts in the client’s professional trajectory:",
+        "blocks": [
+          {
+            "title": "INTERNATIONAL POSITIONING",
+            "description": "Refined positioning at the intersection of psychology and business made the client’s expertise clearly defined for the U.S. market and aligned with the expectations of an international audience.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "MEDIA PRESENCE IN THE U.S. AND CIS",
+            "description": "Media features and expert commentary increased visibility among the target audience and established the client as a practitioner with real-world impact.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "ENHANCED EXPERT PROFILE",
+            "description": "Academic publications, formalized methodology, and integration into the professional community strengthened credibility and reinforced her expert reputation.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ALIGNMENT WITH U.S. VISA CRITERIA",
+            "description": "All elements of the public profile were structured in line with talent visa requirements, strengthening the evidence base and the overall strategic value of the case.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "Евгения Кормина",
+        "name": "Психолог",
+        "src": "/images/1777377691307-ddfb3218-c1e3-422c-a587-488b352ffec3.png",
+        "autoplay": true,
+        "description": [
+          "Евгения Кормина — психолог, работающая с предпринимателями и помогающая клиентам справляться с внутренними барьерами, профессиональным напряжением и задачами личной эффективности."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Личное продвижение"
+          },
+          {
+            "label": "Клиент",
+            "value": "Евгения Кормина"
+          },
+          {
+            "label": "Страна",
+            "value": "Россия"
+          },
+          {
+            "label": "Рынок",
+            "value": "США"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "Задача клиента",
+        "description": [
+          "Наша задача заключалась в усилении личного бренда клиента через системное экспертное позиционирование на международном уровне.\n\nК моменту начала работы у клиента уже была устойчивая профессиональная база: более 20 лет практики в сфере помощи людям, частная практика и собственные образовательные программы. Однако этот опыт не был в полной мере конвертирован в узнаваемость и профессиональный вес на рынке США."
+        ],
+        "lists": [
+          {
+            "src": "/images/1777307506053-17b6297d-227f-40d8-a2d9-d512a9efa16d.png",
+            "description": "Усилить личный бренд клиента через системное экспертное позиционирование",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777307593154-ab287563-2dbe-4e78-ab04-a4b6f362a1f2.png",
+            "description": "Повысить узнаваемость и доверие среди профессиональной аудитории США",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777307690692-3400ac62-d3c8-4f19-aa3f-6d0bc92a01ae.png",
+            "description": "Сформировать публичный профиль под критерии визы талантов в США",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777307781421-d0cf4b02-d9d4-4ad1-8b92-969e13282fa6.png",
+            "description": "Упаковать и продвинуть авторские психологические методики",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "Какую стратегию мы предложили",
+        "subtitle": "Мы разработали комплексную стратегию продвижения, которая включала:",
+        "lists": [
+          {
+            "title": "Позиционирование",
+            "bullets": [
+              "Мы начали с пересборки позиционирования клиента под требования и запросы американского рынка. При широкой экспертизе Евгении важно было сузить и сфокусировать профиль: от общего психологического консультирования — к работе на стыке психологии и бизнеса. ",
+              "В коммуникации сделали акцент на том, что клиент помогает предпринимателям и специалистам выходить на новый уровень дохода, достигать финансовой независимости и системно выстраивать мышление для роста."
+            ],
+            "src": "/images/1777364903945-dc4f7508-a2f7-4980-8d01-2a35e95de65b.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "Авторская методика",
+            "bullets": [
+              "Параллельно провели анализ запросов аудитории в США, чтобы адаптировать подачу и тематику под локальный рынок. Для усиления доверия сделали упор на научную составляющую и авторскую методику: сопроводили подготовку и публикацию научных статей, а также оформление методологической базы.",
+              "Выстроили стратегию профессионального позиционирования с акцентом на инженерную экспертизу и практический вклад в отрасль. Сформировали\nструктуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "Медийное присутствие",
+            "bullets": [
+              "Дополнительно выстроили медийное присутствие: обеспечили публикации в СМИ, интеграцию в профессиональное сообщество и закрепили экспертный статус через регулярные комментарии и материалы."
+            ],
+            "src": "/images/1777365028083-705452f3-5b50-433f-9601-1df2c73afeba.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "Результат",
+        "subtitle": "Работа заняла несколько месяцев и привела к изменениям в профессиональной траектории клиента:",
+        "blocks": [
+          {
+            "title": "МЕЖДУНАРОДНОЕ ПОЗИЦИОНИРОВАНИЕ",
+            "description": "Пересобранное позиционирование на стыке психологии и бизнеса позволило четко упаковать экспертизу клиента для рынка США и сделать профиль релевантным запросам международной аудитории.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "МЕДИЙНОЕ ПРИСУТСТВИЕ В США И СНГ",
+            "description": "Публикации в СМИ и экспертные комментарии обеспечили рост узнаваемости среди целевой аудитории и закрепили образ клиента как практикующего эксперта с прикладной ценностью.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "УСИЛЕНИЕ ЭКСПЕРТНОГО ПРОФИЛЯ",
+            "description": "Научные статьи, оформление авторской методики и интеграция в профессиональное сообщество укрепили доверие и системно усилили экспертную репутацию.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ПОДГОТОВКА ПОД ВИЗОВЫЕ КРИТЕРИИ США",
+            "description": "Все элементы публичного профиля были выстроены с учетом требований визы талантов, что усилило доказательную базу и стратегическую ценность кейса.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Evgeniya Kormina",
+        "name": "Psychologin",
+        "src": "/images/1777377715092-71c82b9a-035a-4ca6-abda-ec14694532dd.png",
+        "autoplay": true,
+        "description": [
+          "Evgeniya Kormina ist Psychologin und arbeitet mit Unternehmern. Sie unterstützt ihre Klienten dabei, innere Blockaden zu überwinden, mit beruflichem Druck umzugehen und ihr Leistungsniveau gezielt zu steigern."
+        ],
+        "about": [
+          {
+            "label": "Branche",
+            "value": "Personal Branding"
+          },
+          {
+            "label": "Kundin",
+            "value": "Evgeniya Kormina"
+          },
+          {
+            "label": "Markt",
+            "value": "USA"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "PROJEKTZIEL",
+        "description": [
+          "Unser Ziel war es, die persönliche Marke der Kundin durch eine strukturierte Expertenpositionierung auf internationaler Ebene zu stärken.",
+          "Zu Beginn der Zusammenarbeit verfügte die Kundin bereits über eine solide berufliche Basis: mehr als 20 Jahre Erfahrung in der Arbeit mit Menschen, eine eigene Praxis sowie eigene Bildungsprogramme. Dieses Potenzial war jedoch auf dem US-Markt noch nicht vollständig in Sichtbarkeit und professionelle Anerkennung übersetzt worden."
+        ],
+        "lists": [
+          {
+            "src": "/images/1777307532058-91cfc69a-3caa-438e-aeb6-f8966c0b56fa.png",
+            "description": "Die persönliche Marke der Kundin durch eine klare, strategische Positionierung stärken",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777307613145-c6887462-fa99-455c-a956-9793f3df314e.png",
+            "description": "Sichtbarkeit und Vertrauen bei einer professionellen Zielgruppe in den USA erhöhen",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777307712285-84a0cecd-ded5-4413-81b0-01d81aa33803.png",
+            "description": "Ein öffentliches Profil aufbauen, das den Anforderungen für ein US-Talentvisum entspricht",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777307762126-ed1cc44e-750f-40e1-9eff-a02926c67ebb.png",
+            "description": "Eigene psychologische Methoden strukturieren und gezielt positionieren",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "UNSERE STRATEGIE",
+        "subtitle": "Wir haben eine umfassende Strategie entwickelt, die folgende Elemente umfasste:",
+        "lists": [
+          {
+            "title": "POSITIONIERUNG",
+            "bullets": [
+              "Zunächst haben wir die Positionierung der Kundin für den US-Markt neu ausgerichtet. Aufgrund ihrer breiten Expertise war es wichtig, den Fokus zu schärfen — weg von allgemeiner psychologischer Beratung hin zur Arbeit an der Schnittstelle von Psychologie und Business.",
+              "In der Kommunikation haben wir den Fokus darauf gelegt, dass sie Unternehmern und Fachkräften hilft, ihr Einkommen zu steigern, finanzielle Unabhängigkeit zu erreichen und ein wachstumsorientiertes Mindset aufzubauen."
+            ],
+            "src": "/images/1777364947308-3477febd-d83c-4daa-849f-7807cbb5171c.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "EIGENE METHODIK",
+            "bullets": [
+              "Parallel dazu haben wir die Bedürfnisse der Zielgruppe in den USA analysiert, um Inhalte und Themen gezielt an den lokalen Markt anzupassen. Zur Stärkung der Glaubwürdigkeit lag der Fokus auf der wissenschaftlichen Basis und ihren eigenen Methoden: Wir haben die Vorbereitung und Veröffentlichung wissenschaftlicher Artikel begleitet und die methodische Grundlage strukturiert.",
+              "Zudem haben wir eine klare professionelle Positionierung aufgebaut, den praktischen Mehrwert hervorgehoben und ihre Erfahrung so strukturiert, dass sie für ein internationales Fachpublikum nachvollziehbar und relevant ist.структуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "MEDIENPRÄSENZ",
+            "bullets": [
+              "Wir haben eine gezielte Medienpräsenz aufgebaut: durch Veröffentlichungen in Fachmedien, die Einbindung in die professionelle Community sowie durch regelmäßige Expertenbeiträge und Kommentare."
+            ],
+            "src": "/images/1777365051874-7a2030b9-1a6f-4aa5-84c5-4d4a97a5def1.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "ERGEBNIS",
+        "subtitle": "Das Projekt dauerte mehrere Monate und führte zu klaren Veränderungen in der beruflichen Entwicklung der Kundin:",
+        "blocks": [
+          {
+            "title": "INTERNATIONALE POSITIONIERUNG",
+            "description": "Die neu ausgerichtete Positionierung an der Schnittstelle von Psychologie und Business machte die Expertise der Kundin für den US-Markt klar verständlich und relevant für ein internationales Publikum.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "MEDIENPRÄSENZ IN DEN USA UND DEN GUS-STAATEN",
+            "description": "Veröffentlichungen und Expertenbeiträge steigerten die Sichtbarkeit in der Zielgruppe und positionierten die Kundin als praxisorientierte Expertin.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "STÄRKUNG DES EXPERTENPROFILS",
+            "description": "Wissenschaftliche Publikationen, die Ausarbeitung der eigenen Methodik und die Einbindung in die Fachcommunity stärkten Vertrauen und Reputation nachhaltig.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "AUSRICHTUNG AUF US-VISAKRITERIEN",
+            "description": "Alle Elemente des öffentlichen Profils wurden gezielt an die Anforderungen für ein Talentvisum angepasst und stärkten so die Beweisbasis und den strategischen Wert des Falls.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "Evgeniya Kormina",
+        "name": "Psicóloga",
+        "src": "/images/1777377663758-8cb9c332-7de6-4184-a42f-af0e10ee769e.png",
+        "autoplay": true,
+        "description": [
+          "Evgeniya Kormina es psicóloga y trabaja con emprendedores, ayudándoles a superar barreras internas, gestionar la presión profesional y alcanzar un mayor nivel de rendimiento."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Marca personal"
+          },
+          {
+            "label": "Cliente",
+            "value": "Evgeniya Kormina"
+          },
+          {
+            "label": "Mercado",
+            "value": "Estados Unidos"
+          }
+        ]
+      },
+      "tasks": {
+        "title": "OBJETIVO DEL PROYECTO",
+        "description": [
+          "Nuestro objetivo fue fortalecer la marca personal de la cliente mediante una estrategia estructurada de posicionamiento experto a nivel internacional.",
+          "Al inicio del proyecto, la cliente ya contaba con una sólida base profesional: más de 20 años de experiencia ayudando a personas, práctica privada y programas educativos propios. Sin embargo, esta experiencia aún no se había traducido plenamente en visibilidad y reconocimiento profesional en el mercado estadounidense."
+        ],
+        "lists": [
+          {
+            "src": "/images/1777307544062-9047ab77-6cd1-4548-9ccb-3a82d57fff5a.png",
+            "description": "Fortalecer la marca personal mediante un posicionamiento experto estructurado",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "src": "/images/1777307622574-e20b6347-ff6c-4ba6-8eca-e861ead72aae.png",
+            "description": "Aumentar la visibilidad y la confianza entre la audiencia profesional en el mercado estadounidense",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "src": "/images/1777307723950-d2480851-567b-4602-87af-43a60287a316.png",
+            "description": "Desarrollar un perfil público alineado con los criterios de la visa de talento",
+            "background": "",
+            "border": true
+          },
+          {
+            "src": "/images/1777307747321-3da27899-3f35-40a2-9e29-12b0332e26f0.png",
+            "description": "Desarrollar y posicionar métodos psicológicos propios",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "strategies": {
+        "title": "NUESTRA ESTRATEGIA",
+        "subtitle": "Desarrollamos una estrategia integral que incluyó:",
+        "lists": [
+          {
+            "title": "POSICIONAMIENTO",
+            "bullets": [
+              "Redefinimos el posicionamiento de la cliente para alinearlo con las expectativas del mercado estadounidense. Dada la amplitud de su experiencia, era clave enfocar su perfil: de la psicología general hacia el trabajo en la intersección entre psicología y negocio.",
+              "En la comunicación, pusimos el foco en su trabajo con emprendedores y profesionales, ayudándoles a aumentar sus ingresos, alcanzar la independencia financiera y desarrollar una mentalidad orientada al crecimiento."
+            ],
+            "src": "/images/1777364962545-5510448d-31de-4682-a70a-e2c03a38d379.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "METODOLOGÍA PROPIA",
+            "bullets": [
+              "Analizamos las necesidades de la audiencia en EE. UU. para adaptar los contenidos y los temas al mercado local. Para reforzar la confianza, nos enfocamos en la base científica y en su metodología propia: acompañamos la preparación y publicación de artículos académicos, así como la estructuración del marco metodológico.",
+              "Además, construimos un posicionamiento profesional sólido, destacando el impacto práctico de su trabajo y organizando su experiencia de forma relevante para una audiencia internacional.структуру достижений и опыта, релевантную международной профессиональной среде."
+            ],
+            "src": "",
+            "location": "right",
+            "background": "",
+            "border": true
+          },
+          {
+            "title": "PRESENCIA EN MEDIOS",
+            "bullets": [
+              "Construimos una presencia sólida en medios: aseguramos publicaciones, integramos a la cliente en la comunidad profesional y reforzamos su estatus como experta mediante comentarios y contenidos regulares."
+            ],
+            "src": "/images/1777365066305-a173e0f8-8a9b-49c7-9793-4d5aa7ab2373.png",
+            "location": "left",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "results-blocks": {
+        "title": "RESULTADOS",
+        "subtitle": "El proyecto duró varios meses y generó cambios claros en la trayectoria profesional de la cliente:",
+        "blocks": [
+          {
+            "title": "POSICIONAMIENTO INTERNACIONAL",
+            "description": "El reposicionamiento en la intersección entre psicología y negocio permitió definir claramente su propuesta para el mercado estadounidense y hacerla relevante para una audiencia internacional.",
+            "background": "#2AB464",
+            "border": false
+          },
+          {
+            "title": "PRESENCIA EN MEDIOS EN EE. UU. Y LA CEI",
+            "description": "Las publicaciones y comentarios expertos aumentaron la visibilidad y consolidaron su imagen como especialista con enfoque práctico.",
+            "background": "#FFFFFF",
+            "border": false
+          },
+          {
+            "title": "REFUERZO DEL PERFIL EXPERTO",
+            "description": "Las publicaciones académicas, la estructuración de su metodología y la integración en la comunidad profesional fortalecieron la confianza y su reputación.",
+            "background": "transparent",
+            "border": true
+          },
+          {
+            "title": "ALINEACIÓN CON LOS CRITERIOS DE VISA EN EE. UU.",
+            "description": "Todos los elementos del perfil público se estructuraron de acuerdo con los requisitos de la visa de talento, reforzando la base probatoria y el valor estratégico del caso.",
+            "background": "#2AB464",
+            "border": false
+          }
+        ]
+      },
+      "other-projects": true
+    }
+  }
+}

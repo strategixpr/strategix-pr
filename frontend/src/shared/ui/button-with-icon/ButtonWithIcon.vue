@@ -11,19 +11,20 @@ import arrowForwardInCircle from '@/assets/images/arrow-forward-in-circle.svg';
  * white - без обводки, фон иконки белый, белый текст и тёмный фон.
  *         При hover фон белый, текст и фон иконки зелёные.
  */
-const props = withDefaults(
-  defineProps<{
-    styleButton?: 'base' | 'green' | 'white',
-    href?: string,
-    target?: string,
-  }>(),
-  {
-    styleButton: 'base',
-  },
-);
+const {
+  styleButton = 'base',
+  href,
+  target,
+  theme = 'dark',
+} = defineProps<{
+  styleButton?: 'base' | 'green' | 'white',
+  href?: string,
+  target?: string,
+  theme?: 'dark' | 'light',
+}>()
 
 const iconSrc = computed(() => {
-  switch (props.styleButton) {
+  switch (styleButton) {
     case 'green':
       return lineMdArrowUp;
     case 'white':
@@ -37,10 +38,14 @@ const iconSrc = computed(() => {
 
 <template>
   <a
-    class="button base-text"
-    :class="props.styleButton"
-    :href="props.href"
-    :target="props.target"
+    :class="[
+      'button',
+      'base-text',
+      styleButton,
+      theme
+    ]"
+    :href="href"
+    :target="target"
   >
     <slot />&nbsp;&nbsp;
     <span class="icon">
@@ -80,7 +85,7 @@ const iconSrc = computed(() => {
     border-style: none;
     border-radius: 50px;
 
-    color: var(--strategix-light);
+    color: var(--button-text-color);
     cursor: pointer;
     position: relative;
 
@@ -106,6 +111,14 @@ const iconSrc = computed(() => {
 
       padding: calc(var(--vh) * 2) calc(var(--vh) * 6) calc(var(--vh) * 2) calc(var(--vh) * 2);
     }
+  }
+
+  .button.light{
+    --button-text-color: var(--strategix-dark);
+  }
+
+  .button.dark{
+    --button-text-color: var(--strategix-light);
   }
 
   /* Круг с иконкой */
@@ -138,7 +151,7 @@ const iconSrc = computed(() => {
   .base {
     background-color: transparent;
     border-style: none;
-    color: var(--strategix-light);
+    color: var(--button-text-color);
   }
 
   .base .icon {
@@ -167,7 +180,11 @@ const iconSrc = computed(() => {
     border-style: solid;
     border-color: var(--strategix-accent);
     background-color: var(--strategix-dark);
-    color: var(--strategix-light);
+    color: var(--button-text-color);
+  }
+
+  .green.light{
+    background-color: var(--strategix-light);
   }
 
   .green .icon {
@@ -200,7 +217,7 @@ const iconSrc = computed(() => {
   .white {
     border: none;
     background-color: var(--strategix-dark);
-    color: var(--strategix-light);
+    color: var(--button-text-color);
   }
 
   /* иконка крупнее, на белом фоне */

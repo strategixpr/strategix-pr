@@ -1,0 +1,517 @@
+{
+  "id": "mariage",
+  "translations": {
+    "en": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "GALOGREA",
+        "src": "/videos/welcome-en.mp4",
+        "autoplay": true,
+        "description": [
+          "Galogrea Atelier is a bridal fashion brand creating refined and elegant looks for brides. Every dress reflects individuality, combining contemporary aesthetics, traditional motifs, and attention to detail."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Production"
+          },
+          {
+            "label": "Client",
+            "value": "GALOGREA"
+          },
+          {
+            "label": "Country",
+            "value": "Georgia"
+          }
+        ]
+      },
+      "context": {
+        "title": "Context",
+        "description": [
+          "The bridal brand Mariage was preparing to present its spring collection in the format of a full-scale fashion show.",
+          "The task was not only to showcase the dresses, but to create an event that would:",
+          {
+            "bullets": [
+              "strengthen the brand's positioning in the region",
+              "attract a new audience",
+              "deliver a measurable sales impact",
+              "serve as a content platform for further promotion"
+            ]
+          },
+          "The format was a fashion show with thoughtful direction and multimedia support."
+        ],
+        "content": [
+          {
+            "src": "/videos/wedding-dress-en.mp4",
+            "alt": "Dress video 1"
+          },
+          {
+            "src": "/videos/center-en.mp4",
+            "alt": "Dress video 2"
+          },
+          {
+            "src": "/images/1775661133074-cc0972dc-8e06-4667-868b-578edb48e2dc.jpg",
+            "alt": "Dress photo 3"
+          }
+        ]
+      },
+      "strategies": {
+        "title": "",
+        "subtitle": "",
+        "lists": [
+          {
+            "title": "Project Goals",
+            "bullets": [
+              "Develop the show concept",
+              "Create an emotional narrative for the collection launch",
+              "Provide full event production",
+              "Attract the audience and generate organic interest",
+              "Convert attention into sales"
+            ],
+            "src": "/images/1775661133073-3c510f83-bd0c-442e-9e5e-58d29fe90bb7.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "big-video": {
+        "src": "/videos/mariage-en.mp4",
+        "alt": "Video from the Mariage show",
+        "autoplay": true
+      },
+      "slider": {
+        "title": "",
+        "slides": [
+          {
+            "src": "/images/1775661133074-0a043793-21b0-4af2-837b-0b7cbbe74edd.jpg",
+            "alt": "Mariage Dress 1"
+          },
+          {
+            "src": "/images/1775661133074-8c39374d-a195-4186-8d01-d67f8f5b7501.jpg",
+            "alt": "Mariage Dress 2"
+          },
+          {
+            "src": "/videos/galagrea-en.mp4",
+            "alt": "Mariage Dress 3"
+          },
+          {
+            "src": "/images/1775661133074-2434eb6d-e04e-41a0-aa05-65d895b96768.jpg",
+            "alt": "Mariage Dress 4"
+          },
+          {
+            "src": "/images/1775661133074-30d1062a-1fea-4263-8334-362220c6d4e9.jpg",
+            "alt": "Mariage Dress 5"
+          }
+        ]
+      },
+      "results-list": {
+        "title": "Results",
+        "bullets": [
+          "Sales growth after the event",
+          "Business expansion: an additional corner was opened",
+          "New clients were attracted",
+          "Organic traffic and brand awareness were ensured"
+        ]
+      },
+      "big-video-2": {
+        "src": "/videos/mariage-end-en.mp4",
+        "alt": "Second video from the Mariage show",
+        "autoplay": true
+      },
+      "other-projects": true
+    },
+    "ru": {
+      "welcome": {
+        "sphere": "",
+        "name": "GALOGREA",
+        "src": "/videos/welcome-ru.mp4",
+        "autoplay": true,
+        "description": [
+          "Ателье Galogrea — бренд свадебных платьев, создающий утончённые и элегантные образы для невест. Каждое платье отражает индивидуальность, сочетая современную эстетику, традиционные мотивы и внимание к деталям."
+        ],
+        "about": [
+          {
+            "label": "Сектор",
+            "value": "Продакшн"
+          },
+          {
+            "label": "Клиент",
+            "value": "GALOGREA"
+          },
+          {
+            "label": "Страна",
+            "value": "Грузия"
+          }
+        ]
+      },
+      "context": {
+        "title": "Контекст",
+        "description": [
+          "Свадебный бренд Mariage готовил презентацию весенней коллекции в формате полноценного fashion-показа.",
+          "Задача — не просто продемонстрировать платья, а создать событие, которое:",
+          {
+            "bullets": [
+              "усилит позиционирование бренда в регионе",
+              "привлечет новую аудиторию",
+              "даст измеримый эффект для продаж",
+              "станет контент-платформой для дальнейшего продвижения"
+            ]
+          },
+          "Формат — fashion-show с продуманной режиссурой и мультимедийным сопровождением."
+        ],
+        "content": [
+          {
+            "src": "/videos/wedding-dress-ru.mp4",
+            "alt": "Видео с платьем 1"
+          },
+          {
+            "src": "/videos/center-ru.mp4",
+            "alt": "Видео с платьем 2"
+          },
+          {
+            "src": "/images/wedding-dress-3.jpg",
+            "alt": "фото с платьем 3"
+          }
+        ]
+      },
+      "strategies": {
+        "title": "",
+        "subtitle": "",
+        "lists": [
+          {
+            "title": "Задачи проекта",
+            "bullets": [
+              "Разработать концепцию показа",
+              "Создать эмоциональную драматургию выхода коллекции",
+              "Обеспечить полный продакшн мероприятия",
+              "Привлечь аудиторию и сформировать органический интерес",
+              "Конвертировать внимание в продажи"
+            ],
+            "src": "/images/cloth.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "big-video": {
+        "src": "/videos/mariage-ru.mp4",
+        "alt": "Видео с показа Mariage",
+        "autoplay": true
+      },
+      "slider": {
+        "title": "",
+        "slides": [
+          {
+            "src": "/images/wedding-dress-1.jpg",
+            "alt": "Платье Mariage 1"
+          },
+          {
+            "src": "/images/wedding-dress-2.jpg",
+            "alt": "Платье Mariage 2"
+          },
+          {
+            "src": "/videos/galagrea-ru.mp4",
+            "alt": "Платье Mariage 3"
+          },
+          {
+            "src": "/images/wedding-dress-4.jpg",
+            "alt": "Платье Mariage 4"
+          },
+          {
+            "src": "/images/wedding-dress-5.jpg",
+            "alt": "Платье Mariage 5"
+          }
+        ]
+      },
+      "results-list": {
+        "title": "Результаты",
+        "bullets": [
+          "Рост продаж после мероприятия",
+          "Расширение бизнеса — открыт дополнительный корнер",
+          "Привлечены новые клиенты",
+          "Обеспечен органический трафик и узнаваемость бренда"
+        ]
+      },
+      "big-video-2": {
+        "src": "/videos/mariage-end-ru.mp4",
+        "alt": "2 видео с показа Mariage",
+        "autoplay": true
+      },
+      "other-projects": true,
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      }
+    },
+    "de": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "GALOGREA",
+        "src": "/videos/welcome-de.mp4",
+        "autoplay": true,
+        "description": [
+          "Das Atelier Galogrea ist eine Marke für Brautkleider, die raffinierte und elegante Looks für Bräute kreiert. Jedes Kleid spiegelt Individualität wider und verbindet moderne Ästhetik, traditionelle Motive und Liebe zum Detail."
+        ],
+        "about": [
+          {
+            "label": "Sektor",
+            "value": "Produktion"
+          },
+          {
+            "label": "Kunde",
+            "value": "GALOGREA"
+          },
+          {
+            "label": "Land",
+            "value": "Georgien"
+          }
+        ]
+      },
+      "context": {
+        "title": "Kontext",
+        "description": [
+          "Die Brautmodemarke Mariage bereitete die Präsentation der Frühlingskollektion im Format einer vollwertigen Fashion-Show vor.",
+          "Die Aufgabe war nicht nur, die Kleider zu zeigen, sondern ein Event zu schaffen, das:",
+          {
+            "bullets": [
+              "die Positionierung der Marke in der Region stärkt",
+              "ein neues Publikum anzieht",
+              "einen messbaren Effekt auf den Verkauf liefert",
+              "zur Content-Plattform für die weitere Vermarktung wird"
+            ]
+          },
+          "Das Format war eine Fashion-Show mit durchdachter Regie und multimedialer Begleitung."
+        ],
+        "content": [
+          {
+            "src": "/videos/wedding-dress-de.mp4",
+            "alt": "Kleid-Video 1"
+          },
+          {
+            "src": "/videos/center-de.mp4",
+            "alt": "Kleid-Video 2"
+          },
+          {
+            "src": "/images/1775661134283-dfea1069-fccc-4ea8-88ff-b6b528f311a2.jpg",
+            "alt": "Kleid-Foto 3"
+          }
+        ]
+      },
+      "strategies": {
+        "title": "",
+        "subtitle": "",
+        "lists": [
+          {
+            "title": "Projektziele",
+            "bullets": [
+              "Das Konzept der Show entwickeln",
+              "Eine emotionale Dramaturgie für den Launch der Kollektion schaffen",
+              "Die komplette Produktion der Veranstaltung sicherstellen",
+              "Publikum anziehen und organisches Interesse aufbauen",
+              "Aufmerksamkeit in Verkäufe umwandeln"
+            ],
+            "src": "/images/1775661134282-e5ab585d-69e7-406f-8ba5-92f887ece546.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "big-video": {
+        "src": "/videos/mariage-de.mp4",
+        "alt": "Video von der Mariage-Show",
+        "autoplay": true
+      },
+      "slider": {
+        "title": "",
+        "slides": [
+          {
+            "src": "/images/1775661134282-1efd1b2a-de5e-4bea-ae94-02f6d8c00703.jpg",
+            "alt": "Mariage Kleid 1"
+          },
+          {
+            "src": "/images/1775661134283-b49afffe-7217-4518-b51b-a082bc1cc6fa.jpg",
+            "alt": "Mariage Kleid 2"
+          },
+          {
+            "src": "/videos/galagrea-de.mp4",
+            "alt": "Mariage Kleid 3"
+          },
+          {
+            "src": "/images/1775661134283-7784e275-dd59-4579-ba23-678e3e26d212.jpg",
+            "alt": "Mariage Kleid 4"
+          },
+          {
+            "src": "/images/1775661134283-f2c2a8df-4a5f-45e9-9d16-1e5f9b657d48.jpg",
+            "alt": "Mariage Kleid 5"
+          }
+        ]
+      },
+      "results-list": {
+        "title": "Ergebnisse",
+        "bullets": [
+          "Umsatzwachstum nach der Veranstaltung",
+          "Geschäftsausbau: ein zusätzlicher Corner wurde eröffnet",
+          "Neue Kundinnen und Kunden wurden gewonnen",
+          "Organischer Traffic und Markenbekanntheit wurden sichergestellt"
+        ]
+      },
+      "big-video-2": {
+        "src": "/videos/mariage-end-de.mp4",
+        "alt": "Zweites Video von der Mariage-Show",
+        "autoplay": true
+      },
+      "other-projects": true
+    },
+    "es": {
+      "page_info": {
+        "seo": {
+          "title": "",
+          "description": "",
+          "src": ""
+        },
+        "src_favicon": ""
+      },
+      "welcome": {
+        "sphere": "",
+        "name": "GALOGREA",
+        "src": "/videos/welcome-es.mp4",
+        "autoplay": true,
+        "description": [
+          "El atelier Galogrea es una marca de vestidos de novia que crea looks refinados y elegantes para novias. Cada vestido refleja individualidad, combinando estética contemporánea, motivos tradicionales y atención al detalle."
+        ],
+        "about": [
+          {
+            "label": "Sector",
+            "value": "Producción"
+          },
+          {
+            "label": "Cliente",
+            "value": "GALOGREA"
+          },
+          {
+            "label": "País",
+            "value": "Georgia"
+          }
+        ]
+      },
+      "context": {
+        "title": "Contexto",
+        "description": [
+          "La marca nupcial Mariage preparaba la presentación de su colección de primavera en formato de desfile de moda completo.",
+          "El objetivo no era solo mostrar los vestidos, sino crear un evento que:",
+          {
+            "bullets": [
+              "reforzara el posicionamiento de la marca en la región",
+              "atrajera a una nueva audiencia",
+              "generara un efecto medible en las ventas",
+              "se convirtiera en una plataforma de contenido para la promoción posterior"
+            ]
+          },
+          "El formato fue un fashion show con dirección cuidada y acompañamiento multimedia."
+        ],
+        "content": [
+          {
+            "src": "/videos/wedding-dress-es.mp4",
+            "alt": "Video del vestido 1"
+          },
+          {
+            "src": "/videos/center-es.mp4",
+            "alt": "Video del vestido 2"
+          },
+          {
+            "src": "/images/1775661134863-4f941931-d3a5-444a-92b1-578bd4822cc2.jpg",
+            "alt": "Foto del vestido 3"
+          }
+        ]
+      },
+      "strategies": {
+        "title": "",
+        "subtitle": "",
+        "lists": [
+          {
+            "title": "Objetivos del proyecto",
+            "bullets": [
+              "Desarrollar el concepto del desfile",
+              "Crear una dramaturgia emocional para la salida de la colección",
+              "Asegurar la producción integral del evento",
+              "Atraer a la audiencia y generar interés orgánico",
+              "Convertir la atención en ventas"
+            ],
+            "src": "/images/1775661134863-bdd454bc-8758-4d65-9a28-91c9b2d1b116.jpg",
+            "location": "right",
+            "background": "#FFFFFF",
+            "border": false
+          }
+        ]
+      },
+      "big-video": {
+        "src": "/videos/mariage-es.mp4",
+        "alt": "Video del desfile de Mariage",
+        "autoplay": true
+      },
+      "slider": {
+        "title": "",
+        "slides": [
+          {
+            "src": "/images/1775661134863-c836ab18-b8fb-4b61-a17b-573640ed6218.jpg",
+            "alt": "Vestido Mariage 1"
+          },
+          {
+            "src": "/images/1775661134863-d309daa9-3908-4105-9871-0d6a97e508ae.jpg",
+            "alt": "Vestido Mariage 2"
+          },
+          {
+            "src": "/videos/galagrea-es.mp4",
+            "alt": "Vestido Mariage 3"
+          },
+          {
+            "src": "/images/1775661134863-147cc964-46d7-40e6-8c4a-b4bad08ff35d.jpg",
+            "alt": "Vestido Mariage 4"
+          },
+          {
+            "src": "/images/1775661134863-7246f817-266a-4cbd-80d9-d2312212506e.jpg",
+            "alt": "Vestido Mariage 5"
+          }
+        ]
+      },
+      "results-list": {
+        "title": "Resultados",
+        "bullets": [
+          "Crecimiento de ventas después del evento",
+          "Expansión del negocio: se abrió un corner adicional",
+          "Se atrajo a nuevos clientes",
+          "Se aseguró tráfico orgánico y reconocimiento de marca"
+        ]
+      },
+      "big-video-2": {
+        "src": "/videos/mariage-end-es.mp4",
+        "alt": "Segundo video del desfile de Mariage",
+        "autoplay": true
+      },
+      "other-projects": true
+    }
+  }
+}

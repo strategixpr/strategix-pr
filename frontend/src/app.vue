@@ -1,7 +1,18 @@
 <script setup lang="ts">
   import { onMounted, onBeforeUnmount } from 'vue';
-  import { useHead } from '#imports';
+  import { useHead, useRuntimeConfig } from '#imports';
   import { useLocaleHead } from '#i18n';
+  import indexContent from '@/content/pages/index.json';
+  import { getProjectContent } from '@/shared/lib/content/registry';
+  import { resolveMediaSrc } from '@/shared/lib/media/resolveMediaSrc';
+
+  type PageInfo = {
+    src_favicon?: string;
+  };
+
+  type TranslationWithPageInfo = {
+    page_info?: PageInfo;
+  };
 
   // SEO/meta tags for current locale (lang, dir, hreflang)
   const head = useLocaleHead({
@@ -10,7 +21,106 @@
     seo: true,
   });
 
+  const route = useRoute();
+  const { locale } = useI18n();
+  const { app } = useRuntimeConfig();
+  const baseURL = app?.baseURL ?? '/';
+  const currentLocale = computed(() => locale.value || 'ru');
+
+  const normalizeFaviconSrc = (value: unknown) => {
+    if (typeof value !== 'string') return '';
+
+    const source = value.trim();
+    if (!source) return '';
+    if (source.startsWith('/') || source.startsWith('http://') || source.startsWith('https://') || source.startsWith('data:')) {
+      return source;
+    }
+    if (source.startsWith('./')) return `/${source.slice(2)}`;
+
+    return `/${source}`;
+  };
+
+  const homeTranslations = indexContent.translations as Record<string, TranslationWithPageInfo>;
+
+  const homeLocaleContent = computed<TranslationWithPageInfo>(() => (
+    homeTranslations[currentLocale.value] ??
+    homeTranslations.ru ??
+    homeTranslations.en ??
+    Object.values(homeTranslations)[0] ??
+    {}
+  ));
+
+  const projectLocaleContent = computed<TranslationWithPageInfo | null>(() => {
+    const projectSlug = typeof route.params.project === 'string'
+      ? route.params.project
+      : '';
+
+    if (!projectSlug) return null;
+
+    const project = getProjectContent(projectSlug);
+    const translations = project?.translations as Record<string, TranslationWithPageInfo> | undefined;
+    if (!translations) return null;
+
+    return (
+      translations[currentLocale.value] ??
+      translations.ru ??
+      translations.en ??
+      Object.values(translations)[0] ??
+      null
+    );
+  });
+
+  const defaultPngFaviconHref = computed(() => (
+    resolveMediaSrc('/favicon.png', baseURL)
+  ));
+
+  const defaultIcoFaviconHref = computed(() => (
+    resolveMediaSrc('/favicon.ico', baseURL)
+  ));
+
+  const faviconHref = computed(() => {
+    const projectFavicon = normalizeFaviconSrc(projectLocaleContent.value?.page_info?.src_favicon);
+    if (projectFavicon) return resolveMediaSrc(projectFavicon, baseURL);
+
+    const homeFavicon = normalizeFaviconSrc(homeLocaleContent.value.page_info?.src_favicon);
+    if (homeFavicon) return resolveMediaSrc(homeFavicon, baseURL);
+
+    return defaultPngFaviconHref.value;
+  });
+
+  const faviconVersionedHref = computed(() => (
+    `${faviconHref.value}${faviconHref.value.includes('?') ? '&' : '?'}v=20260326`
+  ));
+  const defaultPngFaviconVersionedHref = computed(() => (
+    `${defaultPngFaviconHref.value}${defaultPngFaviconHref.value.includes('?') ? '&' : '?'}v=20260326`
+  ));
+
+  const defaultIcoFaviconVersionedHref = computed(() => (
+    `${defaultIcoFaviconHref.value}${defaultIcoFaviconHref.value.includes('?') ? '&' : '?'}v=20260326`
+  ));
+
   useHead(head);
+  useHead(() => ({
+    link: [
+      {
+        key: 'favicon',
+        rel: 'icon',
+        href: faviconVersionedHref.value,
+      },
+      {
+        key: 'shortcut-favicon',
+        rel: 'shortcut icon',
+        type: 'image/x-icon',
+        href: defaultIcoFaviconVersionedHref.value,
+      },
+      {
+        key: 'favicon-png-fallback',
+        rel: 'icon',
+        type: 'image/png',
+        href: defaultPngFaviconVersionedHref.value,
+      },
+    ],
+  }));
 
   onMounted(() => {
     const coarsePointer = window.matchMedia?.('(pointer: coarse)')?.matches ?? false;
