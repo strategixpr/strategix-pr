@@ -39,6 +39,7 @@ jobs:
         run: yarn generate
         env:
           NUXT_APP_BASE_URL: /
+          SITE_DOMAIN: ru
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4

@@ -1,6 +1,14 @@
 import localesConfig from "../../../src/content/locales.json";
+import {
+  filterLocalesForSiteDomain,
+  normalizeLocaleList,
+  normalizeSiteDomain,
+} from "../../../src/shared/lib/content/domainLocales";
 
-const fallbackLocaleCodes = localesConfig.locales.map((locale: {code: string}) => locale.code);
+const fallbackLocaleCodes = filterLocalesForSiteDomain(
+  normalizeLocaleList(localesConfig.locales),
+  normalizeSiteDomain(process.env.SITE_DOMAIN),
+).map((locale) => locale.code);
 
 export default defineSitemapEventHandler((event) => {
   const config = useRuntimeConfig(event);

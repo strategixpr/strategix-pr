@@ -2,12 +2,37 @@
 
 import {readdirSync} from "node:fs";
 import {join} from "node:path";
+import {
+  filterLocalesForSiteDomain,
+  normalizeLocaleList,
+  normalizeSiteDomain,
+  resolveDefaultLocaleForSiteDomain,
+} from "./src/shared/lib/content/domainLocales";
 
 // eslint-disable-next-line import/no-internal-modules
 import localesConfig from './src/content/locales.json';
 
 const modules = ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n", "@nuxtjs/sitemap"];
-const localeCodes = localesConfig.locales.map((locale: {code: string;}) => locale.code);
+type LocaleConfig = {
+  code?: string;
+  iso?: string;
+  name?: string;
+  language?: string;
+  domains?: string[];
+};
+
+const normalizedLocales = normalizeLocaleList(
+  (Array.isArray(localesConfig.locales) ? localesConfig.locales : []) as LocaleConfig[],
+);
+const siteDomain = normalizeSiteDomain(process.env.SITE_DOMAIN);
+const effectiveLocales = filterLocalesForSiteDomain(normalizedLocales, siteDomain);
+const effectiveDefaultLocale = resolveDefaultLocaleForSiteDomain(
+  normalizedLocales,
+  effectiveLocales,
+  localesConfig.default,
+  siteDomain,
+);
+const localeCodes = effectiveLocales.map((locale) => locale.code);
 const projectSlugs = readdirSync(join(process.cwd(), "src/content/pages/project"))
   .filter((fileName) => fileName.endsWith(".json"))
   .map((fileName) => fileName.replace(".json", ""))
@@ -19,6 +44,9 @@ export default defineNuxtConfig({
   srcDir: "src",
   modules,
   runtimeConfig: {
+    public: {
+      siteDomain: siteDomain || "",
+    },
     sitemapData: {
       localeCodes,
       projectSlugs,
@@ -95,12 +123,13 @@ export default defineNuxtConfig({
   },
   i18n: {
     //Код языков опираются на https://w3schoolsrus.github.io/tags/ref_language_codes.html#gsc.tab=0
-    locales: localesConfig.locales.map((l: {code: string; iso: string; name: string;}) => ({
+    locales: effectiveLocales.map((l) => ({
       code: l.code,
       iso: l.iso,
-      name: l.name
+      language: l.language,
+      name: l.name,
     })),
-    defaultLocale: localesConfig.default,
+    defaultLocale: effectiveDefaultLocale,
     strategy: 'prefix_and_default',
   },
   sitemap: {

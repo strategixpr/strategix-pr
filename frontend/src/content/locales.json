@@ -4,22 +4,34 @@
     {
       "code": "ru",
       "name": "Rus",
-      "iso": "ru-RU"
+      "iso": "ru-RU",
+      "domains": [
+        "ru"
+      ]
     },
     {
       "code": "en",
       "name": "Eng",
-      "iso": "en-US"
+      "iso": "en-US",
+      "domains": [
+        "com"
+      ]
     },
     {
       "code": "de",
       "name": "Deu",
-      "iso": "de-DE"
+      "iso": "de-DE",
+      "domains": [
+        "com"
+      ]
     },
     {
       "code": "es",
       "name": "Esp",
-      "iso": "es-ES"
+      "iso": "es-ES",
+      "domains": [
+        "com"
+      ]
     }
   ]
 }

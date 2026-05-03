@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import localesConfig from '@/content/locales.json'
+import projectsContent from '@/content/pages/projects.json'
+import { filterLocalesForSiteDomain, resolveDefaultLocaleForSiteDomain } from '@/shared/lib/content/domainLocales'
+import { getProjectContent } from '@/shared/lib/content/registry'
 
 const { theme } = defineProps({
   theme: {
@@ -9,12 +12,115 @@ const { theme } = defineProps({
 })
 
 const { locale, setLocale } = useI18n()
-const isDropdown = localesConfig.locales.length >= 5
-const CurrentLanguage = localesConfig.locales.find(langConfig => langConfig.code === locale.value)
+const route = useRoute()
+const runtimeConfig = useRuntimeConfig()
+type LanguageOption = { code: string; name: string }
+const isCmsRoutePath = (path: string) => /(^|\/)cms(\/|$)/.test(path)
+const normalizeCode = (value: unknown) => String(value || '').trim().toLowerCase()
+const nonVisualContentKeys = new Set(['page_info', 'seo'])
+const isObjectRecord = (value: unknown): value is Record<string, unknown> =>
+  !!value && typeof value === 'object' && !Array.isArray(value)
 
-const changeLanguage = (langCode: string) => {
+const projectSlug = computed(() => {
+  const slug = route.params.project
+  return typeof slug === 'string' ? slug.trim() : ''
+})
+
+const getProjectVisibleLocaleCodes = (slug: string) => {
+  const visible = new Set<string>()
+  const projectGroups = (projectsContent as any)?.projects
+  if (!isObjectRecord(projectGroups)) return visible
+
+  Object.entries(projectGroups).forEach(([, groupValue]) => {
+    if (!isObjectRecord(groupValue)) return
+
+    Object.entries(groupValue).forEach(([localeCode, localeValue]) => {
+      if (!isObjectRecord(localeValue)) return
+      const cases = localeValue.cases
+      if (!isObjectRecord(cases)) return
+      const caseMeta = cases[slug]
+      if (!isObjectRecord(caseMeta) || caseMeta.hidden === true) return
+      visible.add(normalizeCode(localeCode))
+    })
+  })
+
+  return visible
+}
+
+const getProjectTranslationLocaleCodes = (payload: unknown) => {
+  const locales = new Set<string>()
+  if (!isObjectRecord(payload)) return locales
+
+  const translations = payload.translations
+  if (!isObjectRecord(translations)) return locales
+
+  Object.entries(translations).forEach(([localeCode, localePayload]) => {
+    if (!isObjectRecord(localePayload)) return
+    const hasRenderableSection = Object.keys(localePayload).some((key) => !nonVisualContentKeys.has(key))
+    if (!hasRenderableSection) return
+    locales.add(normalizeCode(localeCode))
+  })
+
+  return locales
+}
+
+const projectSwitchableLocaleCodes = computed<Set<string> | null>(() => {
+  if (isCmsRoutePath(route.path)) return null
+
+  const slug = projectSlug.value
+  if (!slug) return null
+
+  const projectPayload = getProjectContent(slug)
+  const translationLocaleCodes = getProjectTranslationLocaleCodes(projectPayload)
+  if (!translationLocaleCodes.size) return new Set()
+
+  const visibleLocaleCodes = getProjectVisibleLocaleCodes(slug)
+  if (!visibleLocaleCodes.size) return new Set()
+
+  return new Set(
+    Array.from(translationLocaleCodes).filter((localeCode) => visibleLocaleCodes.has(localeCode)),
+  )
+})
+
+const availableLanguages = computed<LanguageOption[]>(() => {
+  const domainLanguages = filterLocalesForSiteDomain(localesConfig.locales || [], runtimeConfig.public.siteDomain)
+  const switchableLocaleCodes = projectSwitchableLocaleCodes.value
+  const byProject = !switchableLocaleCodes
+    ? domainLanguages
+    : domainLanguages.filter((language: { code?: string }) =>
+      switchableLocaleCodes.has(normalizeCode(language?.code)),
+    )
+
+  return byProject
+    .map((language) => ({
+      code: String(language?.code || '').trim(),
+      name: String(language?.name || language?.code || '').trim(),
+    }))
+    .filter((language): language is LanguageOption => !!language.code)
+})
+const shouldRenderSwitcher = computed(() => availableLanguages.value.length > 1)
+const isDropdown = computed(() => availableLanguages.value.length >= 5)
+const CurrentLanguage = computed(() =>
+  availableLanguages.value.find((langConfig) => langConfig.code === locale.value),
+)
+const fallbackLocaleCode = computed(() => resolveDefaultLocaleForSiteDomain(
+  localesConfig.locales || [],
+  availableLanguages.value,
+  localesConfig.default,
+  runtimeConfig.public.siteDomain,
+))
+const fallbackLanguageName = computed(() =>
+  availableLanguages.value.find((langConfig) => langConfig.code === fallbackLocaleCode.value)?.name
+  || fallbackLocaleCode.value.toUpperCase(),
+)
+
+const changeLanguage = async (langCode: string) => {
+  if (!availableLanguages.value.some((language) => language.code === langCode)) {
+    return;
+  }
+
   // @ts-ignore
-  setLocale(langCode);
+  await setLocale(langCode);
 
   window.setTimeout(() => location.hash = '', 50);
 };
@@ -25,20 +131,23 @@ const changeLanguage = (langCode: string) => {
   <nav
     :class="['lang-nav', theme]"
   >
-    <div class="lang-switcher">
+    <div
+      v-if="shouldRenderSwitcher"
+      class="lang-switcher"
+    >
       <!-- активный язык со стрелкой -->
       <button
         :class="['small-text', 'lang-current', !isDropdown ? 'lang-current-inline' : '']"
         type="button"
       >
-        {{ CurrentLanguage ? CurrentLanguage.name : localesConfig.default }}
+        {{ CurrentLanguage ? CurrentLanguage.name : fallbackLanguageName }}
       </button>
 
       <!-- список всех языков -->
       <ul :class="isDropdown ? 'lang-list-column' : 'lang-list'">
         <li
-          v-for="language in localesConfig.locales"
-          :key="language.name"
+          v-for="language in availableLanguages"
+          :key="language.code"
           class="lang-item"
         >
           <button
@@ -50,6 +159,11 @@ const changeLanguage = (langCode: string) => {
         </li>
       </ul>
     </div>
+    <div
+      v-else
+      class="lang-placeholder"
+      aria-hidden="true"
+    />
   </nav>
 </template>
 
@@ -76,6 +190,14 @@ const changeLanguage = (langCode: string) => {
     margin: 0;
     padding: 0;      
     list-style: none;
+  }
+
+  .lang-placeholder {
+    display: block;
+    width: clamp(72px, 8vw, 132px);
+    min-height: 1px;
+    pointer-events: none;
+    visibility: hidden;
   }
 
   /* активный язык + стрелка */
